@@ -157,9 +157,6 @@ for (k in 1:nrow(historicalPricesETH)) {
   colnames(dfB) <- labels_borrowers_2
   dfB <-  setNames(dfB, labels_borrowers_2)
   dfB <- dfB[order(-dfB$sUSD),]
-
-  color.me <- which(dfB$LiqWeek > 0 & dfB$I/L == 0)
-  rows <- which(dfB$I/L > 0 & dfB$ETH == 0 )
   
   row.names(dfB) <- NULL
 
@@ -177,8 +174,6 @@ for (k in 1:nrow(historicalPricesETH)) {
     }, .init = .) %>%
       kable_styling(latex_options = "HOLD_position") %>%
         kable_classic(full_width = F, html_font = "Cambria") %>%
-            #row_spec(color.me, bold = F, color = "white", background="red" ) %>%
-              #row_spec(rows, bold = F, color = "white", background="brown") %>%
                 column_spec(1:ncol(dfB), width="5.5em") %>%
                   print()
 
@@ -278,11 +273,7 @@ for (k in 1:nrow(historicalPricesETH)) {
     dfStakers <- data.frame(stakers_cp[,])
     colnames(dfStakers) <- labels_stakers_short
     dfStakers <-  setNames(dfStakers, labels_stakers_short)
-
-    color.me <- which(dfStakers$LiqWeek != 0)
-    rows <- which(dfStakers$FixCratio == 1)
     row.names(dfStakers) <- NULL
-
 
     dfStakers %>%
       kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTable) %>%
@@ -298,8 +289,6 @@ for (k in 1:nrow(historicalPricesETH)) {
       }, .init = .) %>%
         kable_styling(latex_options = "HOLD_position") %>%
           kable_classic(full_width = F, html_font = "Cambria") %>%
-              #row_spec(color.me, bold = F, color = "white", background="red" ) %>%
-                #row_spec(rows, bold = F, color = "white", background="brown") %>%
                   column_spec(1:ncol(dfStakers), width="4.5em") %>%
                     print()
                     
