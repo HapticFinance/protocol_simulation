@@ -1,0 +1,82 @@
+#!/usr/bin/env Rscript
+path = getwd()
+#source(paste(path, "/utils/install_cran.r", sep=""))
+#source(paste(path, "/utils/rng.r", sep=""))
+
+# Initial system variables
+C = 150             # ETH collateral
+P = 2500            # ETH/USD
+cRatio = 150        # Loan collateral ratio
+liqTarget = 110     # Liquidation target
+
+
+getLiqPrice <- function(P, cRatio, liqTarget) {
+    P * liqTarget / cRatio
+}
+
+# Derived from Uniswap formula
+getLoanAmount <- function(C, P, cRatio) {
+    L = C * P * (( 1 / cRatio) * 100) 
+}
+
+# Loan amount
+# Liquidation Ratio = (Collateral Amount x Collateral Price) ÷ Generated nomin × 100
+#liqRatio = C * liqPrice / L * 100
+
+# Command line arguments
+args = commandArgs(trailingOnly=TRUE)
+
+if (length(args) == 3) {
+  minP = strtoi(args[1], base = 0L)
+  maxP = strtoi(args[2], base = 0L)
+  count = args[3] 
+} 
+
+labels_borrowers = c("ETH", "sUSD", "Liq. price", "Stak. price",  "Liquidity", "Debt %", "HAP needed", "")
+labels_borrowers_2 = c("ETH", "sUSD", "Liq. price", "Stak-Price",  "I/L", "LiqWeek", "Comp-Week")
+
+randomPricesBorrowersInitial <- historicalPricesETHA[,3] #runif(n = n_borrowers, min = minP, max = maxP)
+totalLiquidity = getLoanAmount(C, randomPricesBorrowersInitial[1], cRatio)
+totalIL = 0
+IL = 0
+
+randomCollateral <- runif(n = n_borrowers, min = 5, max = 500)
+
+initBorrowers <- function() {
+
+    borrowers <- matrix(c(1:15), byrow = TRUE, nrow = n_borrowers, ncol = 15)
+
+    for (r in 1:nrow(borrowers)) {
+
+      loanAmount = getLoanAmount(randomCollateral[r], randomPricesBorrowersInitial[r], cRatio)
+      liqPrice = getLiqPrice(randomPricesBorrowersInitial[r], cRatio, liqTarget)
+
+      borrowers[r, 1] = randomCollateral[r]
+      borrowers[r, 2] = loanAmount
+      borrowers[r, 3] = liqPrice
+      borrowers[r, 4] = randomPricesBorrowersInitial[r]
+              
+      totalLiquidity = totalLiquidity + borrowers[r, 2]
+                
+      # Divide by number of pools
+      poolLiquidity = loanAmount / n_pools
+
+
+      borrowers[r, 6] =  totalLiquidity
+      borrowers[r, 7] =  0 # I/L 
+      borrowers[r, 8] =  0 # total IL  
+      borrowers[r, 9] = poolLiquidity
+      borrowers[r, 10] = 0 # liquidated
+      borrowers[r, 11] = 0 # liquidation week
+      borrowers[r, 12] = 0 # 
+      borrowers[r, 13] = 0 # 
+      borrowers[r, 14] = 0 # compensated
+      borrowers[r, 15] = 0 # compensation week
+
+    }
+
+    return(borrowers)
+}
+
+
+borrowers <- initBorrowers()

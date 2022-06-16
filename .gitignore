@@ -1,0 +1,12 @@
+*.pdf
+*.html
+*.Rproj
+*.tex
+*.bak
+bak/
+plot/
+.Rproj.user
+.Rproj.user
+.RHistory
+Rplots.pdf
+
