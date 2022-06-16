@@ -47,7 +47,9 @@ avgPriceHAP = mean(historicalPricesHAPV)
 
 compWeek = comp_weeks[which.max(comp_weeks)]
 
-longTable <- ifelse(n_borrowers > 30 || n_stakers > 30, TRUE, FALSE)
+longTableB <- ifelse(n_borrowers > 30 , TRUE, FALSE)
+longTableS <- ifelse(n_stakers > 30, TRUE, FALSE)
+
 ```
 
 # Historical data
@@ -115,9 +117,6 @@ colnames(dfClegend) <- c("Color", "Operation")
 dfClegend <-  setNames(dfClegend, c("Color", "Operation"))
 row.names(dfClegend) <- NULL
 
-color.me <- which(dfClegend$Color == "brown")
-color.me2 <- which(dfClegend$Color == "red")
-
 dfClegend %>%
   mutate(Color = cell_spec(Color, background=ifelse(Color == "brown", "brown", "red"), color=ifelse(Color == "brown", "brown", "red"))) %>% 
     kbl( caption = paste("Color legend"), booktabs = T, escape = FALSE) %>%
@@ -161,7 +160,7 @@ for (k in 1:nrow(historicalPricesETH)) {
   row.names(dfB) <- NULL
 
   dfB %>%
-    kbl( caption = paste("Week", k, "- ETH/USD", prettyETH,  sep=" "), booktabs = T, escape=F, longtable=longTable) %>%
+    kbl( caption = paste("Week", k, "- ETH/USD", prettyETH,  sep=" "), booktabs = T, escape=F, longtable=longTableB) %>%
      reduce(6:7, function(x, y) {
       col <- dfB[, y]
       column_spec(x, y, background = case_when(
@@ -276,7 +275,7 @@ for (k in 1:nrow(historicalPricesETH)) {
     row.names(dfStakers) <- NULL
 
     dfStakers %>%
-      kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTable) %>%
+      kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTableS) %>%
       reduce(7:8, function(x, y) {
         col <- dfStakers[, y]
         column_spec(x, y, background = case_when(
