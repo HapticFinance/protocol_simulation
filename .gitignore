@@ -8,6 +8,7 @@ bak/
 plot/
 .Rproj.user
 .Rproj.user
-.RHistory
+.Rhistory
+.RData
 Rplots.pdf
 
