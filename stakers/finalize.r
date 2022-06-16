@@ -206,7 +206,7 @@ minPrice = randomPricesHapStaking[which.min(randomPricesHapStaking)]
 maxPrice = randomPricesHapStaking[which.max(randomPricesHapStaking)]
 minHistoricalPrice = dat2[, 3][which.min(dat2[, 3])]
 
-print(glue::glue("\n\n=== Total compensations {comp_counter} Total disbursed {il_compensations_read} === \n\n"))
+#print(glue::glue("\n\n=== Total compensations {comp_counter} Total disbursed {il_compensations_read} === \n\n"))
 #print(glue::glue("Total staked {totalCollateral_read} HAP Total stakers {n_stakers}"))
 #print(glue::glue('HAP min price at staking {prettyNum(minPrice)} max price {prettyNum(maxPrice)} mean {prettyNum(meanStakingPrice)} (USD)'))
 
