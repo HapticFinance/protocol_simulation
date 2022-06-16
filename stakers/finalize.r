@@ -1,4 +1,3 @@
-#print(il_compensations_v)
 cOpt = (1/ cRatio) * 100
 
 treasury = 0
@@ -8,21 +7,10 @@ sumDebts <- c()
 
 collateral_needed = 0
 total_collateral_needed = 0
-modal_shown = 0
 total_debt = 0
-
-# Preload with initialized stakers matrix
-#for (m in 1:nrow(historicalPricesETH)) {
-#    assign(glue::glue("stakers_week_{m}"), stakers)
-#}
 
 # Loop through days
 for (m in 1:nrow(historicalPricesHAP)) {
-
-  if (comp_counter == n_borrowers && modal_shown == 0) {
-      #print(glue::glue("All borrowers compensated by day {comp_fulfil_day}"))
-      modal_shown = 1
-  }
 
   randomPriceHap = historicalPricesHAP[m, 3]
    
@@ -218,7 +206,7 @@ minPrice = randomPricesHapStaking[which.min(randomPricesHapStaking)]
 maxPrice = randomPricesHapStaking[which.max(randomPricesHapStaking)]
 minHistoricalPrice = dat2[, 3][which.min(dat2[, 3])]
 
-#print(glue::glue("\n\n=== Total compensations {comp_counter} Total disbursed {il_compensations_read} === \n\n"))
+print(glue::glue("\n\n=== Total compensations {comp_counter} Total disbursed {il_compensations_read} === \n\n"))
 #print(glue::glue("Total staked {totalCollateral_read} HAP Total stakers {n_stakers}"))
 #print(glue::glue('HAP min price at staking {prettyNum(minPrice)} max price {prettyNum(maxPrice)} mean {prettyNum(meanStakingPrice)} (USD)'))
 

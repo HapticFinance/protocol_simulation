@@ -27,8 +27,8 @@
         #print(daily_candle)
 
         price = historicalPricesETH[j, 3]
+        
         #randomPricesHap = historicalPricesETH[j, 3]
-
         #minPrice = randomPrices[which.min(daily_candle)]
         #maxPrice = randomPrices[which.max(daily_candle)]
 
@@ -106,15 +106,15 @@
 
         il_compensation_period_w_zeroes <- c(il_compensation_period_w_zeroes, val)
 
-        if (comp_counter == n_borrowers) {
-            if (execute_once == 0) {
-                comp_fulfil_day = j
-                execute_once = 1
-                #borrowers <- initBorrowers()
-                #initPool()
-                #finalizeBorrowers()
-            }
-        }
+        #if (comp_counter == n_borrowers) {
+        #    if (execute_once == 0) {
+        #        comp_fulfil_day = j
+        #        execute_once = 1
+        #        borrowers <- initBorrowers()
+        #        initPool()
+        #        finalizeBorrowers()
+        #    }
+        #}
 
         assign(glue::glue("borrowers_week_{j}"), borrowers_cp)
         #prmatrix(borrowers_cp)
