@@ -3,6 +3,7 @@
 *.Rproj
 *.tex
 *.bak
+*.log
 bak/
 plot/
 .Rproj.user
