@@ -86,29 +86,29 @@ Color & Operation\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -120,29 +120,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -154,29 +154,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -188,29 +188,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -222,29 +222,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -256,29 +256,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -290,29 +290,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -324,29 +324,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -358,29 +358,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -392,29 +392,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -426,29 +426,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.59308 & 232287.935 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -460,29 +460,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.55883 & 274402.252 & 848.9241 & 1157.6238 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+462.71009 & 366253.87 & 870.6948 & 1187.3111 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-438.33674 & 266597.965 & 669.0239 & 912.3053 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-264.76015 & 207287.531 & 861.2183 & 1174.3886 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+455.46631 & 218049.79 & 526.6136 & 718.1095 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.37 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{12}}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -494,29 +494,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-484.18061 & 404943.804 & 919.9835 & 1254.5230 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+408.48723 & 338581.44 & 911.7533 & 1243.3000 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+394.28540 & 310767.98 & 866.9983 & 1182.2704 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-353.11547 & 232305.554 & 723.6616 & 986.8113 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+163.69648 & 84201.28 & 565.8119 & 771.5616 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.37 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.79 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{13}}\\
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.93 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.44 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{13}}\\
+84.50480 & 51396.12 & 669.0239 & 912.3053 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.42 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{13}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.02 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{13}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -528,29 +528,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-355.03619 & 279832.523 & 866.9983 & 1182.2704 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.37 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+86.54657 & 57383.20 & 729.3360 & 994.5490 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
 \addlinespace
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.79 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.92 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{14}}\\
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.93 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.44 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.13 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{14}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{14}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{14}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{14}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -562,29 +562,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+353.31420 & 276618.77 & 861.2183 & 1174.3886 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+335.67374 & 259055.94 & 848.9241 & 1157.6238 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+133.72038 & 97234.43 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+112.87607 & 94403.75 & 919.9835 & 1254.5230 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.37 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.79 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
 \addlinespace
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.92 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.90 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{15}}\\
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.93 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.44 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.13 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{15}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -596,29 +596,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-301.04350 & 203257.372 & 742.6937 & 1012.7641 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+286.60772 & 176726.63 & 678.2766 & 924.9226 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+47.16954 & 36711.84 & 856.1250 & 1167.4432 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
 \addlinespace
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.37 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.79 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{16}}\\
 \addlinespace
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.92 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.90 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.93 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.44 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.13 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{16}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -630,29 +630,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-451.01743 & 351024.806 & 856.1250 & 1167.4432 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-39.75763 & 29115.204 & 805.5492 & 1098.4762 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+119.17543 & 87274.24 & 805.5492 & 1098.4762 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
 \addlinespace
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.00 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.37 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.79 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.92 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{17}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{17}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.90 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0.00000 & 0.000 & 742.6937 & 1012.7641 & 21265.07 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{17}}\\
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.93 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.44 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.13 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -664,29 +664,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339.07991 & 240573.43 & 780.4378 & 1064.2334 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-86.02869 & 61715.921 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-36.59577 & 26667.603 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{18}}\\
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.00000 & 0.000 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{18}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -698,29 +698,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-104.11987 & 64201.877 & 678.2766 & 924.9226 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{19}}\\
+0.00000 & 0.00 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.00000 & 0.000 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{19}}\\
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0.00000 & 0.000 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.00000 & 0.000 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{19}}\\
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -732,29 +732,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-475.84588 & 337607.370 & 780.4378 & 1064.2334 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-245.40571 & 195460.021 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-172.87936 & 143293.936 & 911.7533 & 1243.3000 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+473.62993 & 311588.91 & 723.6616 & 986.8113 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0.00000 & 0.000 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.00000 & 0.000 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0.00000 & 0.000 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{20}}\\
-0.00000 & 0.000 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.00000 & 0.000 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -766,29 +766,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
 \addlinespace
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{21}}\\
-0.00000 & 0.000 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.00000 & 0.000 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{21}}\\
+0.00000 & 0.00 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0.00000 & 0.000 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{21}}\\
-0.00000 & 0.000 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
-0.00000 & 0.000 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0.00000 & 0.000 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{21}}\\
-0.00000 & 0.000 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -800,29 +800,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-178.80040 & 85598.845 & 526.6136 & 718.1095 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+409.31686 & 298272.13 & 801.5779 & 1093.0607 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
 \addlinespace
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.00000 & 0.000 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.00000 & 0.000 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0.00000 & 0.00 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0.00000 & 0.000 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.00000 & 0.000 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
-0.00000 & 0.000 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0.00000 & 0.000 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.00000 & 0.000 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -834,29 +834,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-365.85752 & 266032.345 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.82532 & 188248.424 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-13.77585 & 9133.837 & 729.3360 & 994.5490 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.00000 & 0.000 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{23}}\\
-0.00000 & 0.000 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
+386.82964 & 308100.94 & 876.1248 & 1194.7156 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
 \addlinespace
-0.00000 & 0.000 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.00000 & 0.000 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.00000 & 0.000 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0.00000 & 0.00 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
 \addlinespace
-0.00000 & 0.000 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0.00000 & 0.000 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.00000 & 0.000 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
-0.00000 & 0.000 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0.00000 & 0.000 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{23}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.00000 & 0.000 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.00000 & 0.000 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.00000 & 0.000 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.00000 & 0.000 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -868,29 +868,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-365.8575 & 266032.3 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.8253 & 188248.4 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.0000 & 0.0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0.0000 & 0.0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.0000 & 0.0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+232.57012 & 166842.94 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33.19482 & 22412.35 & 742.6937 & 1012.7641 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.00000 & 0.00 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
 \addlinespace
-0.0000 & 0.0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.0000 & 0.0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.0000 & 0.0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0.0000 & 0.0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0.00000 & 0.00 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{24}}\\
 \addlinespace
-0.0000 & 0.0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
-0.0000 & 0.0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0.0000 & 0.0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{24}}\\
-0.0000 & 0.0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.00000 & 0.00 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.00000 & 0.00 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.00000 & 0.00 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0.00000 & 0.00 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.0000 & 0.0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.0000 & 0.0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0.00000 & 0.00 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.00000 & 0.00 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.00000 & 0.00 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.00000 & 0.00 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -902,29 +902,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-365.8575 & 266032.3 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.8253 & 188248.4 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.0000 & 0.0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0.0000 & 0.0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.0000 & 0.0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+232.5701 & 166842.9 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.0000 & 0.0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.0000 & 0.0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.0000 & 0.0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.0000 & 0.0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
 \addlinespace
-0.0000 & 0.0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.0000 & 0.0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.0000 & 0.0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0.0000 & 0.0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.0000 & 0.0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.0000 & 0.0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.0000 & 0.0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.0000 & 0.0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0.0000 & 0.0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0.0000 & 0.0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
-0.0000 & 0.0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0.0000 & 0.0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0.0000 & 0.0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.0000 & 0.0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{25}}\\
+0.0000 & 0.0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.0000 & 0.0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0.0000 & 0.0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.0000 & 0.0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.0000 & 0.0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.0000 & 0.0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0.0000 & 0.0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.0000 & 0.0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.0000 & 0.0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.0000 & 0.0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.0000 & 0.0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -936,29 +936,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-365.8575 & 266032.3 & 799.8621 & 1090.7211 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-237.8253 & 188248.4 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.0000 & 0.0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0.0000 & 0.0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.0000 & 0.0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+232.5701 & 166842.9 & 789.1265 & 1076.0815 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+0.0000 & 0.0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.0000 & 0.0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.0000 & 0.0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.0000 & 0.0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
 \addlinespace
-0.0000 & 0.0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.0000 & 0.0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.0000 & 0.0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0.0000 & 0.0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.0000 & 0.0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.0000 & 0.0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0.0000 & 0.0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.0000 & 0.0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0.0000 & 0.0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0.0000 & 0.0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
-0.0000 & 0.0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0.0000 & 0.0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0.0000 & 0.0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
+0.0000 & 0.0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0.0000 & 0.0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0.0000 & 0.0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0.0000 & 0.0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.0000 & 0.0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.0000 & 0.0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.0000 & 0.0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0.0000 & 0.0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.0000 & 0.0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0.0000 & 0.0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0.0000 & 0.0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0.0000 & 0.0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -970,29 +970,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-237.8253 & 188248.4 & 870.6948 & 1187.3111 & 0.000 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-0.0000 & 0.0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0.0000 & 0.0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0.0000 & 0.0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0.0000 & 0.0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0.0000 & 0.0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0.0000 & 0.0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0.0000 & 0.0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0.0000 & 0.0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
-0.0000 & 0.0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0.0000 & 0.0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0.0000 & 0.0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0.0000 & 0.0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{27}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0.0000 & 0.0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0.0000 & 0.0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0.0000 & 0.0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0.0000 & 0.0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1004,29 +1004,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{brown}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1038,29 +1038,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1072,29 +1072,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1106,29 +1106,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1140,29 +1140,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1174,29 +1174,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1208,29 +1208,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1242,29 +1242,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1276,29 +1276,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1310,29 +1310,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1344,29 +1344,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1378,29 +1378,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1412,29 +1412,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1446,29 +1446,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1480,29 +1480,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1514,29 +1514,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1548,29 +1548,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1582,29 +1582,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1616,29 +1616,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1650,29 +1650,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1684,29 +1684,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1718,29 +1718,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1752,29 +1752,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1786,29 +1786,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1820,29 +1820,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1854,29 +1854,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1888,29 +1888,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1922,29 +1922,29 @@ ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \toprule
 ETH & sUSD & Liq. price & Stak-Price & I/L & LiqWeek & Comp-Week\\
 \midrule
-0 & 0 & 526.6136 & 718.1095 & 33622.804 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
-0 & 0 & 565.8119 & 771.5616 & 30873.369 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{12}}\\
-0 & 0 & 669.0239 & 912.3053 & 41714.786 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 723.6616 & 986.8113 & 40808.918 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 780.4378 & 1064.2334 & 96853.764 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 526.6136 & 718.1095 & 34118.417 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 565.8119 & 771.5616 & 14791.567 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 669.0239 & 912.3053 & 9028.713 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 723.6616 & 986.8113 & 89389.514 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
+0 & 0 & 780.4378 & 1064.2334 & 46510.506 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
 \addlinespace
-0 & 0 & 856.1250 & 1167.4432 & 35369.215 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
-0 & 0 & 789.1265 & 1076.0815 & 11931.653 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 866.9983 & 1182.2704 & 49154.902 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
-0 & 0 & 876.1248 & 1194.7156 & 56074.128 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 678.2766 & 924.9226 & 13874.724 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{20}}\\
+0 & 0 & 856.1250 & 1167.4432 & 3840.843 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
+0 & 0 & 789.1265 & 1076.0815 & 60699.031 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
+0 & 0 & 866.9983 & 1182.2704 & 54592.345 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 876.1248 & 1194.7156 & 141698.376 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
+0 & 0 & 678.2766 & 924.9226 & 18489.385 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
 \addlinespace
-0 & 0 & 742.6937 & 1012.7641 & 21265.068 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{17}}\\
-0 & 0 & 729.3360 & 994.5490 & 4200.733 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{24}}\\
-0 & 0 & 801.5779 & 1093.0607 & 5155.697 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{19}}\\
-0 & 0 & 799.8621 & 1090.7211 & 96785.070 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{27}}\\
-0 & 0 & 848.9241 & 1157.6238 & 42935.929 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 742.6937 & 1012.7641 & 8431.737 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{25}}\\
+0 & 0 & 729.3360 & 994.5490 & 10079.835 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{15}}\\
+0 & 0 & 801.5779 & 1093.0607 & 117159.821 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{23}}\\
+0 & 0 & 799.8621 & 1090.7211 & 18636.143 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 848.9241 & 1157.6238 & 49651.175 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
 \addlinespace
-0 & 0 & 861.2183 & 1174.3886 & 32434.437 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
-0 & 0 & 870.6948 & 1187.3111 & 62531.141 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{28}}\\
-0 & 0 & 919.9835 & 1254.5230 & 71136.132 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
-0 & 0 & 911.7533 & 1243.3000 & 41108.573 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{21}}\\
-0 & 0 & 805.5492 & 1098.4762 & 2933.644 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
+0 & 0 & 861.2183 & 1174.3886 & 53017.302 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 870.6948 & 1187.3111 & 57308.021 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{13}}\\
+0 & 0 & 919.9835 & 1254.5230 & 18093.610 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{16}}\\
+0 & 0 & 911.7533 & 1243.3000 & 59478.312 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{14}}\\
+0 & 0 & 805.5492 & 1098.4762 & 8793.742 & \cellcolor{white}{0} & \cellcolor{white}{\textbf{18}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1957,7 +1957,7 @@ Total liquidations 0.
 # Impermanent loss
 
 ## Compensations
-All borrowers compensated by week 28. Total compensations 20. Total disbursed **790,764.7** TDA
+All borrowers compensated by week 27. Total compensations 20. Total disbursed **873,808.4** TDA
 
 
 ## Plots
@@ -1998,29 +1998,29 @@ Color & Operation\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1171559.79 & 235357.12 & 235357.12 & 4.8835773 & 0.0 & 606.4886 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-550991.76 & 110272.89 & 110272.89 & 2.2881237 & 0.0 & 608.7821 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-978441.64 & 208556.96 & 208556.96 & 4.3274834 & 0.0 & 571.6047 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1179595.63 & 310272.33 & 310272.33 & 6.4380415 & 0.0 & 463.2076 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1279386.91 & 369138.07 & 369138.07 & 7.6594849 & 0.0 & 422.2781 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1101185.92 & 221219.563 & 221219.563 & 6.0136366 & 0.00 & 606.4886 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+10588.71 & 2119.175 & 2119.175 & 0.0576077 & 0.00 & 608.7821 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0.00 & 571.6047 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+81914.71 & 21546.254 & 21546.254 & 0.5857138 & 0.00 & 463.2076 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+410115.11 & 118329.410 & 118329.410 & 3.2166688 & 0.00 & 422.2781 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-1136832.32 & 321581.25 & 321581.25 & 6.6726976 & 0.0 & 430.7162 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-363634.60 & 90033.84 & 90033.84 & 1.8681705 & 0.0 & 492.0905 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-483248.39 & 134111.34 & 134111.34 & 2.7827631 & 0.0 & 439.0262 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853503.51 & 264503.02 & 264503.02 & 5.4883444 & 868370.5 & 393.1518 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-96141.81 & 25145.92 & 25145.92 & 0.5217691 & 0.0 & 465.8330 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+396752.87 & 112231.398 & 112231.398 & 3.0509004 & 0.00 & 430.7162 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239354.14 & 306856.983 & 306856.983 & 8.3416057 & 0.00 & 492.0905 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+201291.79 & 55862.601 & 55862.601 & 1.5185699 & 0.00 & 439.0262 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+938622.71 & 290881.683 & 290881.683 & 7.9073329 & 954972.41 & 393.1518 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+31188.11 & 8157.261 & 8157.261 & 0.2217471 & 0.00 & 465.8330 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-918178.27 & 281845.47 & 281845.47 & 5.8481942 & 925306.3 & 396.9186 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-481709.42 & 146727.22 & 146727.22 & 3.0445381 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-924318.21 & 281544.51 & 281544.51 & 5.8419493 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1153994.96 & 351503.34 & 351503.34 & 7.2935706 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-454487.87 & 138435.62 & 138435.62 & 2.8724903 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1017710.21 & 309991.427 & 309991.427 & 8.4268125 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1426543.23 & 434520.717 & 434520.717 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+37117.46 & 13118.788 & 13118.788 & 0.3566214 & 43069.33 & 344.7229 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1218283.58 & 406356.556 & 406356.556 & 11.0464039 & 1334079.53 & 365.2806 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+662476.13 & 201788.208 & 201788.208 & 5.4854143 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-1174400.99 & 426516.01 & 426516.01 & 8.8500569 & 1400263.6 & 335.4800 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1814463.94 & 552680.18 & 552680.18 & 11.4679190 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-581308.43 & 177064.77 & 177064.77 & 3.6740317 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-904727.49 & 312662.94 & 312662.94 & 6.4876459 & 1026480.9 & 352.5550 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-274121.55 & 81406.13 & 81406.13 & 1.6891486 & 0.0 & 410.2717 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+54255.72 & 19704.457 & 19704.457 & 0.5356463 & 64690.26 & 335.4800 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+339242.62 & 126362.364 & 126362.364 & 3.4350368 & 414851.05 & 327.0982 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1360374.09 & 519624.595 & 519624.595 & 14.1254843 & 1705941.56 & 318.9732 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+152636.28 & 46492.546 & 46492.546 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1126015.64 & 334393.918 & 334393.918 & 9.0901703 & 0.00 & 410.2717 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2032,29 +2032,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1171559.8 & 235357.12 & 235357.12 & 4.8835773 & 0.0 & 435.6224 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-550991.8 & 110272.89 & 110272.89 & 2.2881237 & 0.0 & 437.2697 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-978441.6 & 208556.96 & 208556.96 & 4.3274834 & 0.0 & 410.5663 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1418175.5 & 310272.33 & 310272.33 & 6.4380415 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1687235.8 & 369138.07 & 369138.07 & 7.6594849 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1101185.92 & 221219.563 & 221219.563 & 6.0136366 & 0.00 & 435.6224 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+10588.71 & 2119.175 & 2119.175 & 0.0576077 & 0.00 & 437.2697 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0.00 & 410.5663 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+81914.71 & 21546.254 & 21546.254 & 0.5857138 & 98482.42 & 332.7079 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+410115.11 & 118329.410 & 118329.410 & 3.2166688 & 540853.49 & 303.3096 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-1136832.3 & 321581.25 & 321581.25 & 6.6726976 & 1469865.7 & 309.3704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-363634.6 & 90033.84 & 90033.84 & 1.8681705 & 411521.7 & 353.4536 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-483248.4 & 134111.34 & 134111.34 & 2.7827631 & 612988.7 & 315.3392 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1208975.7 & 264503.02 & 264503.02 & 5.4883444 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-114935.6 & 25145.92 & 25145.92 & 0.5217691 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+396752.87 & 112231.398 & 112231.398 & 3.0509004 & 512981.04 & 309.3704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239354.14 & 306856.983 & 306856.983 & 8.3416057 & 1402564.84 & 353.4536 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+201291.79 & 55862.601 & 55862.601 & 1.5185699 & 255333.67 & 315.3392 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1329545.83 & 290881.683 & 290881.683 & 7.9073329 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+37284.76 & 8157.261 & 8157.261 & 0.2217471 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-918178.3 & 281845.47 & 281845.47 & 5.8481942 & 1288243.6 & 285.0946 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-481709.4 & 146727.22 & 146727.22 & 3.0445381 & 670652.6 & 287.3079 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1286868.0 & 281544.51 & 281544.51 & 5.8419493 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1153995.0 & 351503.34 & 351503.34 & 7.2935706 & 1606631.9 & 287.3079 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-632753.8 & 138435.62 & 138435.62 & 2.8724903 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1416891.58 & 309991.427 & 309991.427 & 8.4268125 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1426543.23 & 434520.717 & 434520.717 & 11.8120190 & 1986083.14 & 287.3079 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+26475.57 & 5792.398 & 5792.398 & 0.1574607 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{2}} & \cellcolor{white}{0}\\
+1857351.96 & 406356.556 & 406356.556 & 11.0464039 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+662476.13 & 201788.208 & 201788.208 & 5.4854143 & 922322.33 & 287.3079 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-728414.7 & 159364.56 & 159364.56 & 3.3067586 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{2}} & \cellcolor{white}{0}\\
-1814463.9 & 552680.18 & 552680.18 & 11.4679190 & 2526159.8 & 287.3079 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-809317.8 & 177064.77 & 177064.77 & 3.6740317 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1429102.4 & 312662.94 & 312662.94 & 6.4876459 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-274121.6 & 81406.13 & 81406.13 & 1.6891486 & 372086.6 & 294.6857 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33651.76 & 7362.425 & 7362.425 & 0.2001403 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{2}} & \cellcolor{white}{0}\\
+180245.74 & 39434.658 & 39434.658 & 1.0719925 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{2}} & \cellcolor{white}{0}\\
+599455.93 & 131150.613 & 131150.613 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{2}} & \cellcolor{white}{0}\\
+212505.54 & 46492.546 & 46492.546 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1528429.14 & 334393.918 & 334393.918 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2066,29 +2066,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1171559.8 & 235357.12 & 235357.12 & 4.8835773 & 0.0 & 429.3606 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-550991.8 & 110272.89 & 110272.89 & 2.2881237 & 0.0 & 430.9843 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-978441.6 & 208556.96 & 208556.96 & 4.3274834 & 0.0 & 404.6647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1438858.0 & 310272.33 & 310272.33 & 6.4380415 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1687235.8 & 369138.07 & 369138.07 & 7.6594849 & 1711842.2 & 394.2503 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1101185.92 & 221219.563 & 221219.563 & 6.0136366 & 0.00 & 429.3606 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+10588.71 & 2119.175 & 2119.175 & 0.0576077 & 0.00 & 430.9843 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0.00 & 404.6647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+99918.68 & 21546.254 & 21546.254 & 0.5857138 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+548741.25 & 118329.410 & 118329.410 & 3.2166688 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-1136832.3 & 321581.25 & 321581.25 & 6.6726976 & 1491302.1 & 304.9234 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-417523.3 & 90033.84 & 90033.84 & 1.8681705 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-483248.4 & 134111.34 & 134111.34 & 2.7827631 & 621928.4 & 310.8064 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1208975.7 & 264503.02 & 264503.02 & 5.4883444 & 1226607.3 & 394.2503 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-114935.6 & 25145.92 & 25145.92 & 0.5217691 & 116611.8 & 394.2503 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+520462.30 & 112231.398 & 112231.398 & 3.0509004 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1423019.71 & 306856.983 & 306856.983 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+259057.43 & 55862.601 & 55862.601 & 1.5185699 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1348935.79 & 290881.683 & 290881.683 & 7.9073329 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+37284.76 & 8157.261 & 8157.261 & 0.2217471 & 37828.51 & 394.2503 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-918178.3 & 281845.47 & 281845.47 & 5.8481942 & 1307031.2 & 280.9966 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-481709.4 & 146727.22 & 146727.22 & 3.0445381 & 680433.4 & 283.1780 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1286868.0 & 281544.51 & 281544.51 & 5.8419493 & 1305635.5 & 394.2503 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1153995.0 & 351503.34 & 351503.34 & 7.2935706 & 1630062.9 & 283.1780 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-641981.8 & 138435.62 & 138435.62 & 2.8724903 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2015047.98 & 434520.717 & 434520.717 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+26475.57 & 5792.398 & 5792.398 & 0.1574607 & 26861.69 & 394.2503 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1884439.40 & 406356.556 & 406356.556 & 11.0464039 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+662476.13 & 201788.208 & 201788.208 & 5.4854143 & 935773.38 & 283.1780 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-728414.7 & 159364.56 & 159364.56 & 3.3067586 & 739037.8 & 394.2503 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-2563001.1 & 552680.18 & 552680.18 & 11.4679190 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-809317.8 & 177064.77 & 177064.77 & 3.6740317 & 821120.8 & 394.2503 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1429102.4 & 312662.94 & 312662.94 & 6.4876459 & 1449944.3 & 394.2503 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-274121.6 & 81406.13 & 81406.13 & 1.6891486 & 377513.1 & 290.4498 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+33651.76 & 7362.425 & 7362.425 & 0.2001403 & 34142.54 & 394.2503 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+182874.43 & 39434.658 & 39434.658 & 1.0719925 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+608198.34 & 131150.613 & 131150.613 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+215604.70 & 46492.546 & 46492.546 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1550719.60 & 334393.918 & 334393.918 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2100,29 +2100,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 235357.118 & 4.8835773 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-733157.50 & 110272.894 & 110272.894 & 2.2881237 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1386606.37 & 208556.959 & 208556.959 & 4.3274834 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2062868.54 & 310272.329 & 310272.329 & 6.4380415 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2454241.76 & 369138.068 & 369138.068 & 7.6594849 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 858159.06 & 282.2551 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+99918.68 & 21546.254 & 21546.254 & 0.5857138 & 143251.87 & 279.0014 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+548741.25 & 118329.410 & 118329.410 & 3.2166688 & 786721.84 & 279.0014 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 42776.958 & 0.8876068 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90033.842 & 1.8681705 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-155075.39 & 23324.609 & 23324.609 & 0.4839774 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 264503.016 & 5.4883444 & 1758567.9 & 274.9910 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-114935.59 & 25145.924 & 25145.924 & 0.5217691 & 167184.5 & 274.9910 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1348935.79 & 290881.683 & 290881.683 & 7.9073329 & 1933948.39 & 279.0014 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+37284.76 & 8157.261 & 8157.261 & 0.2217471 & 54234.15 & 274.9910 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9391.152 & 0.1948631 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2663.795 & 0.0552728 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{4}} & \cellcolor{white}{0}\\
-1286867.98 & 281544.506 & 281544.506 & 5.8419493 & 1871869.5 & 274.9910 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6381.453 & 0.1324129 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{4}} & \cellcolor{white}{0}\\
-641981.84 & 138435.617 & 138435.617 & 2.8724903 & 920399.4 & 279.0014 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 2061000.94 & 279.0014 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+1884439.40 & 406356.556 & 406356.556 & 11.0464039 & 2701691.63 & 279.0014 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 159364.563 & 3.3067586 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
-3674535.07 & 552680.180 & 552680.180 & 11.4679190 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-809317.83 & 177064.773 & 177064.773 & 3.6740317 & 1177228.2 & 274.9910 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 312662.940 & 6.4876459 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-17535.69 & 2637.511 & 2637.511 & 0.0547274 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2134,29 +2134,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 235357.118 & 4.8835773 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 110272.894 & 2.2881237 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 208556.959 & 4.3274834 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 310272.329 & 6.4380415 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 369138.068 & 7.6594849 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 743628.7 & 325.7267 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 21546.254 & 0.5857138 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+681725.57 & 118329.410 & 118329.410 & 3.2166688 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-284405.77 & 42776.958 & 42776.958 & 0.8876068 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90033.842 & 1.8681705 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 23324.609 & 0.4839774 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 264503.016 & 5.4883444 & 1523868.6 & 317.3438 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-114935.59 & 25145.924 & 25145.924 & 0.5217691 & 144872.0 & 317.3438 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1348935.79 & 290881.683 & 290881.683 & 7.9073329 & 1675842.7 & 321.9719 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8157.261 & 0.2217471 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-62437.77 & 9391.152 & 9391.152 & 0.1948631 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2663.795 & 0.0552728 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 281544.506 & 5.8419493 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-42427.56 & 6381.453 & 6381.453 & 0.1324129 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-641981.84 & 138435.617 & 138435.617 & 2.8724903 & 797562.5 & 321.9719 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 1785938.8 & 321.9719 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1884439.40 & 406356.556 & 406356.556 & 11.0464039 & 2341122.6 & 321.9719 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 159364.563 & 3.3067586 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 552680.180 & 11.4679190 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-809317.83 & 177064.773 & 177064.773 & 3.6740317 & 1020114.8 & 317.3438 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 312662.940 & 6.4876459 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2637.511 & 0.0547274 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0.0 & 461.6062 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0.0 & 461.6062 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2168,29 +2168,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 235357.118 & 4.8835773 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 110272.894 & 2.2881237 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 208556.959 & 4.3274834 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 310272.329 & 6.4380415 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 369138.068 & 7.6594849 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0 & 504.6656 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 21546.254 & 0.5857138 & 0 & 619.7412 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 118329.410 & 3.2166688 & 0 & 619.7412 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 42776.958 & 0.8876068 & 0 & 715.1909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90033.842 & 1.8681705 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 23324.609 & 0.4839774 & 0 & 715.1909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 264503.016 & 5.4883444 & 0 & 491.6776 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-114935.59 & 25145.924 & 25145.924 & 0.5217691 & 0 & 491.6776 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1348935.79 & 290881.683 & 290881.683 & 7.9073329 & 0 & 498.8482 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8157.261 & 0.2217471 & 0 & 619.7412 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9391.152 & 0.1948631 & 0 & 715.1909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2663.795 & 0.0552728 & 0 & 715.1909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 281544.506 & 5.8419493 & 0 & 619.7412 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6381.453 & 0.1324129 & 0 & 715.1909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-641981.84 & 138435.617 & 138435.617 & 2.8724903 & 0 & 498.8482 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 0 & 498.8482 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0 & 715.1909 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1884439.40 & 406356.556 & 406356.556 & 11.0464039 & 0 & 498.8482 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0 & 715.1909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 159364.563 & 3.3067586 & 0 & 715.1909 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 552680.180 & 11.4679190 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-809317.83 & 177064.773 & 177064.773 & 3.6740317 & 0 & 491.6776 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 312662.940 & 6.4876459 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2637.511 & 0.0547274 & 0 & 715.1909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0 & 715.1909 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0 & 715.1909 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0 & 715.1909 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0 & 715.1909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2202,29 +2202,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 235357.118 & 4.8835773 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 110272.894 & 2.2881237 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 208556.959 & 4.3274834 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 310272.329 & 6.4380415 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 369138.068 & 7.6594849 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0 & 432.8736 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 21546.254 & 0.5857138 & 0 & 531.5789 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 118329.410 & 3.2166688 & 0 & 531.5789 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 42776.958 & 0.8876068 & 0 & 613.4502 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90033.842 & 1.8681705 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 23324.609 & 0.4839774 & 0 & 613.4502 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 264503.016 & 5.4883444 & 0 & 421.7332 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-114935.59 & 25145.924 & 25145.924 & 0.5217691 & 0 & 421.7332 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1348935.79 & 290881.683 & 290881.683 & 7.9073329 & 0 & 427.8837 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8157.261 & 0.2217471 & 0 & 531.5789 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9391.152 & 0.1948631 & 0 & 613.4502 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2663.795 & 0.0552728 & 0 & 613.4502 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 281544.506 & 5.8419493 & 0 & 531.5789 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6381.453 & 0.1324129 & 0 & 613.4502 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-641981.84 & 138435.617 & 138435.617 & 2.8724903 & 0 & 427.8837 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 0 & 427.8837 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0 & 613.4502 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1884439.40 & 406356.556 & 406356.556 & 11.0464039 & 0 & 427.8837 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0 & 613.4502 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 159364.563 & 3.3067586 & 0 & 613.4502 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 552680.180 & 11.4679190 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-809317.83 & 177064.773 & 177064.773 & 3.6740317 & 0 & 421.7332 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 312662.940 & 6.4876459 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2637.511 & 0.0547274 & 0 & 613.4502 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0 & 613.4502 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0 & 613.4502 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0 & 613.4502 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0 & 613.4502 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2236,29 +2236,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 235357.118 & 4.8835773 & 0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 110272.894 & 2.2881237 & 0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 208556.959 & 4.3274834 & 0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 310272.329 & 6.4380415 & 0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 369138.068 & 7.6594849 & 0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0.0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0.0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 621814.7 & 389.5368 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 21546.254 & 0.5857138 & 0.0 & 478.3604 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 118329.410 & 3.2166688 & 0.0 & 478.3604 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 42776.958 & 0.8876068 & 0 & 552.0353 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90033.842 & 1.8681705 & 0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 23324.609 & 0.4839774 & 0 & 552.0353 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 264503.016 & 5.4883444 & 1274243 & 379.5118 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 25145.924 & 0.5217691 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0.0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0.0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0.0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 290881.683 & 7.9073329 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+46996.04 & 8157.261 & 8157.261 & 0.2217471 & 0.0 & 478.3604 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9391.152 & 0.1948631 & 0 & 552.0353 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2663.795 & 0.0552728 & 0 & 552.0353 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 281544.506 & 5.8419493 & 0 & 478.3604 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6381.453 & 0.1324129 & 0 & 552.0353 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 138435.617 & 2.8724903 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 1493383.6 & 385.0465 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0.0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0.0 & 552.0353 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 406356.556 & 11.0464039 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0.0 & 552.0353 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 159364.563 & 3.3067586 & 0 & 552.0353 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 552680.180 & 11.4679190 & 0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 177064.773 & 3.6740317 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2078762.70 & 312662.940 & 312662.940 & 6.4876459 & 0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2637.511 & 0.0547274 & 0 & 552.0353 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0.0 & 552.0353 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0.0 & 552.0353 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0.0 & 552.0353 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0.0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0.0 & 552.0353 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2270,29 +2270,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 235357.118 & 4.8835773 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 110272.894 & 2.2881237 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 208556.959 & 4.3274834 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 310272.329 & 6.4380415 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 369138.068 & 7.6594849 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0 & 443.5336 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 21546.254 & 0.5857138 & 0 & 544.6696 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 118329.410 & 3.2166688 & 0 & 544.6696 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 42776.958 & 0.8876068 & 0 & 628.5571 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90033.842 & 1.8681705 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 23324.609 & 0.4839774 & 0 & 628.5571 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 264503.016 & 5.4883444 & 0 & 432.1188 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 25145.924 & 0.5217691 & 0 & 455.4471 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 290881.683 & 7.9073329 & 0 & 455.4471 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8157.261 & 0.2217471 & 0 & 544.6696 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9391.152 & 0.1948631 & 0 & 628.5571 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2663.795 & 0.0552728 & 0 & 628.5571 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 281544.506 & 5.8419493 & 0 & 544.6696 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6381.453 & 0.1324129 & 0 & 628.5571 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 138435.617 & 2.8724903 & 0 & 455.4471 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 0 & 438.4208 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0 & 628.5571 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 406356.556 & 11.0464039 & 0 & 455.4471 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0 & 628.5571 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 159364.563 & 3.3067586 & 0 & 628.5571 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 552680.180 & 11.4679190 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 177064.773 & 3.6740317 & 0 & 455.4471 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 312662.940 & 6.4876459 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2637.511 & 0.0547274 & 0 & 628.5571 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0 & 628.5571 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0 & 628.5571 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0 & 628.5571 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0 & 628.5571 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2304,29 +2304,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 235357.118 & 4.8835773 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 110272.894 & 2.2881237 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 208556.959 & 4.3274834 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 310272.329 & 6.4380415 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 369138.068 & 7.6594849 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0 & 449.7582 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 21546.254 & 0.5857138 & 0 & 552.3136 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 118329.410 & 3.2166688 & 0 & 552.3136 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 42776.958 & 0.8876068 & 0 & 637.3784 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90033.842 & 1.8681705 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 23324.609 & 0.4839774 & 0 & 637.3784 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 264503.016 & 5.4883444 & 0 & 438.1832 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 25145.924 & 0.5217691 & 0 & 461.8389 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 290881.683 & 7.9073329 & 0 & 461.8389 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8157.261 & 0.2217471 & 0 & 552.3136 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9391.152 & 0.1948631 & 0 & 637.3784 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2663.795 & 0.0552728 & 0 & 637.3784 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 281544.506 & 5.8419493 & 0 & 552.3136 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6381.453 & 0.1324129 & 0 & 637.3784 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 138435.617 & 2.8724903 & 0 & 461.8389 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 0 & 444.5737 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0 & 637.3784 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 406356.556 & 11.0464039 & 0 & 461.8389 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0 & 637.3784 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 159364.563 & 3.3067586 & 0 & 637.3784 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 552680.180 & 11.4679190 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 177064.773 & 3.6740317 & 0 & 461.8389 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 312662.940 & 6.4876459 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2637.511 & 0.0547274 & 0 & 637.3784 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0 & 637.3784 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0 & 637.3784 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0 & 637.3784 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0 & 637.3784 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2338,29 +2338,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 235357.118 & 4.8835773 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 110272.894 & 2.2881237 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 208556.959 & 4.3274834 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 310272.329 & 6.4380415 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 369138.068 & 7.6594849 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0 & 484.8361 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 21546.254 & 0.5857138 & 0 & 595.3901 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 118329.410 & 3.2166688 & 0 & 595.3901 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 42776.958 & 0.8876068 & 0 & 687.0893 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90033.842 & 1.8681705 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 23324.609 & 0.4839774 & 0 & 687.0893 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 264503.016 & 5.4883444 & 0 & 472.3584 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 25145.924 & 0.5217691 & 0 & 497.8590 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 290881.683 & 7.9073329 & 0 & 497.8590 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8157.261 & 0.2217471 & 0 & 595.3901 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9391.152 & 0.1948631 & 0 & 687.0893 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2663.795 & 0.0552728 & 0 & 687.0893 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 281544.506 & 5.8419493 & 0 & 595.3901 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6381.453 & 0.1324129 & 0 & 687.0893 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 138435.617 & 2.8724903 & 0 & 497.8590 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 0 & 479.2472 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0 & 687.0893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 406356.556 & 11.0464039 & 0 & 497.8590 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0 & 687.0893 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 159364.563 & 3.3067586 & 0 & 687.0893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 552680.180 & 11.4679190 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 177064.773 & 3.6740317 & 0 & 497.8590 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 312662.940 & 6.4876459 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2637.511 & 0.0547274 & 0 & 687.0893 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0 & 687.0893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0 & 687.0893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0 & 687.0893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0 & 687.0893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2372,29 +2372,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 236864.843 & 4.8835773 & 0 & 785.2344 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 110979.315 & 2.2881237 & 0 & 785.2344 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 209892.998 & 4.3274834 & 0 & 785.2344 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 312259.969 & 6.4380415 & 0 & 785.2344 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 371502.809 & 7.6594849 & 0 & 785.2344 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 221219.563 & 6.0136366 & 0 & 790.2647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2119.175 & 0.0576077 & 0 & 790.2647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 129074.153 & 3.5087541 & 0 & 557.6405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 21546.254 & 0.5857138 & 0 & 684.7956 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 118329.410 & 3.2166688 & 0 & 684.7956 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 43050.992 & 0.8876068 & 0 & 785.2344 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 90610.610 & 1.8681705 & 0 & 785.2344 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 23474.029 & 0.4839774 & 0 & 785.2344 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 266197.453 & 5.4883444 & 0 & 539.8309 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 25307.011 & 0.5217691 & 0 & 568.9741 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 112231.398 & 3.0509004 & 0 & 790.2647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 306856.983 & 8.3416057 & 0 & 790.2647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 55862.601 & 1.5185699 & 0 & 790.2647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 290881.683 & 7.9073329 & 0 & 572.6190 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8157.261 & 0.2217471 & 0 & 684.7956 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9451.313 & 0.1948631 & 0 & 785.2344 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2680.860 & 0.0552728 & 0 & 785.2344 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 283348.113 & 5.8419493 & 0 & 680.4366 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6422.333 & 0.1324129 & 0 & 785.2344 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 139322.452 & 2.8724903 & 0 & 568.9741 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 309991.427 & 8.4268125 & 0 & 551.2124 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 434520.717 & 11.8120190 & 0 & 790.2647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5792.398 & 0.1574607 & 0 & 790.2647 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 406356.556 & 11.0464039 & 0 & 572.6190 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3663.413 & 0.0995863 & 0 & 790.2647 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 160385.471 & 3.3067586 & 0 & 785.2344 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 556220.713 & 11.4679190 & 0 & 785.2344 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 178199.071 & 3.6740317 & 0 & 568.9741 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 314665.895 & 6.4876459 & 0 & 785.2344 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2654.407 & 0.0547274 & 0 & 785.2344 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7362.425 & 0.2001403 & 0 & 790.2647 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 39434.658 & 1.0719925 & 0 & 790.2647 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 131150.613 & 3.5652006 & 0 & 790.2647 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 46492.546 & 1.2638542 & 0 & 790.2647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 334393.918 & 9.0901703 & 0 & 790.2647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2406,29 +2406,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 242582.787 & 4.8835773 & 0 & 784.3994 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 113658.368 & 2.2881237 & 0 & 784.3994 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 214959.839 & 4.3274834 & 0 & 784.3994 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 319797.960 & 6.4380415 & 0 & 784.3994 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 380470.928 & 7.6594849 & 0 & 784.3994 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 226717.617 & 6.0136366 & 0 & 788.8749 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2171.844 & 0.0576077 & 0 & 788.8749 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 132282.082 & 3.5087541 & 0 & 556.6599 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 22081.752 & 0.5857138 & 0 & 683.5913 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 121270.296 & 3.2166688 & 0 & 683.5913 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 44090.248 & 0.8876068 & 0 & 784.3994 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 92797.960 & 1.8681705 & 0 & 784.3994 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 24040.695 & 0.4839774 & 0 & 784.3994 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 272623.489 & 5.4883444 & 0 & 539.2569 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 25917.925 & 0.5217691 & 0 & 568.3691 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 115020.728 & 3.0509004 & 0 & 788.8749 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 314483.416 & 8.3416057 & 0 & 788.8749 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 57250.975 & 1.5185699 & 0 & 788.8749 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 298111.075 & 7.9073329 & 0 & 571.6120 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8359.997 & 0.2217471 & 0 & 683.5913 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9679.469 & 0.1948631 & 0 & 784.3994 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2745.576 & 0.0552728 & 0 & 784.3994 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 290188.168 & 5.8419493 & 0 & 679.7131 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6577.369 & 0.1324129 & 0 & 784.3994 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 142685.711 & 2.8724903 & 0 & 568.3691 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 317695.761 & 8.4268125 & 0 & 550.2430 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 445320.025 & 11.8120190 & 0 & 788.8749 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 5936.359 & 0.1574607 & 0 & 788.8749 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 416455.890 & 11.0464039 & 0 & 571.6120 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3754.461 & 0.0995863 & 0 & 788.8749 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 164257.195 & 3.3067586 & 0 & 784.3994 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 569647.943 & 11.4679190 & 0 & 784.3994 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 182500.816 & 3.6740317 & 0 & 568.3691 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 322261.965 & 6.4876459 & 0 & 784.3994 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2718.485 & 0.0547274 & 0 & 784.3994 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7545.406 & 0.2001403 & 0 & 788.8749 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 40414.743 & 1.0719925 & 0 & 788.8749 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 134410.149 & 3.5652006 & 0 & 788.8749 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 47648.043 & 1.2638542 & 0 & 788.8749 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 342704.737 & 9.0901703 & 0 & 788.8749 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2440,29 +2440,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 248049.710 & 4.8835773 & 0 & 748.4575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 116219.809 & 2.2881237 & 0 & 748.4575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 219804.242 & 4.3274834 & 0 & 748.4575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 327005.029 & 6.4380415 & 0 & 748.4575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 389045.342 & 7.6594849 & 0 & 748.4575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 235009.876 & 6.0136366 & 0 & 742.5334 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2251.280 & 0.0576077 & 0 & 742.5334 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 137120.336 & 3.5087541 & 0 & 523.9595 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 22889.398 & 0.5857138 & 0 & 643.4345 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 125705.791 & 3.2166688 & 0 & 643.4345 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 45083.879 & 0.8876068 & 0 & 748.4575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 94889.284 & 1.8681705 & 0 & 748.4575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 24582.484 & 0.4839774 & 0 & 748.4575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 278767.419 & 5.4883444 & 0 & 514.5476 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 26502.020 & 0.5217691 & 0 & 542.3259 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 119227.643 & 3.0509004 & 0 & 742.5334 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 325985.734 & 8.3416057 & 0 & 742.5334 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 59344.945 & 1.5185699 & 0 & 742.5334 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 309014.571 & 7.9073329 & 0 & 538.0333 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8665.766 & 0.2217471 & 0 & 643.4345 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9897.608 & 0.1948631 & 0 & 748.4575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2807.451 & 0.0552728 & 0 & 748.4575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 296727.941 & 5.8419493 & 0 & 648.5680 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6725.599 & 0.1324129 & 0 & 748.4575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 145901.322 & 2.8724903 & 0 & 542.3259 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 329315.572 & 8.4268125 & 0 & 517.9196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 461607.728 & 11.8120190 & 0 & 742.5334 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6153.483 & 0.1574607 & 0 & 742.5334 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 431687.880 & 11.0464039 & 0 & 538.0333 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3891.782 & 0.0995863 & 0 & 742.5334 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 167958.947 & 3.3067586 & 0 & 748.4575 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 582485.711 & 11.4679190 & 0 & 748.4575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 186613.713 & 3.6740317 & 0 & 542.3259 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 329524.564 & 6.4876459 & 0 & 748.4575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2779.750 & 0.0547274 & 0 & 748.4575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7821.382 & 0.2001403 & 0 & 742.5334 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 41892.923 & 1.0719925 & 0 & 742.5334 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 139326.237 & 3.5652006 & 0 & 742.5334 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 49390.783 & 1.2638542 & 0 & 742.5334 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 355239.258 & 9.0901703 & 0 & 742.5334 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2474,29 +2474,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 250450.227 & 4.8835773 & 0 & 691.4415 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 117344.534 & 2.2881237 & 0 & 691.4415 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 221931.413 & 4.3274834 & 0 & 691.4415 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 330169.642 & 6.4380415 & 0 & 691.4415 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 392810.355 & 7.6594849 & 0 & 691.4415 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 235616.041 & 6.0136366 & 0 & 690.8252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2257.086 & 0.0576077 & 0 & 690.8252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 137474.012 & 3.5087541 & 0 & 487.4723 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 22948.437 & 0.5857138 & 0 & 598.6274 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 126030.026 & 3.2166688 & 0 & 598.6274 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 45520.182 & 0.8876068 & 0 & 691.4415 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 95807.582 & 1.8681705 & 0 & 691.4415 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 24820.382 & 0.4839774 & 0 & 691.4415 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 281465.210 & 5.4883444 & 0 & 475.3504 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 26758.495 & 0.5217691 & 0 & 501.0126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 119535.169 & 3.0509004 & 0 & 690.8252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 326826.554 & 8.3416057 & 0 & 690.8252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 59498.015 & 1.5185699 & 0 & 690.8252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 309811.617 & 7.9073329 & 0 & 500.5660 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8688.117 & 0.2217471 & 0 & 598.6274 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9993.393 & 0.1948631 & 0 & 691.4415 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2834.620 & 0.0552728 & 0 & 691.4415 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 299599.545 & 5.8419493 & 0 & 599.1614 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6790.686 & 0.1324129 & 0 & 691.4415 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 147313.292 & 2.8724903 & 0 & 501.0126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 330164.981 & 8.4268125 & 0 & 481.8530 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 462798.360 & 11.8120190 & 0 & 690.8252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6169.355 & 0.1574607 & 0 & 690.8252 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 432801.339 & 11.0464039 & 0 & 500.5660 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 3901.820 & 0.0995863 & 0 & 690.8252 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 169584.381 & 3.3067586 & 0 & 691.4415 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 588122.755 & 11.4679190 & 0 & 691.4415 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 188419.680 & 3.6740317 & 0 & 501.0126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 332713.560 & 6.4876459 & 0 & 691.4415 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2806.651 & 0.0547274 & 0 & 691.4415 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 7841.555 & 0.2001403 & 0 & 690.8252 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 42000.978 & 1.0719925 & 0 & 690.8252 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 139685.604 & 3.5652006 & 0 & 690.8252 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 49518.178 & 1.2638542 & 0 & 690.8252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 356155.532 & 9.0901703 & 0 & 690.8252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2508,29 +2508,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 250450.227 & 4.8835773 & 0 & 808.4189 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 117344.534 & 2.2881237 & 0 & 808.4189 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 221931.413 & 4.3274834 & 0 & 808.4189 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 330169.642 & 6.4380415 & 0 & 808.4189 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 392810.355 & 7.6594849 & 0 & 808.4189 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 243998.944 & 6.0136366 & 0 & 779.9489 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2337.391 & 0.0576077 & 0 & 779.9489 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 142365.153 & 3.5087541 & 0 & 550.3613 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 23764.911 & 0.5857138 & 0 & 675.8565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 130514.005 & 3.2166688 & 0 & 675.8565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 45520.182 & 0.8876068 & 0 & 808.4189 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 95807.582 & 1.8681705 & 0 & 808.4189 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 24820.382 & 0.4839774 & 0 & 808.4189 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 281465.210 & 5.4883444 & 0 & 555.7697 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 26758.495 & 0.5217691 & 0 & 585.7734 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 123788.070 & 3.0509004 & 0 & 779.9489 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 338454.605 & 8.3416057 & 0 & 779.9489 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 61614.874 & 1.5185699 & 0 & 779.9489 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 320834.299 & 7.9073329 & 0 & 565.1442 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 8997.229 & 0.2217471 & 0 & 675.8565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 9993.393 & 0.1948631 & 0 & 808.4189 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2834.620 & 0.0552728 & 0 & 808.4189 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 299599.545 & 5.8419493 & 0 & 700.5269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6790.686 & 0.1324129 & 0 & 808.4189 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 147313.292 & 2.8724903 & 0 & 585.7734 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 341911.808 & 8.4268125 & 0 & 544.0171 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 479264.106 & 11.8120190 & 0 & 779.9489 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6388.852 & 0.1574607 & 0 & 779.9489 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 448199.831 & 11.0464039 & 0 & 565.1442 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4040.641 & 0.0995863 & 0 & 779.9489 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 169584.381 & 3.3067586 & 0 & 808.4189 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 588122.755 & 11.4679190 & 0 & 808.4189 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 188419.680 & 3.6740317 & 0 & 585.7734 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 332713.560 & 6.4876459 & 0 & 808.4189 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2806.651 & 0.0547274 & 0 & 808.4189 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8120.548 & 0.2001403 & 0 & 779.9489 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 43495.317 & 1.0719925 & 0 & 779.9489 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 144655.430 & 3.5652006 & 0 & 779.9489 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 51279.968 & 1.2638542 & 0 & 779.9489 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 368827.069 & 9.0901703 & 0 & 779.9489 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2542,29 +2542,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 251488.723 & 4.8835773 & 0 & 665.0372 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 117831.105 & 2.2881237 & 0 & 665.0372 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 222851.655 & 4.3274834 & 0 & 665.0372 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 331538.696 & 6.4380415 & 0 & 665.0372 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 394439.149 & 7.6594849 & 0 & 665.0372 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 245341.803 & 6.0136366 & 0 & 640.7508 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2350.254 & 0.0576077 & 0 & 640.7508 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 143148.666 & 3.5087541 & 0 & 452.1378 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 23895.703 & 0.5857138 & 0 & 555.2359 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 131232.295 & 3.2166688 & 0 & 555.2359 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 45708.932 & 0.8876068 & 0 & 665.0372 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 96204.849 & 1.8681705 & 0 & 665.0372 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 24923.300 & 0.4839774 & 0 & 665.0372 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 282632.310 & 5.4883444 & 0 & 457.1981 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 26869.450 & 0.5217691 & 0 & 481.8803 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 124469.343 & 3.0509004 & 0 & 640.7508 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 340317.305 & 8.3416057 & 0 & 640.7508 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 61953.974 & 1.5185699 & 0 & 640.7508 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 322600.025 & 7.9073329 & 0 & 464.2825 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 9046.746 & 0.2217471 & 0 & 555.2359 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10034.831 & 0.1948631 & 0 & 665.0372 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2846.374 & 0.0552728 & 0 & 665.0372 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 300841.840 & 5.8419493 & 0 & 576.2811 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6818.844 & 0.1324129 & 0 & 665.0372 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 147924.129 & 2.8724903 & 0 & 481.8803 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 343793.535 & 8.4268125 & 0 & 446.9259 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 481901.757 & 11.8120190 & 0 & 640.7508 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6424.013 & 0.1574607 & 0 & 640.7508 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 450666.518 & 11.0464039 & 0 & 464.2825 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4062.879 & 0.0995863 & 0 & 640.7508 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 170287.565 & 3.3067586 & 0 & 665.0372 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 590561.416 & 11.4679190 & 0 & 665.0372 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 189200.965 & 3.6740317 & 0 & 481.8803 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 334093.162 & 6.4876459 & 0 & 665.0372 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2818.289 & 0.0547274 & 0 & 665.0372 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8165.239 & 0.2001403 & 0 & 640.7508 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 43734.695 & 1.0719925 & 0 & 640.7508 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 145451.548 & 3.5652006 & 0 & 640.7508 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 51562.190 & 1.2638542 & 0 & 640.7508 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 370856.924 & 9.0901703 & 0 & 640.7508 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2576,29 +2576,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 253359.273 & 4.8835773 & 0 & 602.3303 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 118707.522 & 2.2881237 & 0 & 602.3303 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 224509.205 & 4.3274834 & 0 & 602.3303 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 334004.650 & 6.4380415 & 0 & 602.3303 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 397372.951 & 7.6594849 & 0 & 602.3303 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 245870.626 & 6.0136366 & 0 & 583.3928 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2355.320 & 0.0576077 & 0 & 583.3928 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 143457.217 & 3.5087541 & 0 & 411.6639 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 23947.209 & 0.5857138 & 0 & 505.5329 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 131515.160 & 3.2166688 & 0 & 505.5329 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 46048.911 & 0.8876068 & 0 & 602.3303 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 96920.412 & 1.8681705 & 0 & 602.3303 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 25108.678 & 0.4839774 & 0 & 602.3303 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 284734.503 & 5.4883444 & 0 & 414.0885 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 27069.302 & 0.5217691 & 0 & 436.4434 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 124737.631 & 3.0509004 & 0 & 583.3928 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 341050.844 & 8.3416057 & 0 & 583.3928 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 62087.514 & 1.5185699 & 0 & 583.3928 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 323295.375 & 7.9073329 & 0 & 422.7214 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 9066.246 & 0.2217471 & 0 & 505.5329 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10109.469 & 0.1948631 & 0 & 602.3303 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2867.545 & 0.0552728 & 0 & 602.3303 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 303079.474 & 5.8419493 & 0 & 521.9430 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6869.562 & 0.1324129 & 0 & 602.3303 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 149024.375 & 2.8724903 & 0 & 436.4434 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 344534.567 & 8.4268125 & 0 & 406.9185 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 482940.475 & 11.8120190 & 0 & 583.3928 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6437.860 & 0.1574607 & 0 & 583.3928 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 451637.910 & 11.0464039 & 0 & 422.7214 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4071.637 & 0.0995863 & 0 & 583.3928 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 171554.149 & 3.3067586 & 0 & 602.3303 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 594953.957 & 11.4679190 & 0 & 602.3303 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 190608.224 & 3.6740317 & 0 & 436.4434 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 336578.116 & 6.4876459 & 0 & 602.3303 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2839.251 & 0.0547274 & 0 & 602.3303 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8182.839 & 0.2001403 & 0 & 583.3928 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 43828.963 & 1.0719925 & 0 & 583.3928 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 145765.062 & 3.5652006 & 0 & 583.3928 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 51673.330 & 1.2638542 & 0 & 583.3928 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 371656.291 & 9.0901703 & 0 & 583.3928 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2610,29 +2610,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 254193.747 & 4.8835773 & 0 & 635.5173 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 119098.502 & 2.2881237 & 0 & 635.5173 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 225248.657 & 4.3274834 & 0 & 635.5173 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 335104.740 & 6.4380415 & 0 & 635.5173 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 398681.754 & 7.6594849 & 0 & 635.5173 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 248667.599 & 6.0136366 & 0 & 610.6175 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2382.114 & 0.0576077 & 0 & 610.6175 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 145089.156 & 3.5087541 & 0 & 430.8747 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 24219.627 & 0.5857138 & 0 & 529.1242 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 133011.249 & 3.2166688 & 0 & 529.1242 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 46200.579 & 0.8876068 & 0 & 635.5173 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 97239.633 & 1.8681705 & 0 & 635.5173 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 25191.376 & 0.4839774 & 0 & 635.5173 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 285672.315 & 5.4883444 & 0 & 436.9038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 27158.459 & 0.5217691 & 0 & 460.4904 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 126156.620 & 3.0509004 & 0 & 610.6175 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 344930.567 & 8.3416057 & 0 & 610.6175 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 62793.808 & 1.5185699 & 0 & 610.6175 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 326973.116 & 7.9073329 & 0 & 442.4482 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 9169.381 & 0.2217471 & 0 & 529.1242 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10142.766 & 0.1948631 & 0 & 635.5173 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2876.990 & 0.0552728 & 0 & 635.5173 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 304077.708 & 5.8419493 & 0 & 550.7009 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6892.188 & 0.1324129 & 0 & 635.5173 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 149515.207 & 2.8724903 & 0 & 460.4904 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1437555.39 & 309991.427 & 348453.920 & 8.4268125 & 0 & 425.9079 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 488434.305 & 11.8120190 & 0 & 610.6175 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6511.096 & 0.1574607 & 0 & 610.6175 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 456775.648 & 11.0464039 & 0 & 442.4482 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4117.955 & 0.0995863 & 0 & 610.6175 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 172119.186 & 3.3067586 & 0 & 635.5173 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 596913.520 & 11.4679190 & 0 & 635.5173 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 191236.019 & 3.6740317 & 0 & 460.4904 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 337686.683 & 6.4876459 & 0 & 635.5173 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2848.602 & 0.0547274 & 0 & 635.5173 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8275.925 & 0.2001403 & 0 & 610.6175 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 44327.553 & 1.0719925 & 0 & 610.6175 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 147423.255 & 3.5652006 & 0 & 610.6175 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 52261.155 & 1.2638542 & 0 & 610.6175 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 375884.175 & 9.0901703 & 0 & 610.6175 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2644,29 +2644,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 254871.330 & 4.8835773 & 0 & 578.7432 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 119415.973 & 2.2881237 & 0 & 578.7432 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 225849.083 & 4.3274834 & 0 & 578.7432 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 335998.001 & 6.4380415 & 0 & 578.7432 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 399744.486 & 7.6594849 & 0 & 578.7432 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 248667.599 & 6.0136366 & 0.0 & 557.5501 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2382.114 & 0.0576077 & 0.0 & 557.5501 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+605549.33 & 129074.153 & 145089.156 & 3.5087541 & 615664.2 & 393.4283 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 24219.627 & 0.5857138 & 0.0 & 483.1392 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 133011.249 & 3.2166688 & 0.0 & 483.1392 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 46323.732 & 0.8876068 & 0 & 578.7432 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 97498.836 & 1.8681705 & 0 & 578.7432 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 25258.527 & 0.4839774 & 0 & 578.7432 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1208975.69 & 264503.016 & 286433.808 & 5.4883444 & 1215439 & 397.8729 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 27230.853 & 0.5217691 & 0 & 419.3524 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 126156.620 & 3.0509004 & 0.0 & 557.5501 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 344930.567 & 8.3416057 & 0.0 & 557.5501 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 62793.808 & 1.5185699 & 0.0 & 557.5501 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1401322.39 & 290881.683 & 326973.116 & 7.9073329 & 0.0 & 403.9960 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 9169.381 & 0.2217471 & 0.0 & 483.1392 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10169.802 & 0.1948631 & 0 & 578.7432 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2884.659 & 0.0552728 & 0 & 578.7432 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 304888.262 & 5.8419493 & 0 & 501.5039 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 6910.559 & 0.1324129 & 0 & 578.7432 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 149913.757 & 2.8724903 & 0 & 419.3524 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1478612.22 & 309991.427 & 348453.920 & 8.4268125 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2888943.14 & 434520.717 & 488434.305 & 11.8120190 & 0.0 & 557.5501 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6511.096 & 0.1574607 & 0.0 & 557.5501 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 456775.648 & 11.0464039 & 0.0 & 403.9960 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4117.955 & 0.0995863 & 0.0 & 557.5501 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 172577.990 & 3.3067586 & 0 & 578.7432 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 598504.663 & 11.4679190 & 0 & 578.7432 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 191745.780 & 3.6740317 & 0 & 419.3524 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 338586.826 & 6.4876459 & 0 & 578.7432 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2856.196 & 0.0547274 & 0 & 578.7432 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8275.925 & 0.2001403 & 0.0 & 557.5501 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 44327.553 & 1.0719925 & 0.0 & 557.5501 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 147423.255 & 3.5652006 & 0.0 & 557.5501 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 52261.155 & 1.2638542 & 0.0 & 557.5501 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 375884.175 & 9.0901703 & 0.0 & 557.5501 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2678,29 +2678,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 264347.251 & 4.8835773 & 0 & 563.9653 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 123855.767 & 2.2881237 & 0 & 563.9653 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 234245.979 & 4.3274834 & 0 & 563.9653 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 348490.149 & 6.4380415 & 0 & 563.9653 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 414606.680 & 7.6594849 & 0 & 563.9653 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 254043.160 & 6.0136366 & 0 & 551.5893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2433.609 & 0.0576077 & 0 & 551.5893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+622317.41 & 129074.153 & 148225.614 & 3.5087541 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+124133.40 & 21546.254 & 24743.194 & 0.5857138 & 0 & 477.9739 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 135886.614 & 3.2166688 & 0 & 477.9739 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 48046.013 & 0.8876068 & 0 & 563.9653 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 101123.768 & 1.8681705 & 0 & 563.9653 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 26197.620 & 0.4839774 & 0 & 563.9653 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1247288.11 & 264503.016 & 297083.197 & 5.4883444 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-121140.48 & 25145.924 & 28243.275 & 0.5217691 & 0 & 408.6444 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 128883.805 & 3.0509004 & 0 & 551.5893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 352387.088 & 8.3416057 & 0 & 551.5893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 64151.250 & 1.5185699 & 0 & 551.5893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1402455.35 & 290881.683 & 334041.442 & 7.9073329 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+46996.04 & 8157.261 & 9367.600 & 0.2217471 & 0 & 477.9739 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10547.908 & 0.1948631 & 0 & 563.9653 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2991.908 & 0.0552728 & 0 & 563.9653 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 316223.774 & 5.8419493 & 0 & 488.6982 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 7167.489 & 0.1324129 & 0 & 563.9653 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 155487.436 & 2.8724903 & 0 & 408.6444 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1478612.22 & 309991.427 & 355986.607 & 8.4268125 & 1494591 & 395.7236 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 498993.011 & 11.8120190 & 0 & 551.5893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6651.849 & 0.1574607 & 0 & 551.5893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 466649.975 & 11.0464039 & 1959205 & 399.6769 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4206.974 & 0.0995863 & 0 & 551.5893 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 178994.307 & 3.3067586 & 0 & 563.9653 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 620756.607 & 11.4679190 & 0 & 563.9653 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 198874.742 & 3.6740317 & 0 & 408.6444 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 351175.224 & 6.4876459 & 0 & 563.9653 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2962.387 & 0.0547274 & 0 & 563.9653 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8454.830 & 0.2001403 & 0 & 551.5893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 45285.801 & 1.0719925 & 0 & 551.5893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 150610.171 & 3.5652006 & 0 & 551.5893 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 53390.908 & 1.2638542 & 0 & 551.5893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 384009.834 & 9.0901703 & 0 & 551.5893 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2712,29 +2712,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 264347.251 & 4.8835773 & 0 & 583.0087 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 123855.767 & 2.2881237 & 0 & 583.0087 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 234245.979 & 4.3274834 & 0 & 583.0087 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 348490.149 & 6.4380415 & 0 & 583.0087 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 414606.680 & 7.6594849 & 0 & 583.0087 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 254043.160 & 6.0136366 & 0 & 570.2149 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2433.609 & 0.0576077 & 0 & 570.2149 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+622317.41 & 129074.153 & 148225.614 & 3.5087541 & 0 & 413.5069 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 24743.194 & 0.5857138 & 0 & 494.1137 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 135886.614 & 3.2166688 & 0 & 494.1137 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 48046.013 & 0.8876068 & 0 & 583.0087 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 101123.768 & 1.8681705 & 0 & 583.0087 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 26197.620 & 0.4839774 & 0 & 583.0087 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1247288.11 & 264503.016 & 297083.197 & 5.4883444 & 0 & 413.5069 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 28243.275 & 0.5217691 & 0 & 422.4431 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 128883.805 & 3.0509004 & 0 & 570.2149 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 352387.088 & 8.3416057 & 0 & 570.2149 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 64151.250 & 1.5185699 & 0 & 570.2149 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1402455.35 & 290881.683 & 334041.442 & 7.9073329 & 0 & 413.5069 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 9367.600 & 0.2217471 & 0 & 494.1137 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10547.908 & 0.1948631 & 0 & 583.0087 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 2991.908 & 0.0552728 & 0 & 583.0087 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 316223.774 & 5.8419493 & 0 & 505.2001 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 7167.489 & 0.1324129 & 0 & 583.0087 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 155487.436 & 2.8724903 & 0 & 422.4431 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1478612.22 & 309991.427 & 355986.607 & 8.4268125 & 0 & 409.0860 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 498993.011 & 11.8120190 & 0 & 570.2149 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6651.849 & 0.1574607 & 0 & 570.2149 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 466649.975 & 11.0464039 & 0 & 413.1728 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4206.974 & 0.0995863 & 0 & 570.2149 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 178994.307 & 3.3067586 & 0 & 583.0087 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 620756.607 & 11.4679190 & 0 & 583.0087 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 198874.742 & 3.6740317 & 0 & 422.4431 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 351175.224 & 6.4876459 & 0 & 583.0087 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2962.387 & 0.0547274 & 0 & 583.0087 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8454.830 & 0.2001403 & 0 & 570.2149 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 45285.801 & 1.0719925 & 0 & 570.2149 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 150610.171 & 3.5652006 & 0 & 570.2149 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 53390.908 & 1.2638542 & 0 & 570.2149 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 384009.834 & 9.0901703 & 0 & 570.2149 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2746,29 +2746,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 265989.246 & 4.8835773 & 0 & 614.8695 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 124625.098 & 2.2881237 & 0 & 614.8695 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 235701.001 & 4.3274834 & 0 & 614.8695 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 350654.799 & 6.4380415 & 0 & 614.8695 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 417182.014 & 7.6594849 & 0 & 614.8695 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 261088.726 & 6.0136366 & 0 & 588.7828 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2501.102 & 0.0576077 & 0 & 588.7828 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+622317.41 & 129074.153 & 152336.464 & 3.5087541 & 0 & 426.9719 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 25429.415 & 0.5857138 & 0 & 510.2036 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 139655.257 & 3.2166688 & 0 & 510.2036 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 48344.451 & 0.8876068 & 0 & 614.8695 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 101751.900 & 1.8681705 & 0 & 614.8695 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 26360.346 & 0.4839774 & 0 & 614.8695 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1247288.11 & 264503.016 & 298928.533 & 5.4883444 & 0 & 436.1046 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 28418.708 & 0.5217691 & 0 & 445.5292 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 132458.235 & 3.0509004 & 0 & 588.7828 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 362160.098 & 8.3416057 & 0 & 588.7828 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 65930.404 & 1.5185699 & 0 & 588.7828 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1402455.35 & 290881.683 & 343305.659 & 7.9073329 & 0 & 426.9719 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 9627.399 & 0.2217471 & 0 & 510.2036 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10613.426 & 0.1948631 & 0 & 614.8695 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 3010.492 & 0.0552728 & 0 & 614.8695 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 318188.001 & 5.8419493 & 0 & 532.8088 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 7212.010 & 0.1324129 & 0 & 614.8695 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 156453.248 & 2.8724903 & 0 & 445.5292 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1478612.22 & 309991.427 & 365859.445 & 8.4268125 & 0 & 422.4071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 512831.952 & 11.8120190 & 0 & 588.7828 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 6836.330 & 0.1574607 & 0 & 588.7828 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1957622.55 & 406356.556 & 479591.922 & 11.0464039 & 0 & 426.6270 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4323.649 & 0.0995863 & 0 & 588.7828 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 180106.132 & 3.3067586 & 0 & 614.8695 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 624612.443 & 11.4679190 & 0 & 614.8695 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 200110.054 & 3.6740317 & 0 & 445.5292 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 353356.553 & 6.4876459 & 0 & 614.8695 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2980.788 & 0.0547274 & 0 & 614.8695 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8689.314 & 0.2001403 & 0 & 588.7828 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 46541.746 & 1.0719925 & 0 & 588.7828 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 154787.153 & 3.5652006 & 0 & 588.7828 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 54871.637 & 1.2638542 & 0 & 588.7828 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 394659.861 & 9.0901703 & 0 & 588.7828 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2780,29 +2780,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 266194.392 & 4.8835773 & 0 & 590.5575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 124721.216 & 2.2881237 & 0 & 590.5575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 235882.787 & 4.3274834 & 0 & 590.5575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 350925.244 & 6.4380415 & 0 & 590.5575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 417503.768 & 7.6594849 & 0 & 590.5575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 269609.951 & 6.0136366 & 0 & 548.0515 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2582.731 & 0.0576077 & 0 & 548.0515 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+626334.60 & 129074.153 & 157308.312 & 3.5087541 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+124133.40 & 21546.254 & 26259.362 & 0.5857138 & 0 & 474.9083 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 144213.225 & 3.2166688 & 0 & 474.9083 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 48381.737 & 0.8876068 & 0 & 590.5575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 101830.377 & 1.8681705 & 0 & 590.5575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 26380.677 & 0.4839774 & 0 & 590.5575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1247288.11 & 264503.016 & 299159.083 & 5.4883444 & 0 & 418.8609 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-121140.48 & 25145.924 & 28440.626 & 0.5217691 & 0 & 427.9129 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+746178.76 & 112231.398 & 136781.311 & 3.0509004 & 0 & 548.0515 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 373980.018 & 8.3416057 & 0 & 548.0515 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 68082.193 & 1.5185699 & 0 & 548.0515 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1411508.49 & 290881.683 & 354510.221 & 7.9073329 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+46996.04 & 8157.261 & 9941.611 & 0.2217471 & 0 & 474.9083 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10621.612 & 0.1948631 & 0 & 590.5575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 3012.814 & 0.0552728 & 0 & 590.5575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 318433.406 & 5.8419493 & 0 & 511.7414 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 7217.572 & 0.1324129 & 0 & 590.5575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 156573.913 & 2.8724903 & 0 & 427.9129 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1504238.86 & 309991.427 & 377800.102 & 8.4268125 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2888943.14 & 434520.717 & 529569.391 & 11.8120190 & 0 & 548.0515 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 7059.449 & 0.1574607 & 0 & 548.0515 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1971852.35 & 406356.556 & 495244.497 & 11.0464039 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+24356.47 & 3663.413 & 4464.762 & 0.0995863 & 0 & 548.0515 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 180245.040 & 3.3067586 & 0 & 590.5575 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 625094.180 & 11.4679190 & 0 & 590.5575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-853009.47 & 177064.773 & 200264.390 & 3.6740317 & 0 & 427.9129 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 353629.081 & 6.4876459 & 0 & 590.5575 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2983.087 & 0.0547274 & 0 & 590.5575 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8972.909 & 0.2001403 & 0 & 548.0515 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 48060.742 & 1.0719925 & 0 & 548.0515 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 159838.985 & 3.5652006 & 0 & 548.0515 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 56662.498 & 1.2638542 & 0 & 548.0515 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 407540.485 & 9.0901703 & 0 & 548.0515 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2814,29 +2814,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 266194.392 & 4.8835773 & 0.0 & 518.5089 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 124721.216 & 2.2881237 & 0.0 & 518.5089 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 235882.787 & 4.3274834 & 0.0 & 518.5089 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 350925.244 & 6.4380415 & 0.0 & 518.5089 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 417503.768 & 7.6594849 & 0.0 & 518.5089 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 270117.005 & 6.0136366 & 0 & 480.2854 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2587.589 & 0.0576077 & 0 & 480.2854 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+714707.53 & 129074.153 & 157604.161 & 3.5087541 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+124133.40 & 21546.254 & 26308.748 & 0.5857138 & 0 & 416.1863 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 144484.446 & 3.2166688 & 0 & 416.1863 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 48381.737 & 0.8876068 & 0.0 & 518.5089 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 101830.377 & 1.8681705 & 0.0 & 518.5089 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 26380.677 & 0.4839774 & 0.0 & 518.5089 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1247288.11 & 264503.016 & 299159.083 & 5.4883444 & 1356634.6 & 367.7595 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-128973.31 & 25145.924 & 28440.626 & 0.5217691 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+746178.76 & 112231.398 & 137038.555 & 3.0509004 & 0 & 480.2854 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 374683.360 & 8.3416057 & 0 & 480.2854 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 68210.235 & 1.5185699 & 0 & 480.2854 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1411508.49 & 290881.683 & 355176.947 & 7.9073329 & 1610666 & 350.5404 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 9960.308 & 0.2217471 & 0 & 416.1863 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10621.612 & 0.1948631 & 0.0 & 518.5089 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 3012.814 & 0.0552728 & 0.0 & 518.5089 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1622048.89 & 281544.506 & 318433.406 & 5.8419493 & 0.0 & 449.3085 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-42427.56 & 6381.453 & 7217.572 & 0.1324129 & 0.0 & 518.5089 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 156573.913 & 2.8724903 & 710035.5 & 375.7071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1504238.86 & 309991.427 & 378510.628 & 8.4268125 & 1716480 & 350.5404 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 530565.349 & 11.8120190 & 0 & 480.2854 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 7072.725 & 0.1574607 & 0 & 480.2854 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+2250071.65 & 406356.556 & 496175.901 & 11.0464039 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+24356.47 & 3663.413 & 4473.158 & 0.0995863 & 0 & 480.2854 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 180245.040 & 3.3067586 & 0.0 & 518.5089 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 625094.180 & 11.4679190 & 0.0 & 518.5089 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-908164.27 & 177064.773 & 200264.390 & 3.6740317 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2078762.70 & 312662.940 & 353629.081 & 6.4876459 & 0.0 & 518.5089 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2983.087 & 0.0547274 & 0.0 & 518.5089 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8989.785 & 0.2001403 & 0 & 480.2854 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 48151.129 & 1.0719925 & 0 & 480.2854 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 160139.593 & 3.5652006 & 0 & 480.2854 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 56769.063 & 1.2638542 & 0 & 480.2854 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 408306.944 & 9.0901703 & 0 & 480.2854 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2848,29 +2848,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 266194.392 & 4.8835773 & 0.0 & 454.2196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 124721.216 & 2.2881237 & 0.0 & 454.2196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1386606.37 & 208556.959 & 235882.787 & 4.3274834 & 0.0 & 454.2196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2062868.54 & 310272.329 & 350925.244 & 6.4380415 & 0.0 & 454.2196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 417503.768 & 7.6594849 & 0.0 & 454.2196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 270117.005 & 6.0136366 & 0.0 & 420.7354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2587.589 & 0.0576077 & 0.0 & 420.7354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+714707.53 & 129074.153 & 157604.161 & 3.5087541 & 815865.8 & 350.4044 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 26308.748 & 0.5857138 & 136191.9 & 364.5838 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 144484.446 & 3.2166688 & 747949.3 & 364.5838 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 48381.737 & 0.8876068 & 0.0 & 454.2196 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 101830.377 & 1.8681705 & 0.0 & 454.2196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-155075.39 & 23324.609 & 26380.677 & 0.4839774 & 0.0 & 454.2196 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1247288.11 & 264503.016 & 299159.083 & 5.4883444 & 1548650.0 & 322.1614 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-147227.94 & 25145.924 & 28440.626 & 0.5217691 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+746178.76 & 112231.398 & 137038.555 & 3.0509004 & 0.0 & 420.7354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2040161.36 & 306856.983 & 374683.360 & 8.3416057 & 0.0 & 420.7354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+371406.63 & 55862.601 & 68210.235 & 1.5185699 & 0.0 & 420.7354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1411508.49 & 290881.683 & 355176.947 & 7.9073329 & 1838636.3 & 307.0773 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 9960.308 & 0.2217471 & 51561.3 & 364.5838 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10621.612 & 0.1948631 & 0.0 & 454.2196 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 3012.814 & 0.0552728 & 0.0 & 454.2196 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1648426.90 & 281544.506 & 318433.406 & 5.8419493 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-42427.56 & 6381.453 & 7217.572 & 0.1324129 & 0.0 & 454.2196 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-666913.53 & 138435.617 & 156573.913 & 2.8724903 & 810532.6 & 329.1236 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1504238.86 & 309991.427 & 378510.628 & 8.4268125 & 1959427.3 & 307.0773 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2888943.14 & 434520.717 & 530565.349 & 11.8120190 & 0.0 & 420.7354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+38511.19 & 5792.398 & 7072.725 & 0.1574607 & 0.0 & 420.7354 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+2568542.38 & 406356.556 & 496175.901 & 11.0464039 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+24356.47 & 3663.413 & 4473.158 & 0.0995863 & 0.0 & 420.7354 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 180245.040 & 3.3067586 & 0.0 & 454.2196 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 625094.180 & 11.4679190 & 0.0 & 454.2196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-908164.27 & 177064.773 & 200264.390 & 3.6740317 & 1036704.1 & 350.4044 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2078762.70 & 312662.940 & 353629.081 & 6.4876459 & 0.0 & 454.2196 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-17535.69 & 2637.511 & 2983.087 & 0.0547274 & 0.0 & 454.2196 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 8989.785 & 0.2001403 & 0.0 & 420.7354 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 48151.129 & 1.0719925 & 0.0 & 420.7354 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 160139.593 & 3.5652006 & 0.0 & 420.7354 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 56769.063 & 1.2638542 & 0.0 & 420.7354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2223242.71 & 334393.918 & 408306.944 & 9.0901703 & 0.0 & 420.7354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2882,29 +2882,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1564789.22 & 235357.118 & 270920.966 & 4.8835773 & 1702034.89 & 367.7455 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 126935.778 & 2.2881237 & 797461.81 & 367.7455 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1508223.86 & 208556.959 & 240071.145 & 4.3274834 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2062868.54 & 310272.329 & 357156.307 & 6.4380415 & 2243800.12 & 367.7455 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2454241.76 & 369138.068 & 424917.006 & 7.6594849 & 2669500.19 & 367.7455 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 273767.224 & 6.0136366 & 1719916.23 & 342.0619 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2622.556 & 0.0576077 & 16475.96 & 342.0619 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+714707.53 & 129074.153 & 159733.941 & 3.5087541 & 1003513.11 & 284.8822 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+124133.40 & 21546.254 & 26664.270 & 0.5857138 & 167515.71 & 296.4102 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 146436.932 & 3.2166688 & 919975.93 & 296.4102 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-284405.77 & 42776.958 & 49240.808 & 0.8876068 & 309350.64 & 367.7455 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-598596.66 & 90033.842 & 103638.487 & 1.8681705 & 651098.82 & 367.7455 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-168676.85 & 23324.609 & 26849.095 & 0.4839774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-1912809.63 & 264503.016 & 304470.981 & 5.4883444 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-181848.08 & 25145.924 & 28945.621 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+872565.71 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2385721.67 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+371406.63 & 55862.601 & 69131.992 & 1.5185699 & 434315.09 & 342.0619 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+688806.61 & 109640.615 & 109640.615 & 2.9804724 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{27}} & \cellcolor{white}{0}\\
+46996.04 & 8157.261 & 10094.906 & 0.2217471 & 63420.28 & 296.4102 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-62437.77 & 9391.152 & 10810.210 & 0.1948631 & 67914.11 & 367.7455 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-17710.44 & 2663.795 & 3066.310 & 0.0552728 & 19263.80 & 367.7455 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2036048.78 & 281544.506 & 324087.541 & 5.8419493 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-42427.56 & 6381.453 & 7345.728 & 0.1324129 & 46148.83 & 367.7455 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1001126.51 & 138435.617 & 159354.055 & 2.8724903 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+734058.40 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{27}} & \cellcolor{white}{0}\\
+3378269.19 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+38511.19 & 5792.398 & 7168.303 & 0.1574607 & 45034.17 & 342.0619 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+2568542.38 & 406356.556 & 502880.961 & 11.0464039 & 3159301.23 & 325.2039 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24356.47 & 3663.413 & 4533.606 & 0.0995863 & 28481.95 & 342.0619 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1059547.09 & 159364.563 & 183445.489 & 3.3067586 & 1152478.62 & 367.7455 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-3674535.07 & 552680.180 & 636193.413 & 11.4679190 & 3996823.88 & 367.7455 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-908164.27 & 177064.773 & 203820.305 & 3.6740317 & 1280481.44 & 283.6946 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2261088.33 & 312662.940 & 359908.154 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-19073.72 & 2637.511 & 3036.055 & 0.0547274 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
+48949.63 & 7362.425 & 9111.268 & 0.2001403 & 57240.66 & 342.0619 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+262184.24 & 39434.658 & 48801.818 & 1.0719925 & 306592.73 & 342.0619 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+871964.56 & 131150.613 & 162303.635 & 3.5652006 & 1019656.97 & 342.0619 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+309109.13 & 46492.546 & 57536.210 & 1.2638542 & 361465.70 & 342.0619 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2599813.15 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2916,29 +2916,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1928590.45 & 235357.118 & 273974.723 & 4.8835773 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-733157.50 & 110272.894 & 128366.568 & 2.2881237 & 903610.87 & 324.5457 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1708981.49 & 208556.959 & 242777.169 & 4.3274834 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2542469.32 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2454241.76 & 369138.068 & 429706.569 & 7.6594849 & 3024833.75 & 324.5457 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1470794.63 & 221219.563 & 273767.224 & 6.0136366 & 1927129.81 & 305.2819 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+14089.49 & 2119.175 & 2622.556 & 0.0576077 & 18460.96 & 305.2819 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1124415.24 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+124133.40 & 21546.254 & 26664.270 & 0.5857138 & 187697.82 & 264.5388 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+681725.57 & 118329.410 & 146436.932 & 3.2166688 & 1030813.60 & 264.5388 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-350527.88 & 42776.958 & 49795.839 & 0.8876068 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-737765.70 & 90033.842 & 104806.675 & 1.8681705 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-191129.20 & 23324.609 & 27151.732 & 0.4839774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2167421.14 & 264503.016 & 307902.906 & 5.4883444 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-206053.63 & 25145.924 & 29271.889 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+977691.44 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2673150.74 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+371406.63 & 55862.601 & 69131.992 & 1.5185699 & 486640.88 & 305.2819 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+688806.61 & 109640.615 & 109640.615 & 2.9804724 & 771793.26 & 356.9902 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+71061.08 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-76954.06 & 9391.152 & 10932.061 & 0.1948631 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-21827.98 & 2663.795 & 3100.873 & 0.0552728 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2307064.48 & 281544.506 & 327740.578 & 5.8419493 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-42427.56 & 6381.453 & 7428.527 & 0.1324129 & 52291.64 & 324.5457 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1001126.51 & 138435.617 & 161150.256 & 2.8724903 & 1134385.11 & 353.0112 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+822496.93 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+3785279.27 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+50459.84 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+2568542.38 & 406356.556 & 502880.961 & 11.0464039 & 3539930.29 & 290.2365 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+31913.42 & 3663.413 & 4533.606 & 0.0995863 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-1305883.49 & 159364.563 & 185513.242 & 3.3067586 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
-3674535.07 & 552680.180 & 643364.434 & 11.4679190 & 4528835.70 & 324.5457 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1450924.60 & 177064.773 & 206117.718 & 3.6740317 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2562058.74 & 312662.940 & 363964.953 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-19073.72 & 2637.511 & 3070.276 & 0.0547274 & 21612.60 & 353.0112 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 9111.268 & 0.2001403 & 64136.95 & 305.2819 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+343530.67 & 39434.658 & 48801.818 & 1.0719925 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+871964.56 & 131150.613 & 162303.635 & 3.5652006 & 1142504.09 & 305.2819 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+405014.68 & 46492.546 & 57536.210 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2913035.71 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2950,29 +2950,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1928590.45 & 235357.118 & 273974.723 & 4.8835773 & 2140111.9 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-733157.50 & 110272.894 & 128366.568 & 2.2881237 & 1002715.9 & 292.4687 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1708981.49 & 208556.959 & 242777.169 & 4.3274834 & 1896416.9 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2821318.91 & 310272.329 & 361182.088 & 6.4380415 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2138491.01 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+20485.70 & 2119.175 & 2622.556 & 0.0576077 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1124415.24 & 129074.153 & 159733.941 & 3.5087541 & 1247737.37 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+43954.40 & 5626.994 & 5626.994 & 0.1529643 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{29}} & \cellcolor{white}{0}\\
+241392.24 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 400.0000 & \cellcolor{red}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-350527.88 & 42776.958 & 49795.839 & 0.8876068 & 388972.6 & 360.4654 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-737765.70 & 90033.842 & 104806.675 & 1.8681705 & 818681.4 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-212091.62 & 23324.609 & 27151.732 & 0.4839774 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2167421.14 & 264503.016 & 307902.906 & 5.4883444 & 2405136.7 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-206053.63 & 25145.924 & 29271.889 & 0.5217691 & 228652.9 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1084921.39 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2673150.74 & 306856.983 & 379746.634 & 8.3416057 & 2966333.04 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+540014.04 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+688806.61 & 109640.615 & 109640.615 & 2.9804724 & 856440.98 & 321.7065 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+78854.82 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-85394.13 & 9391.152 & 10932.061 & 0.1948631 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-24222.00 & 2663.795 & 3100.873 & 0.0552728 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2560095.65 & 281544.506 & 327740.578 & 5.8419493 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-1001126.51 & 138435.617 & 161150.256 & 2.8724903 & 1258800.7 & 318.1207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+4200436.13 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+55994.10 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+3928178.10 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+31913.42 & 3663.413 & 4533.606 & 0.0995863 & 35413.58 & 360.4654 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1449108.46 & 159364.563 & 185513.242 & 3.3067586 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
-5025543.37 & 552680.180 & 643364.434 & 11.4679190 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1450924.60 & 177064.773 & 206117.718 & 3.6740317 & 1610057.2 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2562058.74 & 312662.940 & 363964.953 & 6.4876459 & 2843056.8 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-23983.00 & 2637.511 & 3070.276 & 0.0547274 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
+48949.63 & 7362.425 & 9111.268 & 0.2001403 & 71171.28 & 275.1089 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+343530.67 & 39434.658 & 48801.818 & 1.0719925 & 381207.98 & 360.4654 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1267810.15 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+405014.68 & 46492.546 & 57536.210 & 1.2638542 & 449435.35 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2913035.71 & 334393.918 & 413824.589 & 9.0901703 & 3232527.80 & 360.4654 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2984,29 +2984,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1928590.45 & 235357.118 & 273974.723 & 4.8835773 & 2102665.8 & 366.8848 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-985171.14 & 110272.894 & 128366.568 & 2.2881237 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1708981.49 & 208556.959 & 242777.169 & 4.3274834 & 1863234.8 & 366.8848 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2821318.91 & 310272.329 & 361182.088 & 6.4380415 & 0.0 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 0.0 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2138491.01 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+20485.70 & 2119.175 & 2622.556 & 0.0576077 & 0.00 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1225905.39 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+43954.40 & 5626.994 & 5626.994 & 0.1529643 & 0.00 & 407.1235 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+241392.24 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 407.1235 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-350527.88 & 42776.958 & 49795.839 & 0.8876068 & 382166.7 & 366.8848 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-737765.70 & 90033.842 & 104806.675 & 1.8681705 & 804356.7 & 366.8848 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-212091.62 & 23324.609 & 27151.732 & 0.4839774 & 0.0 & 407.1235 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2363053.41 & 264503.016 & 307902.906 & 5.4883444 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-224652.11 & 25145.924 & 29271.889 & 0.5217691 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1084921.39 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2914430.37 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+540014.04 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+688806.61 & 109640.615 & 109640.615 & 2.9804724 & 841455.61 & 327.4357 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+78854.82 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-85394.13 & 9391.152 & 10932.061 & 0.1948631 & 0.0 & 407.1235 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-24222.00 & 2663.795 & 3100.873 & 0.0552728 & 0.0 & 407.1235 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2560095.65 & 281544.506 & 327740.578 & 5.8419493 & 0.0 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 0.0 & 407.1235 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1236775.15 & 138435.617 & 161150.256 & 2.8724903 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 407.1235 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+4200436.13 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+55994.10 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 407.1235 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+3928178.10 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+31913.42 & 3663.413 & 4533.606 & 0.0995863 & 34793.94 & 366.8848 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1449108.46 & 159364.563 & 185513.242 & 3.3067586 & 0.0 & 407.1235 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-5025543.37 & 552680.180 & 643364.434 & 11.4679190 & 0.0 & 407.1235 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1581885.62 & 177064.773 & 206117.718 & 3.6740317 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2562058.74 & 312662.940 & 363964.953 & 6.4876459 & 2793311.2 & 366.8848 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-23983.00 & 2637.511 & 3070.276 & 0.0547274 & 0.0 & 407.1235 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 9111.268 & 0.2001403 & 69925.98 & 280.0082 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+343530.67 & 39434.658 & 48801.818 & 1.0719925 & 374537.89 & 366.8848 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1267810.15 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 407.1235 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+441571.47 & 46492.546 & 57536.210 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2913035.71 & 334393.918 & 413824.589 & 9.0901703 & 3175967.45 & 366.8848 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3018,29 +3018,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-1951265.37 & 235357.118 & 273974.723 & 4.8835773 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-985171.14 & 110272.894 & 128366.568 & 2.2881237 & 0.0 & 431.0364 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1708981.49 & 208556.959 & 242777.169 & 4.3274834 & 1729074.4 & 395.3518 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2821318.91 & 310272.329 & 361182.088 & 6.4380415 & 0.0 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 0.0 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2138491.01 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+20485.70 & 2119.175 & 2622.556 & 0.0576077 & 0.00 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1225905.39 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 431.0364 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+43954.40 & 5626.994 & 5626.994 & 0.1529643 & 0.00 & 438.7126 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+241392.24 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 438.7126 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-350527.88 & 42776.958 & 49795.839 & 0.8876068 & 354649.1 & 395.3518 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-746439.79 & 90033.842 & 104806.675 & 1.8681705 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-212091.62 & 23324.609 & 27151.732 & 0.4839774 & 0.0 & 438.7126 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2363053.41 & 264503.016 & 307902.906 & 5.4883444 & 0.0 & 431.0364 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-224652.11 & 25145.924 & 29271.889 & 0.5217691 & 0.0 & 431.0364 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1084921.39 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2914430.37 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 431.0364 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+540014.04 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+780867.42 & 109640.615 & 109640.615 & 2.9804724 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+78854.82 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-85394.13 & 9391.152 & 10932.061 & 0.1948631 & 0.0 & 438.7126 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-24222.00 & 2663.795 & 3100.873 & 0.0552728 & 0.0 & 438.7126 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2560095.65 & 281544.506 & 327740.578 & 5.8419493 & 0.0 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 0.0 & 438.7126 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1236775.15 & 138435.617 & 161150.256 & 2.8724903 & 0.0 & 431.0364 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 438.7126 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+4200436.13 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+55994.10 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 438.7126 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+3928178.10 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+31913.42 & 3663.413 & 4533.606 & 0.0995863 & 32288.63 & 395.3518 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1449108.46 & 159364.563 & 185513.242 & 3.3067586 & 0.0 & 438.7126 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-5025543.37 & 552680.180 & 643364.434 & 11.4679190 & 0.0 & 438.7126 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1581885.62 & 177064.773 & 206117.718 & 3.6740317 & 0.0 & 431.0364 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2592181.51 & 312662.940 & 363964.953 & 6.4876459 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-23983.00 & 2637.511 & 3070.276 & 0.0547274 & 0.0 & 438.7126 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+48949.63 & 7362.425 & 9111.268 & 0.2001403 & 64891.03 & 301.7343 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+343530.67 & 39434.658 & 48801.818 & 1.0719925 & 347569.65 & 395.3518 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1267810.15 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 438.7126 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+441571.47 & 46492.546 & 57536.210 & 1.2638542 & 0.00 & 431.0364 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2913035.71 & 334393.918 & 413824.589 & 9.0901703 & 2947285.00 & 395.3518 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3052,29 +3052,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2084726.51 & 235357.118 & 273974.723 & 4.8835773 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-985171.14 & 110272.894 & 128366.568 & 2.2881237 & 0 & 403.4420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1847338.31 & 208556.959 & 242777.169 & 4.3274834 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2821318.91 & 310272.329 & 361182.088 & 6.4380415 & 0 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 0 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2138491.01 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+20485.70 & 2119.175 & 2622.556 & 0.0576077 & 0.00 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1225905.39 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 403.4420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+43954.40 & 5626.994 & 5626.994 & 0.1529643 & 0.00 & 410.6269 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+241392.24 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 410.6269 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-378906.14 & 42776.958 & 49795.839 & 0.8876068 & 0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-797494.21 & 90033.842 & 104806.675 & 1.8681705 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-212091.62 & 23324.609 & 27151.732 & 0.4839774 & 0 & 410.6269 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2363053.41 & 264503.016 & 307902.906 & 5.4883444 & 0 & 403.4420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-224652.11 & 25145.924 & 29271.889 & 0.5217691 & 0 & 403.4420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1084921.39 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2914430.37 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 403.4420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+540014.04 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+780867.42 & 109640.615 & 109640.615 & 2.9804724 & 834276.59 & 374.3926 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+78854.82 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-85394.13 & 9391.152 & 10932.061 & 0.1948631 & 0 & 410.6269 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-24222.00 & 2663.795 & 3100.873 & 0.0552728 & 0 & 410.6269 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2560095.65 & 281544.506 & 327740.578 & 5.8419493 & 0 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 0 & 410.6269 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1236775.15 & 138435.617 & 161150.256 & 2.8724903 & 0 & 403.4420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 410.6269 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+4200436.13 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+55994.10 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 410.6269 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+3928178.10 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+31913.42 & 3663.413 & 4533.606 & 0.0995863 & 34497.09 & 370.0419 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1449108.46 & 159364.563 & 185513.242 & 3.3067586 & 0 & 410.6269 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-5025543.37 & 552680.180 & 643364.434 & 11.4679190 & 0 & 410.6269 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1581885.62 & 177064.773 & 206117.718 & 3.6740317 & 0 & 403.4420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2592181.51 & 312662.940 & 363964.953 & 6.4876459 & 2769480 & 374.3926 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-23983.00 & 2637.511 & 3070.276 & 0.0547274 & 0 & 410.6269 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+69329.40 & 7362.425 & 9111.268 & 0.2001403 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+371342.45 & 39434.658 & 48801.818 & 1.0719925 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+1267810.15 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 410.6269 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+441571.47 & 46492.546 & 57536.210 & 1.2638542 & 0.00 & 403.4420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2913035.71 & 334393.918 & 413824.589 & 9.0901703 & 3148871.12 & 370.0419 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3086,29 +3086,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2147341.50 & 235357.118 & 273974.723 & 4.8835773 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-985171.14 & 110272.894 & 128366.568 & 2.2881237 & 1006103.25 & 391.6779 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1847338.31 & 208556.959 & 242777.169 & 4.3274834 & 1902823.32 & 388.3363 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2821318.91 & 310272.329 & 361182.088 & 6.4380415 & 2830849.79 & 398.6533 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 3367926.57 & 398.6533 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2145715.18 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+20485.70 & 2119.175 & 2622.556 & 0.0576077 & 20554.90 & 398.6533 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1225905.39 & 129074.153 & 159733.941 & 3.5087541 & 1251952.43 & 391.6779 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+43954.40 & 5626.994 & 5626.994 & 0.1529643 & 44102.89 & 398.6533 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+241392.24 & 30902.765 & 30902.765 & 0.8400613 & 242207.71 & 398.6533 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-378906.14 & 42776.958 & 49795.839 & 0.8876068 & 390286.63 & 388.3363 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-797494.21 & 90033.842 & 104806.675 & 1.8681705 & 821447.03 & 388.3363 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-212808.10 & 23324.609 & 27151.732 & 0.4839774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2413261.63 & 264503.016 & 307902.906 & 5.4883444 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-229425.33 & 25145.924 & 29271.889 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1084921.39 & 112231.398 & 138890.422 & 3.0509004 & 1088586.44 & 398.6533 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2976353.80 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+541838.29 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+780867.42 & 109640.615 & 109640.615 & 2.9804724 & 859334.17 & 363.4756 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+78854.82 & 8157.261 & 10094.906 & 0.2217471 & 79121.21 & 398.6533 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-85394.13 & 9391.152 & 10932.061 & 0.1948631 & 85682.60 & 398.6533 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-24222.00 & 2663.795 & 3100.873 & 0.0552728 & 24303.82 & 398.6533 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2560095.65 & 281544.506 & 327740.578 & 5.8419493 & 2568744.07 & 398.6533 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 58222.83 & 398.6533 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1263053.13 & 138435.617 & 161150.256 & 2.8724903 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 915788.94 & 398.6533 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+4200436.13 & 434520.717 & 537735.130 & 11.8120190 & 4214625.89 & 398.6533 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+55994.10 & 5792.398 & 7168.303 & 0.1574607 & 56183.26 & 398.6533 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+3928178.10 & 406356.556 & 502880.961 & 11.0464039 & 3941448.12 & 398.6533 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+35533.21 & 3663.413 & 4533.606 & 0.0995863 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-1449108.46 & 159364.563 & 185513.242 & 3.3067586 & 1454003.79 & 398.6533 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-5042520.47 & 552680.180 & 643364.434 & 11.4679190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1615496.23 & 177064.773 & 206117.718 & 3.6740317 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2852661.15 & 312662.940 & 363964.953 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-23983.00 & 2637.511 & 3070.276 & 0.0547274 & 24064.01 & 398.6533 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+71411.71 & 7362.425 & 9111.268 & 0.2001403 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+371342.45 & 39434.658 & 48801.818 & 1.0719925 & 382495.76 & 388.3363 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1267810.15 & 131150.613 & 162303.635 & 3.5652006 & 1272093.02 & 398.6533 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+441571.47 & 46492.546 & 57536.210 & 1.2638542 & 450953.61 & 391.6779 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2913035.71 & 334393.918 & 413824.589 & 9.0901703 & 3243447.81 & 359.2517 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3120,29 +3120,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2147341.50 & 235357.118 & 273974.723 & 4.8835773 & 2739718.15 & 313.5128 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1283652.06 & 110272.894 & 128366.568 & 2.2881237 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1847338.31 & 208556.959 & 242777.169 & 4.3274834 & 2427745.93 & 304.3709 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3611782.55 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 4297020.09 & 312.4572 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2145715.18 & 221219.563 & 273767.224 & 6.0136366 & 2737643.19 & 313.5128 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+20485.70 & 2119.175 & 2622.556 & 0.0576077 & 26225.28 & 312.4572 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1597322.45 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+43954.40 & 5626.994 & 5626.994 & 0.1529643 & 56269.34 & 312.4572 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+309024.37 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{29}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-378906.14 & 42776.958 & 49795.839 & 0.8876068 & 497953.10 & 304.3709 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-797494.21 & 90033.842 & 104806.675 & 1.8681705 & 1048055.63 & 304.3709 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2413261.63 & 264503.016 & 307902.906 & 5.4883444 & 3078996.38 & 313.5128 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-229425.33 & 25145.924 & 29271.889 & 0.5217691 & 292715.78 & 313.5128 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1084921.39 & 112231.398 & 138890.422 & 3.0509004 & 1388889.48 & 312.4572 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2976353.80 & 306856.983 & 379746.634 & 8.3416057 & 3797426.04 & 313.5128 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+691312.59 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1096394.51 & 109640.615 & 109640.615 & 2.9804724 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+100947.99 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-85394.13 & 9391.152 & 10932.061 & 0.1948631 & 109319.45 & 312.4572 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-31008.40 & 2663.795 & 3100.873 & 0.0552728 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2560095.65 & 281544.506 & 327740.578 & 5.8419493 & 3277371.00 & 312.4572 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 74284.48 & 312.4572 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1263053.13 & 138435.617 & 161150.256 & 2.8724903 & 1611485.46 & 313.5128 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 1168423.18 & 312.4572 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5377294.24 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+71682.26 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+5028756.25 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+35533.21 & 3663.413 & 4533.606 & 0.0995863 & 45335.58 & 313.5128 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1855112.74 & 159364.563 & 185513.242 & 3.3067586 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
-5042520.47 & 552680.180 & 643364.434 & 11.4679190 & 6433576.07 & 313.5128 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2061155.31 & 177064.773 & 206117.718 & 3.6740317 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2852661.15 & 312662.940 & 363964.953 & 6.4876459 & 3639610.91 & 313.5128 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-30702.44 & 2637.511 & 3070.276 & 0.0547274 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
+71411.71 & 7362.425 & 9111.268 & 0.2001403 & 91111.71 & 313.5128 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+488013.00 & 39434.658 & 48801.818 & 1.0719925 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+1623019.13 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+441571.47 & 46492.546 & 57536.210 & 1.2638542 & 575355.99 & 306.9901 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2913035.71 & 334393.918 & 413824.589 & 9.0901703 & 4138201.98 & 281.5750 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3154,29 +3154,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2593959.75 & 235357.118 & 273974.723 & 4.8835773 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1283652.06 & 110272.894 & 128366.568 & 2.2881237 & 0.0 & 422.4766 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1847338.31 & 208556.959 & 242777.169 & 4.3274834 & 2298585.1 & 321.4740 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3611782.55 & 310272.329 & 361182.088 & 6.4380415 & 0.0 & 422.4766 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 4068410.2 & 330.0147 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2145715.18 & 221219.563 & 273767.224 & 6.0136366 & 2591995.18 & 331.1295 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24830.05 & 2119.175 & 2622.556 & 0.0576077 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1597322.45 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 422.4766 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{29}} & \cellcolor{green}{\textbf{1}}\\
+309024.37 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 422.4766 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-471461.02 & 42776.958 & 49795.839 & 0.8876068 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-992297.00 & 90033.842 & 104806.675 & 1.8681705 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0.0 & 422.4766 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2915187.71 & 264503.016 & 307902.906 & 5.4883444 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-229425.33 & 25145.924 & 29271.889 & 0.5217691 & 277142.7 & 331.1295 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1314997.82 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2976353.80 & 306856.983 & 379746.634 & 8.3416057 & 3595395.49 & 331.1295 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+691312.59 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 422.4766 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1096394.51 & 109640.615 & 109640.615 & 2.9804724 & 0.00 & 422.4766 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+100947.99 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 422.4766 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-103503.44 & 9391.152 & 10932.061 & 0.1948631 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-31008.40 & 2663.795 & 3100.873 & 0.0552728 & 0.0 & 422.4766 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3103008.41 & 281544.506 & 327740.578 & 5.8419493 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 70332.4 & 330.0147 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1263053.13 & 138435.617 & 161150.256 & 2.8724903 & 1525751.3 & 331.1295 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 1106260.76 & 330.0147 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5377294.24 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 422.4766 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+71682.26 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 422.4766 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5028756.25 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 422.4766 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+35533.21 & 3663.413 & 4533.606 & 0.0995863 & 42923.64 & 331.1295 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1855112.74 & 159364.563 & 185513.242 & 3.3067586 & 0.0 & 422.4766 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-5042520.47 & 552680.180 & 643364.434 & 11.4679190 & 6091297.1 & 331.1295 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2061155.31 & 177064.773 & 206117.718 & 3.6740317 & 0.0 & 422.4766 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2852661.15 & 312662.940 & 363964.953 & 6.4876459 & 3445976.4 & 331.1295 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-30702.44 & 2637.511 & 3070.276 & 0.0547274 & 0.0 & 422.4766 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+86264.39 & 7362.425 & 9111.268 & 0.2001403 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+488013.00 & 39434.658 & 48801.818 & 1.0719925 & 0.00 & 422.4766 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1623019.13 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 422.4766 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+441571.47 & 46492.546 & 57536.210 & 1.2638542 & 544745.92 & 324.2403 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3918041.48 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3188,29 +3188,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2593959.75 & 235357.118 & 273974.723 & 4.8835773 & 0 & 512.3459 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1283652.06 & 110272.894 & 128366.568 & 2.2881237 & 0 & 541.1354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1847338.31 & 208556.959 & 242777.169 & 4.3274834 & 0 & 411.7647 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3611782.55 & 310272.329 & 361182.088 & 6.4380415 & 0 & 541.1354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 0 & 422.7042 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2145715.18 & 221219.563 & 273767.224 & 6.0136366 & 0 & 424.1321 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+24830.05 & 2119.175 & 2622.556 & 0.0576077 & 0 & 512.3459 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1597322.45 & 129074.153 & 159733.941 & 3.5087541 & 0 & 541.1354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0 & 512.3459 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+309024.37 & 30902.765 & 30902.765 & 0.8400613 & 0 & 541.1354 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-471461.02 & 42776.958 & 49795.839 & 0.8876068 & 0 & 512.3459 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-992297.00 & 90033.842 & 104806.675 & 1.8681705 & 0 & 512.3459 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 541.1354 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2915187.71 & 264503.016 & 307902.906 & 5.4883444 & 0 & 512.3459 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-229425.33 & 25145.924 & 29271.889 & 0.5217691 & 0 & 424.1321 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1314997.82 & 112231.398 & 138890.422 & 3.0509004 & 0 & 512.3459 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2976353.80 & 306856.983 & 379746.634 & 8.3416057 & 0 & 424.1321 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+691312.59 & 55862.601 & 69131.992 & 1.5185699 & 0 & 541.1354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1096394.51 & 109640.615 & 109640.615 & 2.9804724 & 0 & 541.1354 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+100947.99 & 8157.261 & 10094.906 & 0.2217471 & 0 & 541.1354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-103503.44 & 9391.152 & 10932.061 & 0.1948631 & 0 & 512.3459 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-31008.40 & 2663.795 & 3100.873 & 0.0552728 & 0 & 541.1354 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3103008.41 & 281544.506 & 327740.578 & 5.8419493 & 0 & 512.3459 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 0 & 422.7042 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1263053.13 & 138435.617 & 161150.256 & 2.8724903 & 0 & 424.1321 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 0 & 422.7042 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5377294.24 & 434520.717 & 537735.130 & 11.8120190 & 0 & 541.1354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+71682.26 & 5792.398 & 7168.303 & 0.1574607 & 0 & 541.1354 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5028756.25 & 406356.556 & 502880.961 & 11.0464039 & 0 & 541.1354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+35533.21 & 3663.413 & 4533.606 & 0.0995863 & 0 & 424.1321 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1855112.74 & 159364.563 & 185513.242 & 3.3067586 & 0 & 541.1354 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-5042520.47 & 552680.180 & 643364.434 & 11.4679190 & 0 & 424.1321 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2061155.31 & 177064.773 & 206117.718 & 3.6740317 & 0 & 541.1354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2852661.15 & 312662.940 & 363964.953 & 6.4876459 & 0 & 424.1321 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-30702.44 & 2637.511 & 3070.276 & 0.0547274 & 0 & 541.1354 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+86264.39 & 7362.425 & 9111.268 & 0.2001403 & 0 & 512.3459 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+488013.00 & 39434.658 & 48801.818 & 1.0719925 & 0 & 541.1354 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1623019.13 & 131150.613 & 162303.635 & 3.5652006 & 0 & 541.1354 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+441571.47 & 46492.546 & 57536.210 & 1.2638542 & 0 & 415.3080 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3918041.48 & 334393.918 & 413824.589 & 9.0901703 & 0 & 512.3459 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3222,29 +3222,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2593959.75 & 235357.118 & 273974.723 & 4.8835773 & 0.00 & 469.0456 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1283652.06 & 110272.894 & 128366.568 & 2.2881237 & 0.00 & 495.4019 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1847338.31 & 208556.959 & 242777.169 & 4.3274834 & 1960223.26 & 376.9649 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3611782.55 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 495.4019 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3356587.47 & 369138.068 & 429706.569 & 7.6594849 & 3469522.34 & 386.9798 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2210442.12 & 221219.563 & 273767.224 & 6.0136366 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+24830.05 & 2119.175 & 2622.556 & 0.0576077 & 0.0 & 469.0456 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1597322.45 & 129074.153 & 159733.941 & 3.5087541 & 0.0 & 495.4019 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0.0 & 469.0456 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+309024.37 & 30902.765 & 30902.765 & 0.8400613 & 0.0 & 495.4019 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-471461.02 & 42776.958 & 49795.839 & 0.8876068 & 0.00 & 469.0456 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-992297.00 & 90033.842 & 104806.675 & 1.8681705 & 0.00 & 469.0456 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0.00 & 495.4019 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2915187.71 & 264503.016 & 307902.906 & 5.4883444 & 0.00 & 469.0456 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-236346.10 & 25145.924 & 29271.889 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1314997.82 & 112231.398 & 138890.422 & 3.0509004 & 0.0 & 469.0456 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2976353.80 & 306856.983 & 379746.634 & 8.3416057 & 3066137.5 & 388.2871 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+691312.59 & 55862.601 & 69131.992 & 1.5185699 & 0.0 & 495.4019 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1096394.51 & 109640.615 & 109640.615 & 2.9804724 & 0.0 & 495.4019 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+100947.99 & 8157.261 & 10094.906 & 0.2217471 & 0.0 & 495.4019 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-103503.44 & 9391.152 & 10932.061 & 0.1948631 & 0.00 & 469.0456 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-31008.40 & 2663.795 & 3100.873 & 0.0552728 & 0.00 & 495.4019 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3103008.41 & 281544.506 & 327740.578 & 5.8419493 & 0.00 & 469.0456 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-58026.81 & 6381.453 & 7428.527 & 0.1324129 & 59979.17 & 386.9798 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1301153.98 & 138435.617 & 161150.256 & 2.8724903 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+912705.67 & 116843.557 & 116843.557 & 3.1762774 & 943414.3 & 386.9798 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5377294.24 & 434520.717 & 537735.130 & 11.8120190 & 0.0 & 495.4019 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+71682.26 & 5792.398 & 7168.303 & 0.1574607 & 0.0 & 495.4019 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5028756.25 & 406356.556 & 502880.961 & 11.0464039 & 0.0 & 495.4019 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+36605.09 & 3663.413 & 4533.606 & 0.0995863 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-1855112.74 & 159364.563 & 185513.242 & 3.3067586 & 0.00 & 495.4019 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-5042520.47 & 552680.180 & 643364.434 & 11.4679190 & 5194631.49 & 388.2871 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2061155.31 & 177064.773 & 206117.718 & 3.6740317 & 0.00 & 495.4019 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2938713.59 & 312662.940 & 363964.953 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-30702.44 & 2637.511 & 3070.276 & 0.0547274 & 0.00 & 495.4019 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+86264.39 & 7362.425 & 9111.268 & 0.2001403 & 0.0 & 469.0456 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+488013.00 & 39434.658 & 48801.818 & 1.0719925 & 0.0 & 495.4019 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1623019.13 & 131150.613 & 162303.635 & 3.5652006 & 0.0 & 495.4019 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+464556.93 & 46492.546 & 57536.210 & 1.2638542 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+3918041.48 & 334393.918 & 413824.589 & 9.0901703 & 0.0 & 469.0456 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3256,29 +3256,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2593959.75 & 235357.118 & 273974.723 & 4.8835773 & 0.0 & 413.8909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1283652.06 & 110272.894 & 128366.568 & 2.2881237 & 0.0 & 437.1480 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2221440.66 & 208556.959 & 242777.169 & 4.3274834 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3611782.55 & 310272.329 & 361182.088 & 6.4380415 & 0.0 & 437.1480 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3931867.43 & 369138.068 & 429706.569 & 7.6594849 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2505003.44 & 221219.563 & 273767.224 & 6.0136366 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+24830.05 & 2119.175 & 2622.556 & 0.0576077 & 0.0 & 413.8909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1597322.45 & 129074.153 & 159733.941 & 3.5087541 & 0.0 & 437.1480 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0.0 & 413.8909 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+309024.37 & 30902.765 & 30902.765 & 0.8400613 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-471461.02 & 42776.958 & 49795.839 & 0.8876068 & 0.0 & 413.8909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-992297.00 & 90033.842 & 104806.675 & 1.8681705 & 0.0 & 413.8909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2915187.71 & 264503.016 & 307902.906 & 5.4883444 & 0.0 & 413.8909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-236346.10 & 25145.924 & 29271.889 & 0.5217691 & 267841.3 & 352.9643 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1314997.82 & 112231.398 & 138890.422 & 3.0509004 & 0.0 & 413.8909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3474727.94 & 306856.983 & 379746.634 & 8.3416057 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+691312.59 & 55862.601 & 69131.992 & 1.5185699 & 0.0 & 437.1480 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1096394.51 & 109640.615 & 109640.615 & 2.9804724 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+100947.99 & 8157.261 & 10094.906 & 0.2217471 & 0.0 & 437.1480 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-103503.44 & 9391.152 & 10932.061 & 0.1948631 & 0.0 & 413.8909 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-31008.40 & 2663.795 & 3100.873 & 0.0552728 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3103008.41 & 281544.506 & 327740.578 & 5.8419493 & 0.0 & 413.8909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-67971.93 & 6381.453 & 7428.527 & 0.1324129 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-1474544.47 & 138435.617 & 161150.256 & 2.8724903 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1069132.78 & 116843.557 & 116843.557 & 3.1762774 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+5377294.24 & 434520.717 & 537735.130 & 11.8120190 & 0.0 & 437.1480 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+71682.26 & 5792.398 & 7168.303 & 0.1574607 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5028756.25 & 406356.556 & 502880.961 & 11.0464039 & 0.0 & 437.1480 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+41483.05 & 3663.413 & 4533.606 & 0.0995863 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-1855112.74 & 159364.563 & 185513.242 & 3.3067586 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-5042520.47 & 552680.180 & 643364.434 & 11.4679190 & 5886862.9 & 342.6287 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2061155.31 & 177064.773 & 206117.718 & 3.6740317 & 0.0 & 437.1480 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2938713.59 & 312662.940 & 363964.953 & 6.4876459 & 3330323.6 & 352.9643 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-30702.44 & 2637.511 & 3070.276 & 0.0547274 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+86264.39 & 7362.425 & 9111.268 & 0.2001403 & 0.0 & 413.8909 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+488013.00 & 39434.658 & 48801.818 & 1.0719925 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1623019.13 & 131150.613 & 162303.635 & 3.5652006 & 0.0 & 437.1480 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+464556.93 & 46492.546 & 57536.210 & 1.2638542 & 526463.3 & 352.9643 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3918041.48 & 334393.918 & 413824.589 & 9.0901703 & 0.0 & 413.8909 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3290,29 +3290,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2785997.18 & 235357.118 & 273974.723 & 4.8835773 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1305335.37 & 110272.894 & 128366.568 & 2.2881237 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2221440.66 & 208556.959 & 242777.169 & 4.3274834 & 2468755.15 & 359.9289 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3672792.40 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3931867.43 & 369138.068 & 429706.569 & 7.6594849 & 4369604.90 & 359.9289 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2783887.17 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+26668.28 & 2119.175 & 2622.556 & 0.0576077 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1597322.45 & 129074.153 & 159733.941 & 3.5087541 & 1624304.26 & 393.3555 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 57219.83 & 372.4282 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+314244.37 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{29}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-992297.00 & 90033.842 & 104806.675 & 1.8681705 & 1065759.27 & 372.4282 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 276100.83 & 393.3555 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2915187.71 & 264503.016 & 307902.906 & 5.4883444 & 3131006.46 & 372.4282 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-297660.31 & 25145.924 & 29271.889 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1412350.45 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+3861571.76 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+691312.59 & 55862.601 & 69131.992 & 1.5185699 & 702990.17 & 393.3555 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1096394.51 & 109640.615 & 109640.615 & 2.9804724 & 1114914.69 & 393.3555 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+100947.99 & 8157.261 & 10094.906 & 0.2217471 & 102653.19 & 393.3555 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-111166.06 & 9391.152 & 10932.061 & 0.1948631 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-31532.19 & 2663.795 & 3100.873 & 0.0552728 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-3103008.41 & 281544.506 & 327740.578 & 5.8419493 & 3332732.01 & 372.4282 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-67971.93 & 6381.453 & 7428.527 & 0.1324129 & 75539.29 & 359.9289 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1474544.47 & 138435.617 & 161150.256 & 2.8724903 & 1638706.50 & 359.9289 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1188160.06 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+5468126.92 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+72893.11 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+5028756.25 & 406356.556 & 502880.961 & 11.0464039 & 5113701.46 & 393.3555 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+41483.05 & 3663.413 & 4533.606 & 0.0995863 & 46101.39 & 359.9289 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1886449.10 & 159364.563 & 185513.242 & 3.3067586 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
-5042520.47 & 552680.180 & 643364.434 & 11.4679190 & 6542251.35 & 308.3049 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2095972.13 & 177064.773 & 206117.718 & 3.6740317 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3701090.83 & 312662.940 & 363964.953 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-30702.44 & 2637.511 & 3070.276 & 0.0547274 & 31221.06 & 393.3555 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+92650.76 & 7362.425 & 9111.268 & 0.2001403 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+488013.00 & 39434.658 & 48801.818 & 1.0719925 & 496256.47 & 393.3555 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1650435.00 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+464556.93 & 46492.546 & 57536.210 & 1.2638542 & 585074.85 & 317.6051 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4208104.04 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3324,29 +3324,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3791795.34 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2783887.17 & 221219.563 & 273767.224 & 6.0136366 & 2874088.50 & 387.4463 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1597322.45 & 129074.153 & 159733.941 & 3.5087541 & 1676933.69 & 381.0103 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 59073.83 & 360.7398 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+324426.28 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{29}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 522771.30 & 387.4463 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-992297.00 & 90033.842 & 104806.675 & 1.8681705 & 1100291.17 & 360.7398 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 285046.83 & 381.0103 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2915187.71 & 264503.016 & 307902.906 & 5.4883444 & 3232454.88 & 360.7398 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-307304.86 & 25145.924 & 29271.889 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+725767.90 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1096394.51 & 109640.615 & 109640.615 & 2.9804724 & 1151039.29 & 381.0103 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-114767.97 & 9391.152 & 10932.061 & 0.1948631 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-31532.19 & 2663.795 & 3100.873 & 0.0552728 & 32553.87 & 387.4463 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-67971.93 & 6381.453 & 7428.527 & 0.1324129 & 77986.85 & 348.6327 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1474544.47 & 138435.617 & 161150.256 & 2.8724903 & 1691802.59 & 348.6327 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1226657.89 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+72893.11 & 5792.398 & 7168.303 & 0.1574607 & 75254.94 & 387.4463 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+41483.05 & 3663.413 & 4533.606 & 0.0995863 & 47595.13 & 348.6327 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1947572.35 & 159364.563 & 185513.242 & 3.3067586 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
-5042520.47 & 552680.180 & 643364.434 & 11.4679190 & 6754228.26 & 298.6290 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2095972.13 & 177064.773 & 206117.718 & 3.6740317 & 2163884.18 & 387.4463 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+488013.00 & 39434.658 & 48801.818 & 1.0719925 & 512335.78 & 381.0103 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+4344451.74 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3358,29 +3358,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 2905869.13 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 1361499.50 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 2574977.27 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 4557614.09 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 27815.72 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 59681.81 & 357.0649 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{29}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 528151.61 & 383.4993 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-992297.00 & 90033.842 & 104806.675 & 1.8681705 & 1111615.26 & 357.0649 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 287980.50 & 377.1289 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2915187.71 & 264503.016 & 307902.906 & 5.4883444 & 3265722.99 & 357.0649 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 1473119.08 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 4027722.02 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 107070.01 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 3476128.09 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-67971.93 & 6381.453 & 7428.527 & 0.1324129 & 78789.49 & 345.0812 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 5703401.76 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 5333726.59 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 3860336.14 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 32564.39 & 395.9252 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 96637.21 & 395.9252 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 1721447.58 & 395.9252 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 610248.62 & 395.9252 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3392,29 +3392,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0.00 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 56091.12 & 379.9225 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 425.6061 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0 & 408.0491 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1044736.24 & 90033.842 & 104806.675 & 1.8681705 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 401.2709 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0.00 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0.00 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0.00 & 425.6061 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0 & 425.6061 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0 & 425.6061 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-74049.21 & 6381.453 & 7428.527 & 0.1324129 & 0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 425.6061 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 425.6061 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0.00 & 425.6061 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0 & 425.6061 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0 & 421.2704 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0.00 & 421.2704 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0.00 & 425.6061 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 421.2704 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0.00 & 421.2704 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 425.6061 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3426,29 +3426,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0 & 497.1181 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0 & 556.8938 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0 & 533.9210 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1044736.24 & 90033.842 & 104806.675 & 1.8681705 & 0 & 523.3890 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 525.0519 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 0 & 523.3890 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0 & 556.8938 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0 & 556.8938 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0 & 556.8938 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-74049.21 & 6381.453 & 7428.527 & 0.1324129 & 0 & 523.3890 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0 & 556.8938 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0 & 556.8938 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0 & 556.8938 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0 & 556.8938 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0 & 551.2207 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0 & 551.2207 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0 & 556.8938 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0 & 551.2207 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0 & 551.2207 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0 & 556.8938 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3460,29 +3460,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0 & 543.5972 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0 & 608.9618 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0 & 583.8411 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1044736.24 & 90033.842 & 104806.675 & 1.8681705 & 0 & 572.3243 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 574.1427 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 0 & 572.3243 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0 & 608.9618 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0 & 608.9618 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0 & 608.9618 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-74049.21 & 6381.453 & 7428.527 & 0.1324129 & 0 & 572.3243 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0 & 608.9618 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0 & 608.9618 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0 & 608.9618 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0 & 608.9618 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0 & 602.7583 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0 & 602.7583 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0 & 608.9618 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0 & 602.7583 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0 & 602.7583 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0 & 608.9618 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3494,29 +3494,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0 & 512.3869 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0 & 573.9986 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0 & 550.3202 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1044736.24 & 90033.842 & 104806.675 & 1.8681705 & 0 & 539.4646 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 541.1786 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 0 & 539.4646 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0 & 573.9986 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0 & 573.9986 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0 & 573.9986 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-74049.21 & 6381.453 & 7428.527 & 0.1324129 & 0 & 539.4646 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0 & 573.9986 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0 & 573.9986 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0 & 573.9986 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0 & 573.9986 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0 & 568.1512 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0 & 568.1512 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0 & 573.9986 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0 & 568.1512 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0 & 568.1512 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0 & 573.9986 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3528,29 +3528,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0 & 477.4687 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0 & 534.8816 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0 & 512.8169 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1044736.24 & 90033.842 & 104806.675 & 1.8681705 & 0 & 502.7011 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 504.2983 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 0 & 502.7011 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0 & 534.8816 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0 & 534.8816 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0 & 534.8816 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-74049.21 & 6381.453 & 7428.527 & 0.1324129 & 0 & 502.7011 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0 & 534.8816 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0 & 534.8816 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0 & 534.8816 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0 & 534.8816 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0 & 529.4328 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0 & 529.4328 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0 & 534.8816 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0 & 529.4328 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0 & 529.4328 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0 & 534.8816 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3562,29 +3562,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0 & 490.2091 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0 & 549.1540 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0 & 526.5005 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1044736.24 & 90033.842 & 104806.675 & 1.8681705 & 0 & 516.1148 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 517.7546 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 0 & 516.1148 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0 & 549.1540 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0 & 549.1540 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0 & 549.1540 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-74049.21 & 6381.453 & 7428.527 & 0.1324129 & 0 & 516.1148 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0 & 549.1540 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0 & 549.1540 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0 & 549.1540 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0 & 549.1540 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0 & 543.5598 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0 & 543.5598 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0 & 549.1540 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0 & 543.5598 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0 & 543.5598 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0 & 549.1540 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3596,29 +3596,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0 & 462.4718 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0 & 518.0815 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0 & 496.7098 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1044736.24 & 90033.842 & 104806.675 & 1.8681705 & 0 & 486.9117 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 488.4588 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 0 & 486.9117 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0 & 518.0815 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0 & 518.0815 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0 & 518.0815 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-74049.21 & 6381.453 & 7428.527 & 0.1324129 & 0 & 486.9117 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0 & 518.0815 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0 & 518.0815 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0 & 518.0815 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0 & 518.0815 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0 & 512.8038 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0 & 512.8038 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0 & 518.0815 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0 & 512.8038 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0 & 512.8038 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0 & 518.0815 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3630,29 +3630,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-2876266.88 & 235357.118 & 273974.723 & 4.8835773 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1347629.83 & 110272.894 & 128366.568 & 2.2881237 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2548745.83 & 208556.959 & 242777.169 & 4.3274834 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3830820.12 & 310272.329 & 361182.088 & 6.4380415 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2903668.33 & 221219.563 & 273767.224 & 6.0136366 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+27532.36 & 2119.175 & 2622.556 & 0.0576077 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1694192.53 & 129074.153 & 159733.941 & 3.5087541 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+53275.70 & 5626.994 & 5626.994 & 0.1529643 & 0 & 413.7101 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
+327765.24 & 30902.765 & 30902.765 & 0.8400613 & 0 & 463.4565 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-506364.47 & 42776.958 & 49795.839 & 0.8876068 & 0 & 444.3381 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1044736.24 & 90033.842 & 104806.675 & 1.8681705 & 0 & 435.5731 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 0 & 436.9571 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 0 & 435.5731 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-310467.62 & 25145.924 & 29271.889 & 0.5217691 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1458112.33 & 112231.398 & 138890.422 & 3.0509004 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3986691.38 & 306856.983 & 379746.634 & 8.3416057 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+733237.43 & 55862.601 & 69131.992 & 1.5185699 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 0 & 463.4565 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+105979.28 & 8157.261 & 10094.906 & 0.2217471 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-115949.15 & 9391.152 & 10932.061 & 0.1948631 & 0 & 463.4565 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 0 & 463.4565 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-74049.21 & 6381.453 & 7428.527 & 0.1324129 & 0 & 435.5731 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1709214.45 & 138435.617 & 161150.256 & 2.8724903 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1239282.53 & 116843.557 & 116843.557 & 3.1762774 & 0 & 463.4565 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 0 & 463.4565 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+5279391.61 & 406356.556 & 502880.961 & 11.0464039 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+48084.97 & 3663.413 & 4533.606 & 0.0995863 & 0 & 463.4565 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-1967616.57 & 159364.563 & 185513.242 & 3.3067586 & 0 & 463.4565 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2186154.66 & 177064.773 & 206117.718 & 3.6740317 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3821010.67 & 312662.940 & 363964.953 & 6.4876459 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 0 & 458.7352 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 0 & 458.7352 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+517608.69 & 39434.658 & 48801.818 & 1.0719925 & 0 & 463.4565 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1703911.10 & 131150.613 & 162303.635 & 3.5652006 & 0 & 458.7352 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+604031.98 & 46492.546 & 57536.210 & 1.2638542 & 0 & 458.7352 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 0 & 463.4565 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3664,29 +3664,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-4200923.35 & 235357.118 & 273974.723 & 4.8835773 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1968276.89 & 110272.894 & 128366.568 & 2.2881237 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3722563.42 & 208556.959 & 242777.169 & 4.3274834 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-5538095.83 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-4511185.42 & 369138.068 & 429706.569 & 7.6594849 & 6588798.94 & 273.8700 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4197741.73 & 221219.563 & 273767.224 & 6.0136366 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+40212.31 & 2119.175 & 2622.556 & 0.0576077 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2449240.70 & 129074.153 & 159733.941 & 3.5087541 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+45243.34 & 2950.668 & 2950.668 & 0.0802110 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{50}} & \cellcolor{white}{0}\\
+473839.87 & 30902.765 & 30902.765 & 0.8400613 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{29}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-763532.13 & 42776.958 & 49795.839 & 0.8876068 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-1607027.12 & 90033.842 & 104806.675 & 1.8681705 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 416324.33 & 260.8682 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 4721152.72 & 260.0420 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-448833.24 & 25145.924 & 29271.889 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2129641.79 & 112231.398 & 138890.422 & 3.0509004 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+5822750.69 & 306856.983 & 379746.634 & 8.3416057 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1060018.23 & 55862.601 & 69131.992 & 1.5185699 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 1681147.1 & 276.6886 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+154787.74 & 8157.261 & 10094.906 & 0.2217471 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-167624.04 & 9391.152 & 10932.061 & 0.1948631 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-32888.91 & 2663.795 & 3100.873 & 0.0552728 & 47546.46 & 276.6886 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3440716.58 & 281544.506 & 327740.578 & 5.8419493 & 5025328.75 & 273.8700 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-113903.48 & 6381.453 & 7428.527 & 0.1324129 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2470957.42 & 138435.617 & 161150.256 & 2.8724903 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1791591.67 & 116843.557 & 116843.557 & 3.1762774 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 8245228.0 & 273.8700 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+76029.46 & 5792.398 & 7168.303 & 0.1574607 & 109913.4 & 276.6886 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+7710800.31 & 406356.556 & 502880.961 & 11.0464039 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+69514.93 & 3663.413 & 4533.606 & 0.0995863 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-2844521.22 & 159364.563 & 185513.242 & 3.3067586 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 9864868.74 & 276.6886 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3160454.84 & 177064.773 & 206117.718 & 3.6740317 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-5580766.20 & 312662.940 & 363964.953 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-32232.66 & 2637.511 & 3070.276 & 0.0547274 & 47077.32 & 273.8700 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+95652.76 & 7362.425 & 9111.268 & 0.2001403 & 139705.4 & 273.8700 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+748290.56 & 39434.658 & 48801.818 & 1.0719925 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+2488642.48 & 131150.613 & 162303.635 & 3.5652006 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+882217.19 & 46492.546 & 57536.210 & 1.2638542 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 6345276.5 & 276.6886 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3698,29 +3698,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-4200923.35 & 235357.118 & 273974.723 & 4.8835773 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1968276.89 & 110272.894 & 128366.568 & 2.2881237 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3722563.42 & 208556.959 & 242777.169 & 4.3274834 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-5538095.83 & 310272.329 & 361182.088 & 6.4380415 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-6466176.03 & 369138.068 & 429706.569 & 7.6594849 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+4197741.73 & 221219.563 & 273767.224 & 6.0136366 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+40212.31 & 2119.175 & 2622.556 & 0.0576077 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2449240.70 & 129074.153 & 159733.941 & 3.5087541 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+45243.34 & 2950.668 & 2950.668 & 0.0802110 & 0 & 407.5855 & \cellcolor{white}{\textbf{50}} & \cellcolor{white}{0}\\
+473839.87 & 30902.765 & 30902.765 & 0.8400613 & 0 & 407.5855 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-763532.13 & 42776.958 & 49795.839 & 0.8876068 & 0.0 & 407.5855 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1607027.12 & 90033.842 & 104806.675 & 1.8681705 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-271514.43 & 23324.609 & 27151.732 & 0.4839774 & 408576.2 & 265.8152 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3069244.63 & 264503.016 & 307902.906 & 5.4883444 & 4633288.2 & 264.9733 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-448833.24 & 25145.924 & 29271.889 & 0.5217691 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2129641.79 & 112231.398 & 138890.422 & 3.0509004 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+5822750.69 & 306856.983 & 379746.634 & 8.3416057 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1060018.23 & 55862.601 & 69131.992 & 1.5185699 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1162885.67 & 109640.615 & 109640.615 & 2.9804724 & 1649860 & 281.9357 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+154787.74 & 8157.261 & 10094.906 & 0.2217471 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-167624.04 & 9391.152 & 10932.061 & 0.1948631 & 0.0 & 407.5855 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-46661.58 & 2663.795 & 3100.873 & 0.0552728 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-4931803.29 & 281544.506 & 327740.578 & 5.8419493 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-113903.48 & 6381.453 & 7428.527 & 0.1324129 & 0.0 & 407.5855 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2470957.42 & 138435.617 & 161150.256 & 2.8724903 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1791591.67 & 116843.557 & 116843.557 & 3.1762774 & 0 & 407.5855 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 8091778 & 279.0636 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+107867.81 & 5792.398 & 7168.303 & 0.1574607 & 0 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+7710800.31 & 406356.556 & 502880.961 & 11.0464039 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+69514.93 & 3663.413 & 4533.606 & 0.0995863 & 0 & 407.5855 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-2844521.22 & 159364.563 & 185513.242 & 3.3067586 & 0.0 & 407.5855 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-6823742.10 & 552680.180 & 643364.434 & 11.4679190 & 9681275.5 & 281.9357 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3160454.84 & 177064.773 & 206117.718 & 3.6740317 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-5580766.20 & 312662.940 & 363964.953 & 6.4876459 & 0.0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-46201.17 & 2637.511 & 3070.276 & 0.0547274 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
+137105.33 & 7362.425 & 9111.268 & 0.2001403 & 0 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+748290.56 & 39434.658 & 48801.818 & 1.0719925 & 0 & 407.5855 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+2488642.48 & 131150.613 & 162303.635 & 3.5652006 & 0 & 407.5855 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+882217.19 & 46492.546 & 57536.210 & 1.2638542 & 0 & 407.5855 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4389164.41 & 334393.918 & 413824.589 & 9.0901703 & 6227186 & 281.9357 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3732,29 +3732,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-4387305.94 & 235357.118 & 273974.723 & 4.8835773 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-1968276.89 & 110272.894 & 128366.568 & 2.2881237 & 2055603.5 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3722563.42 & 208556.959 & 242777.169 & 4.3274834 & 3887722.6 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-5538095.83 & 310272.329 & 361182.088 & 6.4380415 & 5783804.8 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-6881124.53 & 369138.068 & 429706.569 & 7.6594849 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+4383983.16 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+40212.31 & 2119.175 & 2622.556 & 0.0576077 & 41996.41 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2449240.70 & 129074.153 & 159733.941 & 3.5087541 & 2557906.29 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+45243.34 & 2950.668 & 2950.668 & 0.0802110 & 47250.65 & 383.0071 & \cellcolor{white}{\textbf{50}} & \cellcolor{white}{0}\\
+494862.75 & 30902.765 & 30902.765 & 0.8400613 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{29}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-797407.80 & 42776.958 & 49795.839 & 0.8876068 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-1678326.18 & 90033.842 & 104806.675 & 1.8681705 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-179123.32 & 11185.740 & 11185.740 & 0.2321002 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{52}} & \cellcolor{white}{0}\\
-1993696.34 & 124500.641 & 124500.641 & 2.5833444 & 0.0 & 400.0000 & \cellcolor{red}{\textbf{52}} & \cellcolor{white}{0}\\
-448833.24 & 25145.924 & 29271.889 & 0.5217691 & 468746.6 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2129641.79 & 112231.398 & 138890.422 & 3.0509004 & 2224127.71 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+6081088.97 & 306856.983 & 379746.634 & 8.3416057 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1060018.23 & 55862.601 & 69131.992 & 1.5185699 & 1107048.12 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1755734.68 & 109640.615 & 109640.615 & 2.9804724 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+161655.21 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-167624.04 & 9391.152 & 10932.061 & 0.1948631 & 175061.0 & 383.0071 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-49655.96 & 2663.795 & 3100.873 & 0.0552728 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-4931803.29 & 281544.506 & 327740.578 & 5.8419493 & 5248287.8 & 375.8790 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-118957.04 & 6381.453 & 7428.527 & 0.1324129 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2580586.52 & 138435.617 & 161150.256 & 2.8724903 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1871079.31 & 116843.557 & 116843.557 & 3.1762774 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+5645300.89 & 434520.717 & 537735.130 & 11.8120190 & 8611044.51 & 262.2354 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+114789.92 & 5792.398 & 7168.303 & 0.1574607 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+8052905.79 & 406356.556 & 502880.961 & 11.0464039 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+72599.10 & 3663.413 & 4533.606 & 0.0995863 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-2844521.22 & 159364.563 & 185513.242 & 3.3067586 & 2970724.2 & 383.0071 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-10302543.89 & 552680.180 & 643364.434 & 11.4679190 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3160454.84 & 177064.773 & 206117.718 & 3.6740317 & 3300674.9 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-5580766.20 & 312662.940 & 363964.953 & 6.4876459 & 5828368.3 & 383.0071 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-49166.00 & 2637.511 & 3070.276 & 0.0547274 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
+137105.33 & 7362.425 & 9111.268 & 0.2001403 & 145903.68 & 375.8790 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+748290.56 & 39434.658 & 48801.818 & 1.0719925 & 781490.01 & 383.0071 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+2599056.21 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+921358.56 & 46492.546 & 57536.210 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+6626797.76 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3766,29 +3766,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-4387305.94 & 235357.118 & 273974.723 & 4.8835773 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-1968276.89 & 110272.894 & 128366.568 & 2.2881237 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3722563.42 & 208556.959 & 242777.169 & 4.3274834 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-5538095.83 & 310272.329 & 361182.088 & 6.4380415 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-6881124.53 & 369138.068 & 429706.569 & 7.6594849 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4383983.16 & 221219.563 & 273767.224 & 6.0136366 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+40212.31 & 2119.175 & 2622.556 & 0.0576077 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2449240.70 & 129074.153 & 159733.941 & 3.5087541 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+45243.34 & 2950.668 & 2950.668 & 0.0802110 & 0 & 417.6122 & \cellcolor{white}{\textbf{50}} & \cellcolor{white}{0}\\
+494862.75 & 30902.765 & 30902.765 & 0.8400613 & 0 & 436.1405 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-797407.80 & 42776.958 & 49795.839 & 0.8876068 & 0 & 436.1405 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-1678326.18 & 90033.842 & 104806.675 & 1.8681705 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-179123.32 & 11185.740 & 11185.740 & 0.2321002 & 0 & 436.1405 & \cellcolor{white}{\textbf{52}} & \cellcolor{white}{0}\\
-1993696.34 & 124500.641 & 124500.641 & 2.5833444 & 0 & 436.1405 & \cellcolor{white}{\textbf{52}} & \cellcolor{white}{0}\\
-448833.24 & 25145.924 & 29271.889 & 0.5217691 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2129641.79 & 112231.398 & 138890.422 & 3.0509004 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+6081088.97 & 306856.983 & 379746.634 & 8.3416057 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1060018.23 & 55862.601 & 69131.992 & 1.5185699 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1755734.68 & 109640.615 & 109640.615 & 2.9804724 & 0 & 436.1405 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+161655.21 & 8157.261 & 10094.906 & 0.2217471 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \addlinespace
-167624.04 & 9391.152 & 10932.061 & 0.1948631 & 0 & 417.6122 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-49655.96 & 2663.795 & 3100.873 & 0.0552728 & 0 & 436.1405 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-4931803.29 & 281544.506 & 327740.578 & 5.8419493 & 0 & 409.8401 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-118957.04 & 6381.453 & 7428.527 & 0.1324129 & 0 & 436.1405 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-2580586.52 & 138435.617 & 161150.256 & 2.8724903 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1871079.31 & 116843.557 & 116843.557 & 3.1762774 & 0 & 436.1405 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+7897496.64 & 434520.717 & 537735.130 & 11.8120190 & 0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+114789.92 & 5792.398 & 7168.303 & 0.1574607 & 0 & 436.1405 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+8052905.79 & 406356.556 & 502880.961 & 11.0464039 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+72599.10 & 3663.413 & 4533.606 & 0.0995863 & 0 & 436.1405 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-2844521.22 & 159364.563 & 185513.242 & 3.3067586 & 0 & 417.6122 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-10302543.89 & 552680.180 & 643364.434 & 11.4679190 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3160454.84 & 177064.773 & 206117.718 & 3.6740317 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-5580766.20 & 312662.940 & 363964.953 & 6.4876459 & 0 & 417.6122 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-49166.00 & 2637.511 & 3070.276 & 0.0547274 & 0 & 436.1405 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+137105.33 & 7362.425 & 9111.268 & 0.2001403 & 0 & 409.8401 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+748290.56 & 39434.658 & 48801.818 & 1.0719925 & 0 & 417.6122 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+2599056.21 & 131150.613 & 162303.635 & 3.5652006 & 0 & 436.1405 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+921358.56 & 46492.546 & 57536.210 & 1.2638542 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+6626797.76 & 334393.918 & 413824.589 & 9.0901703 & 0 & 436.1405 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3800,29 +3800,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-4387305.94 & 235357.118 & 273974.723 & 4.8835773 & 4685652.36 & 374.5311 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-2195389.08 & 110272.894 & 128366.568 & 2.2881237 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3722563.42 & 208556.959 & 242777.169 & 4.3274834 & 4152096.25 & 358.6201 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-6177116.22 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-6881124.53 & 369138.068 & 429706.569 & 7.6594849 & 7349056.08 & 374.5311 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+4383983.16 & 221219.563 & 273767.224 & 6.0136366 & 4682103.6 & 374.5311 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+44852.26 & 2119.175 & 2622.556 & 0.0576077 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2731849.53 & 129074.153 & 159733.941 & 3.5087541 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+45243.34 & 2950.668 & 2950.668 & 0.0802110 & 50463.8 & 358.6201 & \cellcolor{white}{\textbf{50}} & \cellcolor{white}{0}\\
+528514.50 & 30902.765 & 30902.765 & 0.8400613 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{29}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-851633.27 & 42776.958 & 49795.839 & 0.8876068 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-1678326.18 & 90033.842 & 104806.675 & 1.8681705 & 1792456.03 & 374.5311 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-191304.10 & 11185.740 & 11185.740 & 0.2321002 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{52}} & \cellcolor{green}{\textbf{1}}\\
-1993696.34 & 124500.641 & 124500.641 & 2.5833444 & 2129272.06 & 374.5311 & \cellcolor{white}{\textbf{52}} & \cellcolor{white}{0}\\
-448833.24 & 25145.924 & 29271.889 & 0.5217691 & 500622.45 & 358.6201 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+2375373.27 & 112231.398 & 138890.422 & 3.0509004 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+6494616.35 & 306856.983 & 379746.634 & 8.3416057 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1060018.23 & 55862.601 & 69131.992 & 1.5185699 & 1182329.8 & 358.6201 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1875128.48 & 109640.615 & 109640.615 & 2.9804724 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{27}} & \cellcolor{green}{\textbf{1}}\\
+172648.12 & 8157.261 & 10094.906 & 0.2217471 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-186965.55 & 9391.152 & 10932.061 & 0.1948631 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-49655.96 & 2663.795 & 3100.873 & 0.0552728 & 53032.67 & 374.5311 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-4931803.29 & 281544.506 & 327740.578 & 5.8419493 & 5605182.85 & 351.9459 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-127046.38 & 6381.453 & 7428.527 & 0.1324129 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-2580586.52 & 138435.617 & 161150.256 & 2.8724903 & 2756072.06 & 374.5311 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1871079.31 & 116843.557 & 116843.557 & 3.1762774 & 1998316.8 & 374.5311 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+9196614.41 & 434520.717 & 537735.130 & 11.8120190 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+122595.89 & 5792.398 & 7168.303 & 0.1574607 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+8600521.03 & 406356.556 & 502880.961 & 11.0464039 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+77536.00 & 3663.413 & 4533.606 & 0.0995863 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-2844521.22 & 159364.563 & 185513.242 & 3.3067586 & 3172740.01 & 358.6201 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-11003139.46 & 552680.180 & 643364.434 & 11.4679190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-3160454.84 & 177064.773 & 206117.718 & 3.6740317 & 3525128.03 & 358.6201 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-6224710.17 & 312662.940 & 363964.953 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-49166.00 & 2637.511 & 3070.276 & 0.0547274 & 52509.39 & 374.5311 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+137105.33 & 7362.425 & 9111.268 & 0.2001403 & 155825.4 & 351.9459 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+834633.04 & 39434.658 & 48801.818 & 1.0719925 & 0.0 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+2599056.21 & 131150.613 & 162303.635 & 3.5652006 & 2775797.7 & 374.5311 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+984012.96 & 46492.546 & 57536.210 & 1.2638542 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+7077434.54 & 334393.918 & 413824.589 & 9.0901703 & 0.0 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -3834,29 +3834,29 @@ HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \toprule
 HAP & TDA & Debt & Debt-\% & HAP-req. & C-ratio & LiqWeek & FixCratio\\
 \midrule
-5691256.7 & 235357.118 & 273974.723 & 4.8835773 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-2195389.1 & 110272.894 & 128366.568 & 2.2881237 & 2666549.25 & 329.3229 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3722563.4 & 208556.959 & 242777.169 & 4.3274834 & 5043192.22 & 295.2545 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-7502808.9 & 310272.329 & 361182.088 & 6.4380415 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-6881124.5 & 369138.068 & 429706.569 & 7.6594849 & 8926262.85 & 308.3541 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+5686946.34 & 221219.563 & 273767.224 & 6.0136366 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+44852.26 & 2119.175 & 2622.556 & 0.0576077 & 54478.16 & 329.3229 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+3318141.36 & 129074.153 & 159733.941 & 3.5087541 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+61294.01 & 2950.668 & 2950.668 & 0.0802110 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{50}} & \cellcolor{green}{\textbf{1}}\\
+528514.50 & 30902.765 & 30902.765 & 0.8400613 & 641940.85 & 329.3229 & \cellcolor{white}{\textbf{29}} & \cellcolor{white}{0}\\
 \addlinespace
-1034405.3 & 42776.958 & 49795.839 & 0.8876068 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-1678326.2 & 90033.842 & 104806.675 & 1.8681705 & 2177141.33 & 308.3541 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-191304.1 & 11185.740 & 11185.740 & 0.2321002 & 232360.54 & 329.3229 & \cellcolor{white}{\textbf{52}} & \cellcolor{white}{0}\\
-1993696.3 & 124500.641 & 124500.641 & 2.5833444 & 2586242.62 & 308.3541 & \cellcolor{white}{\textbf{52}} & \cellcolor{white}{0}\\
-608062.8 & 25145.924 & 29271.889 & 0.5217691 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+2375373.27 & 112231.398 & 138890.422 & 3.0509004 & 2885160.48 & 329.3229 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+6494616.35 & 306856.983 & 379746.634 & 8.3416057 & 7888448.80 & 329.3229 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1060018.23 & 55862.601 & 69131.992 & 1.5185699 & 1436073.77 & 295.2545 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+1875128.48 & 109640.615 & 109640.615 & 2.9804724 & 2277556.40 & 329.3229 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+209700.74 & 8157.261 & 10094.906 & 0.2217471 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \addlinespace
-186965.6 & 9391.152 & 10932.061 & 0.1948631 & 227090.89 & 329.3229 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-64414.2 & 2663.795 & 3100.873 & 0.0552728 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{4}} & \cellcolor{green}{\textbf{1}}\\
-4931803.3 & 281544.506 & 327740.578 & 5.8419493 & 6808130.85 & 289.7596 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-127046.4 & 6381.453 & 7428.527 & 0.1324129 & 154312.25 & 329.3229 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
-3347562.4 & 138435.617 & 161150.256 & 2.8724903 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+1871079.31 & 116843.557 & 116843.557 & 3.1762774 & 2427182.60 & 308.3541 & \cellcolor{white}{\textbf{27}} & \cellcolor{white}{0}\\
+11170332.17 & 434520.717 & 537735.130 & 11.8120190 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+122595.89 & 5792.398 & 7168.303 & 0.1574607 & 148906.62 & 329.3229 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+8600521.03 & 406356.556 & 502880.961 & 11.0464039 & 10446309.09 & 329.3229 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
+77536.00 & 3663.413 & 4533.606 & 0.0995863 & 94176.27 & 329.3229 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
 \addlinespace
-2844521.2 & 159364.563 & 185513.242 & 3.3067586 & 3853652.89 & 295.2545 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
-11003139.5 & 552680.180 & 643364.434 & 11.4679190 & 13364561.91 & 329.3229 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-3160454.8 & 177064.773 & 206117.718 & 3.6740317 & 4281668.15 & 295.2545 & \cellcolor{white}{0} & \cellcolor{white}{0}\\
-7560617.1 & 312662.940 & 363964.953 & 6.4876459 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
-49166.0 & 2637.511 & 3070.276 & 0.0547274 & 63778.62 & 308.3541 & \cellcolor{white}{\textbf{4}} & \cellcolor{white}{0}\\
+137105.33 & 7362.425 & 9111.268 & 0.2001403 & 189267.70 & 289.7596 & \cellcolor{white}{\textbf{2}} & \cellcolor{white}{0}\\
+1013756.57 & 39434.658 & 48801.818 & 1.0719925 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+3371521.44 & 131150.613 & 162303.635 & 3.5652006 & 0.00 & 400.0000 & \cellcolor{white}{\textbf{2}} & \cellcolor{green}{\textbf{1}}\\
+1195195.45 & 46492.546 & 57536.210 & 1.2638542 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
+8596347.65 & 334393.918 & 413824.589 & 9.0901703 & 0.00 & 400.0000 & \cellcolor{white}{0} & \cellcolor{green}{\textbf{1}}\\
 \bottomrule
 \end{tabular}
 \end{table}
