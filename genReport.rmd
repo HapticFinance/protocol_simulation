@@ -152,12 +152,6 @@ for (k in 1:nrow(historicalPricesETH)) {
   indexes <- c(indexes, k)
   borrowers_cp = get(glue::glue("borrowers_week_{k}"))
   borrowers_cp <- borrowers_cp[,-c(5, 6, 8, 9, 10, 12, 13, 14)]
-  #borrowers <- borrowers_cp
-
-  #table <- kbl(borrowers, col.names=labels_borrowers_2, caption = paste("Week", k, "ETH/USD", 0,  sep=" "), full_width=TRUE)
-  #tables <- c(tables, kable_classic(table, full_width = F, html_font = "Cambria"))
-  #separators <- c(separators, "\n\n<!-- -->\n\n")
-   
 
   dfB <- data.frame(borrowers_cp[,])
   colnames(dfB) <- labels_borrowers_2
@@ -170,9 +164,6 @@ for (k in 1:nrow(historicalPricesETH)) {
   row.names(dfB) <- NULL
 
   dfB %>%
-    # select(name, homeworld, species) %>%
-    #mutate(across(!name, as.factor))
-    #mutate(LiqWeek = cell_spec(LiqWeek, background=ifelse(LiqWeek > 0, "red", "white"))) %>% 
     kbl( caption = paste("Week", k, "- ETH/USD", prettyETH,  sep=" "), booktabs = T, escape=F, longtable=longTable) %>%
      reduce(6:7, function(x, y) {
       col <- dfB[, y]
@@ -191,13 +182,6 @@ for (k in 1:nrow(historicalPricesETH)) {
                 column_spec(1:ncol(dfB), width="5.5em") %>%
                   print()
 
-  #cat('\n') 
-  #cat("###", k, "\n")
-  
-  #cat("\\section{Part:", k, "}")
-  #cat("\\begin{verbatim}")
-  #print(kable_classic(table, full_width = F, html_font = "Cambria"))
-  #cat("\\end{verbatim}")
 }
 
 ```
@@ -284,14 +268,6 @@ dfClegend %>%
 ## Debt pool by week
 ```{r results='asis', echo=FALSE, warning=FALSE}
 
-#knitr::opts_knit$set(root.dir = '/tmp')
-
-callback <- function(data) {
-  cat("# Stakers {.unlisted .unnumbered}", "\n")
-  return(data)
-}
-
-
 for (k in 1:nrow(historicalPricesETH)) {
     prettyHap = prettyNum( historicalPricesHAP[k, 3], big.mark=",", scientific=FALSE)
 
@@ -302,7 +278,6 @@ for (k in 1:nrow(historicalPricesETH)) {
     dfStakers <- data.frame(stakers_cp[,])
     colnames(dfStakers) <- labels_stakers_short
     dfStakers <-  setNames(dfStakers, labels_stakers_short)
-    #dfStakers <- dfStakers[order(-dfStakers$TDA),]
 
     color.me <- which(dfStakers$LiqWeek != 0)
     rows <- which(dfStakers$FixCratio == 1)
@@ -310,9 +285,6 @@ for (k in 1:nrow(historicalPricesETH)) {
 
 
     dfStakers %>%
-      # select(name, homeworld, species) %>%
-      #mutate(across(!name, as.factor))
-      #mutate(LiqWeek = cell_spec(LiqWeek, background=ifelse(LiqWeek > 0 , "red", "white"))) %>% 
       kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTable) %>%
       reduce(7:8, function(x, y) {
         col <- dfStakers[, y]
@@ -331,21 +303,6 @@ for (k in 1:nrow(historicalPricesETH)) {
                   column_spec(1:ncol(dfStakers), width="4.5em") %>%
                     print()
                     
-    #dfStakers %>%
-    #reduce(1:ncol(dfStakers), function(x, y) {
-    #  col <- dfStakers[, y]
-    #  column_spec(x, y, background = case_when(
-    #    labels_stakers_short[y] == "LiqWeek" & col == 1 ~ "red",
-    #    labels_stakers_short[y] == "Comp-Week" & col != 0 ~ "brown",
-    #    TRUE ~ "white"))
-    #}, .init = .) %>%
-    #kbl(col.names=labels_stakers_short, caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T) %>%
-    #    kable_styling(latex_options = "HOLD_position") %>%
-    #      kable_classic(full_width = F, html_font = "Cambria") %>%
-            #row_spec(color.me, bold = F, color = "white", background = "red" ) %>%
-                #row_spec(rows, bold = F, color = "white", background = "green" ) %>%
-                  #column_spec(1:6, background="white", color="black") %>%
-    #              print()
 }
 ```
 
