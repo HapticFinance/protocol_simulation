@@ -4,6 +4,7 @@
 *.tex
 *.bak
 *.log
+*.md
 bak/
 plot/
 .Rproj.user
