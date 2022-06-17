@@ -59,7 +59,7 @@ if (print_full_tables == 1) {
   longTableS = F
   borrowers_show <- 1:10
   stakers_show <- borrowers_show
-  msg = glue::glue("*This is a shortened report - Top ten records sorted by balance are shown*.")
+  msg = glue::glue("*Shortened report - Top ten records sorted by balance shown*.")
 }
 
 ```
@@ -68,7 +68,7 @@ if (print_full_tables == 1) {
 
 ## Details
 
-Loaded `r nDataPoints` weeks. Start date `r format(as.Date(myStartDate), "%d/%b/%Y")`.
+Simulation ran over `r nDataPoints` weeks. Start date `r format(as.Date(myStartDate), "%d/%b/%Y")`.
 
 ```{r echo=FALSE, warning=FALSE, results='asis'}
 
@@ -109,12 +109,16 @@ matplot(ts_HAP, type = "l", main = "HAP/USD", xlab = "Weeks", ylab = "$")
 
 ```
 
+```{r echo=F, warning=F, result='asis'} 
+
+  borrowers_init = get("borrowers_week_0")
+
+```
+
 # Borrowers (Liquidity on margin)
 
-This is a breakdown of the Borrowers data by week. 
-
 - Total borrowers: `r n_borrowers`
-- Total liquidity: 
+- Total liquidity at staking: `r prettyNum(sum(borrowers_init[,2]), scientific=FALSE,big.mark=",")` USD
 
 ## Color legend
 
@@ -132,7 +136,7 @@ row.names(dfClegend) <- NULL
 
 dfClegend %>%
   mutate(Color = cell_spec(Color, background=ifelse(Color == "brown", "brown", "red"), color=ifelse(Color == "brown", "brown", "red"))) %>% 
-    kbl( caption = paste("Color legend"), booktabs = T, escape = FALSE) %>%
+    kbl(caption = "", booktabs = T, escape = FALSE) %>%
       kable_styling(latex_options = "HOLD_position", position="left") %>%
         kable_classic(full_width = F, html_font = "Cambria") %>%
           print()
@@ -140,6 +144,8 @@ dfClegend %>%
 ```
 
 ## Borrowers by week 
+
+This section is a breakdown of the borrowers data by week. 
 
 `r msg`
 
@@ -196,7 +202,7 @@ for (k in 1:nrow(historicalPricesETH)) {
 ```{r, echo=FALSE, warning=FALSE, results='asis'} 
 
 ```
-Total liquidations `r totalLiquidations`.  
+- Total borrowers liquidated: `r totalLiquidations`.  
 
 ## APR 
 
@@ -238,15 +244,47 @@ maxStakingPrice <- stakingPrices[which.max(stakingPrices)]
 
 meanStakingPrice <- stakingPrices %>% mean()
 
+stakers_init <- get("stakers_week_0")
+
+totalStakedStart <- prettyNum(sum(stakers_init[,1]), scientific=F, big.mark=",")
+totalMintedStart <- prettyNum(sum(stakers_init[,2]), scientific=F, big.mark=",")
+totalDebtStart  <- prettyNum(sum(stakers_init[,5]), scientific=F, big.mark=",")
+
+totalStakedEnd <- prettyNum(sum(lastStakersSnapshot[,1]), scientific=F, big.mark=",")
+totalMintedEnd <- prettyNum(sum(lastStakersSnapshot[,2]), scientific=F, big.mark=",")
+totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=",")
+
 ```
 
 # Stakers 
 
 HAP/USD at staking: min `r minStakingPrice` - max `r maxStakingPrice` - avg `r meanStakingPrice`  
-Debt pool data by week
 
-- item 1
-- item 2
+- Total stakers `r n_stakers`
+
+```{r echo=FALSE, warning=FALSE, results='asis'}
+
+  options(knitr.duplicate.label = "allow")
+  options(scipen=999) # avoid scientific notation
+  par(mfrow=c(2,2)) # plots 4 charts per page
+
+  a <- c("Start (Week 1)", totalStakedStart, totalMintedStart,  totalDebtStart)
+  b <- c(glue::glue("End (Week {nrow(historicalPricesETH)})"), totalStakedEnd, totalMintedEnd, totalDebtEnd)
+  
+  stakersMat <- rbind(a,b)
+
+  dfStakersInfo <- data.frame(stakersMat)
+  colnames(dfStakersInfo) <- c("Period", "Staked (HAP)", "Minted (TDA)", "Debt (TDA)")
+  dfStakersInfo <-  setNames(dfStakersInfo, c("Period", "Staked (HAP)", "Minted (TDA)", "Debt (TDA)"))
+  row.names(dfStakersInfo) <- NULL
+
+  dfStakersInfo %>%
+    kbl( caption = paste("Stakers info"), booktabs = T) %>%
+      kable_styling(latex_options = "HOLD_position") %>%
+        kable_classic(full_width = T, html_font = "Cambria") %>%
+            print()
+
+```
 
 ## Color legend
 
@@ -273,6 +311,8 @@ dfClegend %>%
 
 
 ## Debt pool by week
+
+This section is a breakdown of the stakers debt pool by week. 
 
 `r msg`
 
