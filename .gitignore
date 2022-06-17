@@ -5,6 +5,7 @@
 *.bak
 *.log
 *.md
+config.r
 bak/
 plot/
 .Rproj.user
