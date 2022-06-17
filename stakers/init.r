@@ -38,7 +38,7 @@ if (length(args) == 3) {
 
 stakers <- matrix(c(1:15), byrow = TRUE, nrow = n_stakers, ncol = 15)
 randomPricesHapStaking <- historicalPricesHAPB[, 3] #
-randomCollateralHap <- runif(n = n_stakers, min = C, max = 1500000)
+randomCollateralHap <- runif(n = n_stakers, min = C, max = 750000)
 liquidity = 0
 
 # Loop through stakers
