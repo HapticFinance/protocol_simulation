@@ -111,7 +111,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
         isLiquidated = 1
         stakers_liquidated <- c(stakers_liquidated, u)
-        total_liquidations <- total_liquidations + 
+        total_liquidations <- total_liquidations + 1
         
         stakers <- recalc_cRatio(stakers, randomPriceHap)
       } 
