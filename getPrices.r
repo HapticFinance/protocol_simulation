@@ -81,7 +81,8 @@ writeLines(as.character(code), con = 'page.txt')
 }
 
 myStartDate = "2021-06-01"
-myStartDate2 = "2021-01-01"
+myStartDate2ETH = "2021-03-01"
+myStartDate2HAP = "2021-01-01"
 
 #currency_list %>% 
 #  map_chr(create_url) %>% 
@@ -89,13 +90,13 @@ myStartDate2 = "2021-01-01"
   #ggplot(aes(x="time", y="price")) + geom_line() + theme(legend.position = 'none')
 
 dat <- download_coinmarketcap_w(id=1027,currency="USD", start_date=myStartDate, end_date="")
-datA <- download_coinmarketcap_daily(id=1027,currency="USD", start_date=myStartDate2, end_date="")
+datA <- download_coinmarketcap_daily(id=1027,currency="USD", start_date=myStartDate2ETH, end_date="")
 
 #dat<-download_coinmarketcap_daily(id=1027,currency="USD", count=count)
 #print(dat[, 1:4])
 #dat2<-download_coinmarketcap_daily(id=2586,currency="USD", count=count)
 dat2 <- download_coinmarketcap_w(id=2586,currency="USD", start_date=myStartDate, end_date="")
-datB <- download_coinmarketcap_daily(id=2586,currency="USD", start_date=myStartDate2, end_date="")
+datB <- download_coinmarketcap_daily(id=2586,currency="USD", start_date=myStartDate2HAP, end_date="")
 
 #print(dat2[, 3])
 
