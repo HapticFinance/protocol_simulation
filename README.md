@@ -2,7 +2,7 @@
 
 # Protocol simulation
 
-This is a simulator of the Haptic Protocol. Read our [official docs](https://docs.haptic.finance) to learn more.
+This is a simulation of the Haptic Protocol. Read our [official docs](https://docs.haptic.finance) to learn more.
 
 # Requirements:
 

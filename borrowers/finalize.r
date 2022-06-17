@@ -52,14 +52,8 @@
                     borrowers_cp[s, 11] = j # Liquidation week
                     borrowers_cp[s, 12] = liqPrice # Liquidation price
                     totalLiquidations <- totalLiquidations + 1
-
-                    #print(glue::glue("Week {j} - Borrower {s} liq. Price {liqPrice} - minPrice {minPrice} - maxPrice {maxPrice} - LIQUIDATED"))
-                } else {
-                  #print(glue::glue("Week {j} - Borrower {s} liq. Price {liqPrice} - minPrice {minPrice} - maxPrice {maxPrice} - ALREADY LIQUIDATED"))
-                }
-            }  else {
-                #print(glue::glue("Week {j} - Borrower {s} liq. Price {liqPrice} - minPrice {minPrice} - maxPrice {maxPrice}"))
-            }
+                } 
+            } 
 
             #liqPrice = borrowers_cp[s, 3]
             rnd = floor(runif(1, min = 1, max = nrow(historicalPricesETH)))
