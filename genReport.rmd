@@ -439,3 +439,9 @@ matplot(emissions_weekly, type = "l", main = "Emissions", xlab = "Weeks", ylab =
 
 
 ```
+
+# Tokenized Debt Asset (TDA)
+
+## Dex performance
+
+## Charts
