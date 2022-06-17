@@ -11,12 +11,15 @@ total_debt = 0
 total_liquidations = 0
 stakers_liquidated <- c()
 
-recalc_cRatio <- function(stakers, priceHap) {
+recalc_cRatio <- function(stakers, priceHap, liquidity) {
   for (x in 1:nrow(stakers)) {
     HAP = stakers[x, 1]
+    TDA = stakers[x, 2]
     debt = stakers[x, 5]
+    debt_share = (TDA * 100)/ liquidity
     c_ratio = debt / (HAP * priceHap)
     c_ratio_read = 1 / c_ratio * 100
+    stakers[x, 7] = debt_share
     stakers[x, 12] = c_ratio_read
   }
   return(stakers)
@@ -113,7 +116,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
         stakers_liquidated <- c(stakers_liquidated, u)
         total_liquidations <- total_liquidations + 1
         
-        stakers <- recalc_cRatio(stakers, randomPriceHap)
+        stakers <- recalc_cRatio(stakers, randomPriceHap, liquidity)
       } 
 
       randomIdx <- c(1,2) 
