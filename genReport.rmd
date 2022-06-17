@@ -1,7 +1,7 @@
 ---
 title: "Simulation Report"
 author: "Haptic Finance"
-date: "June 16, 2022"
+date: "June 17, 2022"
 output: 
   pdf_document:
       toc: true
@@ -66,9 +66,11 @@ if (print_full_tables == 1) {
 
 # Historical data
 
-## Details
+## Summary
 
-Simulation ran over `r nDataPoints` weeks. Start date `r format(as.Date(myStartDate), "%d/%b/%Y")`.
+Simulation ran over **`r nDataPoints`** weeks. Start date **`r format(as.Date(myStartDate), "%d/%b/%Y")`**.
+
+## Price data
 
 ```{r echo=FALSE, warning=FALSE, results='asis'}
 
@@ -86,9 +88,9 @@ Simulation ran over `r nDataPoints` weeks. Start date `r format(as.Date(myStartD
   row.names(dfPrices) <- NULL
 
   dfPrices %>%
-    kbl( caption = paste("Tickers"), booktabs = T) %>%
-      kable_styling(latex_options = "HOLD_position") %>%
-        kable_classic(full_width = T, html_font = "Cambria") %>%
+    kbl( caption = "", booktabs = T) %>%
+      kable_styling(latex_options = "HOLD_position", position="left") %>%
+        kable_classic(full_width = F, html_font = "Cambria") %>%
             print()
 
 ```
@@ -117,8 +119,10 @@ matplot(ts_HAP, type = "l", main = "HAP/USD", xlab = "Weeks", ylab = "$")
 
 # Borrowers (Liquidity on margin)
 
-- Total borrowers: `r n_borrowers`
-- Total liquidity at staking: `r prettyNum(sum(borrowers_init[,2]), scientific=FALSE,big.mark=",")` USD
+## Summary
+
+- Total borrowers **`r n_borrowers`**
+- Total liquidity at staking **`r prettyNum(sum(borrowers_init[,2]), scientific=FALSE,big.mark=",")`** USD
 
 ## Color legend
 
@@ -202,15 +206,18 @@ for (k in 1:nrow(historicalPricesETH)) {
 ```{r, echo=FALSE, warning=FALSE, results='asis'} 
 
 ```
-- Total borrowers liquidated: `r totalLiquidations`.  
+- Total borrowers liquidated **`r totalLiquidations`**  
+
+
+## Impermanent loss
+
+### Compensations
+
+* All borrowers compensated by week **`r compWeek`**
+*  Total compensations **`r comp_counter`**
+*  Total disbursed **`r prettyNum(il_compensations_cum, scientific=FALSE,big.mark=",")`** TDA
 
 ## APR 
-
-# Impermanent loss
-
-## Compensations
-All borrowers compensated by week `r compWeek`. Total compensations `r comp_counter`. Total disbursed **`r prettyNum(il_compensations_cum, scientific=FALSE,big.mark=",")`** TDA
-
 
 ## Plots
 ```{r result='asis', echo=FALSE, warning=FALSE}
@@ -258,7 +265,9 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
 
 # Stakers 
 
-- Total stakers `r n_stakers`
+## Summary
+
+- Total stakers **`r n_stakers`**
 
 ```{r echo=FALSE, warning=FALSE, results='asis'}
 
@@ -279,8 +288,8 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
 
   dfStakingPrices %>%
     kbl( caption = paste("Staking prices"), booktabs = T) %>%
-      kable_styling(latex_options = "HOLD_position") %>%
-        kable_classic(full_width = T, html_font = "Cambria") %>%
+      kable_styling(latex_options = "HOLD_position", position="left") %>%
+        kable_classic(full_width = F, html_font = "Cambria") %>%
             print()
 
 
@@ -295,9 +304,9 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
   row.names(dfStakersInfo) <- NULL
 
   dfStakersInfo %>%
-    kbl( caption = paste("Stakers info"), booktabs = T) %>%
-      kable_styling(latex_options = "HOLD_position") %>%
-        kable_classic(full_width = T, html_font = "Cambria") %>%
+    kbl( caption = "", booktabs = T) %>%
+      kable_styling(latex_options = "HOLD_position", position="left") %>%
+        kable_classic(full_width = F, html_font = "Cambria") %>%
             print()
 
 ```
@@ -324,7 +333,6 @@ dfClegend %>%
           print()
 
 ```
-
 
 ## Debt pool by week
 
@@ -371,7 +379,8 @@ for (k in 1:nrow(historicalPricesETH)) {
 
 ## Liquidations
 
-Total liquidations  `r total_liquidations`, total stakers liquidated `r length(unique(stakers_liquidated))`
+* Total liquidations  **`r total_liquidations`**
+* Total stakers liquidated **`r length(unique(stakers_liquidated))`**
 
 ## Hedging
 
@@ -390,8 +399,8 @@ options(scipen=999) # avoid scientific notation
 par(mfrow=c(2,2)) # plots 4 charts per page
 
 
-ts_HAPS = ts(data = randomPricesHapStaking, start = 1, end = n_stakers, frequency = 1,  deltat = 1)
-matplot(ts_HAPS, type = "l", main = "HAP/USD", xlab = "VS Stakers (Mint TDA)", ylab = "$")
+ts(data = randomPricesHapStaking, start = 1, end = n_stakers, frequency = 1,  deltat = 1) %>%
+matplot( type = "l", main = "HAP/USD", xlab = "VS Stakers (Mint TDA)", ylab = "$")
 
 c_ratio_averages <- c()
 
@@ -401,14 +410,66 @@ for (i in 1:nrow(historicalPricesETH)) {
   c_ratio_averages <- c(c_ratio_averages, averageCratio)
 }
 
-network_plot = ts(data = c_ratio_averages, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1)
-matplot(network_plot, type = "l", main = "Network C-ratio", xlab = "Weeks", ylab = "C-ratio", col=c("red"))
+ts(data = c_ratio_averages, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1) %>%
+matplot(type = "l", main = "Network C-ratio", xlab = "Weeks", ylab = "%", col=c("blue"))
+
+debt_by_week <- c()
+
+for (i in 1:nrow(historicalPricesETH)) {
+  mat = get(glue::glue("stakers_week_{i}"))
+  totalDebt = sum(mat[,5])
+  debt_by_week <- c(debt_by_week, totalDebt)
+}
+
+ts(data = debt_by_week, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1) %>%
+matplot(type = "l", main = "Debt", xlab = "Weeks", ylab = "TDA", col=c("red"))
 
 ```
 
 # Emissions
 
+```{r echo=F, result='asis', warning=F}
+time <- as.numeric(1:nrow(historicalPricesHAP[,]))  
+
+emissions_weekly_stakers = weekly_emissions[1:length(time)] %>%
+  map(function(x) (x * 70) / 100)
+
+emissions_weekly_treasury = weekly_emissions[1:length(time)] %>%
+  map(function(x) (x * 30) / 100)
+
+total_emissions <- weekly_emissions[nrow(historicalPricesETH)] * 1e6
+total_emissions_read <- prettyNum(total_emissions, scientific=F, big.mark=",")
+
+total_emissions_stakers <- prettyNum(total_emissions * 0.7, scientific=F, big.mark=",")
+total_emissions_treasury <- prettyNum(total_emissions * 0.3, scientific=F, big.mark=",")
+
+```
+
 ## Inflationary supply
+
+Total emissions **`r total_emissions_read`** HAP over **`r nrow(historicalPricesETH)`** weeks.  
+
+## Distribution
+
+```{r echo=F, results='asis'}
+
+  a <- c("Stakers", total_emissions_stakers, 70)
+  b <- c("Treasury", total_emissions_treasury, 30)
+  
+  emission_distribution <- rbind(a,b)
+
+  df_emission_distribution <- data.frame(emission_distribution)
+  colnames(df_emission_distribution) <- c("Actor", "HAP", "%")
+  df_emission_distribution <-  setNames(df_emission_distribution, c("Actor", "HAP", "%"))
+  row.names(df_emission_distribution) <- NULL
+
+  df_emission_distribution %>%
+    kbl( caption = paste(""), booktabs = T) %>%
+      kable_styling(latex_options = "HOLD_position", position="left") %>%
+        kable_classic(full_width = F, html_font = "Cambria") %>%
+            print()
+
+```
 
 ## Plots
 
@@ -417,8 +478,22 @@ matplot(network_plot, type = "l", main = "Network C-ratio", xlab = "Weeks", ylab
 options(scipen = 999) # avoid scientific notation
 par(mfrow = c(2,2)) # plots 4 charts per page
 
-emissions_weekly = ts(data = weekly_emissions, start = 1, end = nrow(historicalPricesHAP[,]), frequency = 1,  deltat = 1)
-matplot(emissions_weekly, type = "l", main = "Emissions", xlab = "Weeks", ylab = "HAP", col=c("blue"), bg=c("grey"))
+ts(data = weekly_emissions, start = 1, end = (nrow(historicalPricesHAP[,]) * 8) -1, frequency = 1,  deltat = 1) %>%
+matplot( type = "l", main = "Total emissions", xlab = "Weeks", ylab = "HAP (M)", col=c("blue"), bg=c("grey"))
+
+combined <- c(emissions_weekly_stakers, emissions_weekly_treasury)
+emissionsMat <- matrix(combined, nrow = length(time))
+
+cols <- hcl.colors(2, palette = "PinkYl")
+
+areaplot(emissionsMat,
+         main = "Emissions",
+         ylab = "HAP (M)",
+         xlab = "Weeks",
+         col = cols,
+         legend = c("Stakers", "Treasury"),
+         args.legend = list(x = "topleft", cex = 0.65,
+                            bg = "white", bty = "o"))
 
 ```
 

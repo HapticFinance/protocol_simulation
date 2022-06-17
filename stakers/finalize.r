@@ -16,7 +16,7 @@ recalc_cRatio <- function(stakers, priceHap, liquidity) {
     HAP = stakers[x, 1]
     TDA = stakers[x, 2]
     debt = stakers[x, 5]
-    debt_share = (TDA * 100)/ liquidity
+    debt_share = (debt * 100)/ liquidity
     c_ratio = debt / (HAP * priceHap)
     c_ratio_read = 1 / c_ratio * 100
     stakers[x, 7] = debt_share
@@ -25,7 +25,7 @@ recalc_cRatio <- function(stakers, priceHap, liquidity) {
   return(stakers)
 }
 
-# Loop through days
+# Loop through weeks
 for (m in 1:nrow(historicalPricesHAP)) {
 
   randomPriceHap = historicalPricesHAP[m, 3]
@@ -42,33 +42,31 @@ for (m in 1:nrow(historicalPricesHAP)) {
     fixedCratio = 0
 
     debt = stakers[u, 5]
-    debtShare = (TDA * 100)/ liquidity
+    debtShare = (debt * 100)/ liquidity
 
     staking_price = stakers[u, 4]
     IL_share = (il_compensations_v[m] ) * debtShare / 100
     debt = debt + IL_share
-    #stakers[u, 5] <- debt
+
+    if (IL_share > 0) {
+      stakers <- recalc_cRatio(stakers, randomPriceHap, liquidity)
+    }
 
     H = 0
     deltaH = 0
     S = 0
-    #S = stakers[u, 13]
     Ld = stakers[u, 14]
 
     c_ratio = debt / (HAP * randomPriceHap)
     c_ratio_read = 1 / c_ratio * 100
-    #stakers[u, 12] = c_ratio_read
-
     c_ratio_og = TDA / (HAP * staking_price)
     c_ratio_og_read = 1 / c_ratio_og * 100
 
     totalDebt = totalDebt + debt
-
-    #print(glue::glue("Staker {u} - Week {m} - OG debt {TDA} - Curr. Debt {debt} Price {randomPriceHap} cRatio {c_ratio_read}  \n"))
     
     rnd2 = floor(runif(1, min=1, max=nrow(historicalPricesETH)))  # Randomizes staker fixing c-ratio
 
-    if (c_ratio_read < cRatio ) {
+    if (c_ratio_read < cRatio) {
 
       H = debt / ( randomPriceHap * cOpt)
 
@@ -79,23 +77,20 @@ for (m in 1:nrow(historicalPricesHAP)) {
         # From Synthetix blog: https://blog.synthetix.io/liquidation-faqs/
         # S = (t * D - V) / (t - (1 + P))
         S = (( ((1 / cOpt) * debt) - (HAP * randomPriceHap)) / ( (1 / cOpt) - (1 + liqPenalty)))
+
         collateralNeeded = (S * (1 + liqPenalty))
-
-        #if (collateralNeeded >= HAP) {
-        #  collateralNeeded = HAP # Liquidate the entire position
-        #}
-
-        #print(glue::glue("Liquidated staker {u} - Week {m} - Curr. Debt {debt} \n C-ratio {c_ratio_read} liq. amount {S} = {collateralNeeded} HAP"))
         newHap = HAP - collateralNeeded
         TDA <- TDA - S
 
         if((TDA - S) < 0) {
+
           newTDA <- -1 * (TDA - S)
           newH = newTDA / ( randomPriceHap * cOpt)
           newHap <- ifelse(newHap < newH, newH - newHap, newHap - newH)
           newLoanAmount = getLoanAmount(newHap, randomPriceHap, cRatio)
           stakers[u, 3] = getLiqPrice(randomPriceHap, cRatio, liqTarget)
           TDA <- newLoanAmount
+          
         }
 
         HAP <- newHap
@@ -123,6 +118,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
       randomChoice  <- if(staker_fixcratio == 1) randomIdx[sample(1:length(randomIdx), 1)] else 0
             
       if (randomChoice == 1 && !isLiquidated) {
+
           HAP <- HAP + deltaH # Update HAP adding collateral to reach cOpt
           H = 0
 
@@ -131,6 +127,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
           treasury = treasury + (deltaH * (randomPriceHap - (randomPriceHap * 0.07))) # 7% discount (Bonds)
           fixedCratio = 1
+
       } 
 
     } 
