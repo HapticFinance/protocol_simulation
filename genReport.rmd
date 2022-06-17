@@ -23,6 +23,7 @@ header-includes:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "pdf") })
 ---
+
 \captionsetup[table]{labelformat=empty}
 \captionsetup[table]{labelfont=bf}
 
@@ -52,11 +53,13 @@ if (print_full_tables == 1) {
   longTableS <- ifelse(n_stakers > 30, TRUE, FALSE)
   borrowers_show <- 1:n_borrowers
   stakers_show <- 1:n_stakers
+  msg = "*Full report - Long tables active*"
 } else {
   longTableB = F
   longTableS = F
   borrowers_show <- 1:10
   stakers_show <- borrowers_show
+  msg = glue::glue("*This is a shortened report - Top ten records sorted by balance are shown*.")
 }
 
 ```
@@ -64,7 +67,6 @@ if (print_full_tables == 1) {
 # Historical data
 
 ## Details
-
 
 Loaded `r nDataPoints` weeks. Start date `r format(as.Date(myStartDate), "%d/%b/%Y")`.
 
@@ -92,6 +94,7 @@ Loaded `r nDataPoints` weeks. Start date `r format(as.Date(myStartDate), "%d/%b/
 ```
 
 ## Charts
+
 ```{r echo=FALSE, warning=FALSE}
 
 options(knitr.duplicate.label = "allow")
@@ -110,12 +113,13 @@ matplot(ts_HAP, type = "l", main = "HAP/USD", xlab = "Weeks", ylab = "$")
 
 This is a breakdown of the Borrowers data by week. 
 
-- item 1
-- item 2
+- Total borrowers: `r n_borrowers`
+- Total liquidity: 
 
 ## Color legend
 
 ```{r echo=F, results='asis'} 
+
 a <- c("brown", "I/L compensation")
 b <- c("red", "Liquidation")
 
@@ -132,9 +136,12 @@ dfClegend %>%
       kable_styling(latex_options = "HOLD_position", position="left") %>%
         kable_classic(full_width = F, html_font = "Cambria") %>%
           print()
+
 ```
 
-## Borrowers by week
+## Borrowers by week 
+
+`r msg`
 
 ```{r, echo=FALSE, warning=FALSE, results='asis'} 
 
@@ -160,7 +167,7 @@ for (k in 1:nrow(historicalPricesETH)) {
   dfB <- data.frame(borrowers_cp[borrowers_show,])
   colnames(dfB) <- labels_borrowers_2
   dfB <-  setNames(dfB, labels_borrowers_2)
-  #dfB <- dfB[order(-dfB$sUSD),] # temp. disable sorting
+  dfB <- dfB[order(-dfB$sUSD),] # temp. disable sorting
   
   row.names(dfB) <- NULL
 
@@ -191,6 +198,7 @@ for (k in 1:nrow(historicalPricesETH)) {
 ```
 Total liquidations `r totalLiquidations`.  
 
+## APR 
 
 # Impermanent loss
 
@@ -222,6 +230,7 @@ if (il_compensations_cum > 0) {
 ```
 
 ```{r results='asis', echo=FALSE, warning=FALSE}
+
 stakingPrices <- as.vector(randomPricesHapStaking[1:nrow(stakers)])
 
 minStakingPrice <- stakingPrices[which.min(stakingPrices)]
@@ -231,7 +240,7 @@ meanStakingPrice <- stakingPrices %>% mean()
 
 ```
 
-# Stakers
+# Stakers 
 
 HAP/USD at staking: min `r minStakingPrice` - max `r maxStakingPrice` - avg `r meanStakingPrice`  
 Debt pool data by week
@@ -242,6 +251,7 @@ Debt pool data by week
 ## Color legend
 
 ```{r echo=F, results='asis'} 
+
 a <- c("green", "Fix C-ratio")
 b <- c("red", "Liquidation")
 
@@ -252,22 +262,24 @@ colnames(dfClegend) <- c("Color", "Operation")
 dfClegend <-  setNames(dfClegend, c("Color", "Operation"))
 row.names(dfClegend) <- NULL
 
-color.me <- which(dfClegend$Color == "green")
-color.me2 <- which(dfClegend$Color == "red")
-
 dfClegend %>%
   mutate(Color = cell_spec(Color, background=ifelse(Color == "green", "green", "red"), color=ifelse(Color == "green", "green", "red"))) %>% 
     kbl( caption = paste("Color legend"), booktabs = T, escape = FALSE) %>%
       kable_styling(latex_options = "HOLD_position", position="left") %>%
         kable_classic(full_width = F, html_font = "Cambria") %>%
           print()
+
 ```
 
 
 ## Debt pool by week
+
+`r msg`
+
 ```{r results='asis', echo=FALSE, warning=FALSE}
 
 for (k in 1:nrow(historicalPricesETH)) {
+
     prettyHap = prettyNum( historicalPricesHAP[k, 3], big.mark=",", scientific=FALSE)
 
     stakers_cp = get(glue::glue("stakers_week_{k}"))
@@ -277,7 +289,7 @@ for (k in 1:nrow(historicalPricesETH)) {
     dfStakers <- data.frame(stakers_cp[stakers_show,])
     colnames(dfStakers) <- labels_stakers_short
     dfStakers <-  setNames(dfStakers, labels_stakers_short)
-    #dfStakers <- dfStakers[order(-dfStakers$TDA),] # temp. disable sorting
+    dfStakers <- dfStakers[order(-dfStakers$TDA),] # temp. disable sorting
     row.names(dfStakers) <- NULL
 
     dfStakers %>%
@@ -298,9 +310,19 @@ for (k in 1:nrow(historicalPricesETH)) {
                     print()
                     
 }
+
 ```
 
 ## Liquidations
+
+## Hedging
+
+### Options & Perpetuals
+
+## Rewards & APR
+
+### Bonds (Stable)
+### Bonds (LP)
 
 ## Plots
 
@@ -318,13 +340,27 @@ c_ratio_averages <- c()
 for (i in 1:nrow(historicalPricesETH)) {
   mat = get(glue::glue("stakers_week_{i}"))
   averageCratio = mean(mat[,12])
-  #print(glue::glue("Average c-ratio for day {i} is {averageCratio}"))
-  #if (averageCratio > 0)
   c_ratio_averages <- c(c_ratio_averages, averageCratio)
 }
 
 network_plot = ts(data = c_ratio_averages, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1)
 matplot(network_plot, type = "l", main = "Network C-ratio", xlab = "Weeks", ylab = "C-ratio", col=c("red"))
+
+```
+
+# Emissions
+
+## Inflationary supply
+
+## Plots
+
+```{r results='asis', echo = F, warning = F}
+
+options(scipen = 999) # avoid scientific notation
+par(mfrow = c(2,2)) # plots 4 charts per page
+
+emissions_weekly = ts(data = weekly_emissions, start = 1, end = nrow(historicalPricesHAP[,]), frequency = 1,  deltat = 1)
+matplot(emissions_weekly, type = "l", main = "Emissions", xlab = "Weeks", ylab = "HAP", col=c("blue"), bg=c("grey"))
 
 ```
 
