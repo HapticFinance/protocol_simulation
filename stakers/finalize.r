@@ -166,8 +166,7 @@ lastStakersSnapshot = get(glue::glue("stakers_week_{m}"))
 #prmatrix(stakers_cp, row =  rep("", n), coll = labels_stakers_short)
 #print(glue::glue("\n\n"))
 #
-stakers = get(glue::glue("stakers_week_{m}"))
-total_debt = sum(stakers[, 5]) #+ sum(il_compensations_v)
+total_debt = sum(lastStakersSnapshot[, 5]) #+ sum(il_compensations_v)
 #print(glue::glue("Total debt is {sum(stakers[,5])}"))
 
 totalDebt_read = prettyNum(total_debt, big.mark=",", scientific=FALSE)

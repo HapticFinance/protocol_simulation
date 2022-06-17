@@ -84,4 +84,5 @@ for (x in 1:nrow(stakers)) {
   stakers[x, 7] = debtShare
   
 }
-#print(stakers)
+
+assign("stakers_week_0", stakers)
