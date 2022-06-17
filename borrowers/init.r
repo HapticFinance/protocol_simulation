@@ -80,3 +80,4 @@ initBorrowers <- function() {
 
 
 borrowers <- initBorrowers()
+assign("borrowers_week_0", borrowers)

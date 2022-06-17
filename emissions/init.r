@@ -28,10 +28,10 @@ end_week = 0
 
 minted = initial_supply * (beginning_annual_inflation / 52)
 
-initialState <- c(initial_supply,  week, minted, (minted * historicalPricesHAP[1,3]), historicalPricesHAP[1,3], end_week)
+initialState <- c(initial_supply,  week, minted, (minted * historicalPricesHAP[1,3]), historicalPricesHAP[1,3])
 
 # Generate matrix from initial state
-emissions <- matrix(initialState, byrow = TRUE, nrow = nrow(historicalPricesHAP), ncol = length(initialState))
+emissions <- matrix(initialState, byrow = TRUE, nrow = nrow(historicalPricesHAP) * 2, ncol = length(initialState))
 
 total_emissions = 0
 weekly_emissions <- c()
