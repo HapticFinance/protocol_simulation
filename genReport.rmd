@@ -258,8 +258,6 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
 
 # Stakers 
 
-HAP/USD at staking: min `r minStakingPrice` - max `r maxStakingPrice` - avg `r meanStakingPrice`  
-
 - Total stakers `r n_stakers`
 
 ```{r echo=FALSE, warning=FALSE, results='asis'}
@@ -267,6 +265,24 @@ HAP/USD at staking: min `r minStakingPrice` - max `r maxStakingPrice` - avg `r m
   options(knitr.duplicate.label = "allow")
   options(scipen=999) # avoid scientific notation
   par(mfrow=c(2,2)) # plots 4 charts per page
+
+  a <- c("Start (Week 1)", minStakingPrice, maxStakingPrice,  meanStakingPrice)
+  b <- c()
+  
+  stakingPrices <- rbind(a,b)
+
+  dfStakingPrices <- data.frame(stakingPrices)
+  colnames(dfStakingPrices) <- c("Period", "Min.", "Max.", "Avg.")
+  dfStakingPrices <-  setNames(dfStakingPrices, c("Period", "Min.", "Max.", "Avg."))
+
+  row.names(dfStakingPrices) <- NULL
+
+  dfStakingPrices %>%
+    kbl( caption = paste("Staking prices"), booktabs = T) %>%
+      kable_styling(latex_options = "HOLD_position") %>%
+        kable_classic(full_width = T, html_font = "Cambria") %>%
+            print()
+
 
   a <- c("Start (Week 1)", totalStakedStart, totalMintedStart,  totalDebtStart)
   b <- c(glue::glue("End (Week {nrow(historicalPricesETH)})"), totalStakedEnd, totalMintedEnd, totalDebtEnd)
@@ -354,6 +370,8 @@ for (k in 1:nrow(historicalPricesETH)) {
 ```
 
 ## Liquidations
+
+Total liquidations  `r total_liquidations`, total stakers liquidated `r length(unique(stakers_liquidated))`
 
 ## Hedging
 
