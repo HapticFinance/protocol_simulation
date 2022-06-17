@@ -47,8 +47,17 @@ avgPriceHAP = mean(historicalPricesHAPV)
 
 compWeek = comp_weeks[which.max(comp_weeks)]
 
-longTableB <- ifelse(n_borrowers > 30 , TRUE, FALSE)
-longTableS <- ifelse(n_stakers > 30, TRUE, FALSE)
+if (print_full_tables == 1) {
+  longTableB <- ifelse(n_borrowers > 30 , TRUE, FALSE)
+  longTableS <- ifelse(n_stakers > 30, TRUE, FALSE)
+  borrowers_show <- 1:n_borrowers
+  stakers_show <- 1:n_stakers
+} else {
+  longTableB = F
+  longTableS = F
+  borrowers_show <- 1:10
+  stakers_show <- borrowers_show
+}
 
 ```
 
@@ -125,6 +134,7 @@ dfClegend %>%
           print()
 ```
 
+## Borrowers by week
 
 ```{r echo=FALSE, warning=FALSE}
 #print(glue::glue("Loaded {nrow(historicalPricesETH)} weeks for ETH and {nrow(historicalPricesHAP)} for HAP"))
@@ -152,10 +162,10 @@ for (k in 1:nrow(historicalPricesETH)) {
   borrowers_cp = get(glue::glue("borrowers_week_{k}"))
   borrowers_cp <- borrowers_cp[,-c(5, 6, 8, 9, 10, 12, 13, 14)]
 
-  dfB <- data.frame(borrowers_cp[,])
+  dfB <- data.frame(borrowers_cp[borrowers_show,])
   colnames(dfB) <- labels_borrowers_2
   dfB <-  setNames(dfB, labels_borrowers_2)
-  dfB <- dfB[order(-dfB$sUSD),]
+  #dfB <- dfB[order(-dfB$sUSD),]
   
   row.names(dfB) <- NULL
 
@@ -269,7 +279,7 @@ for (k in 1:nrow(historicalPricesETH)) {
     stakers_cp<- stakers_cp[,-c( 3, 4, 6, 8, 10, 11, 13)]
     stakers <- stakers_cp #params$stakers
 
-    dfStakers <- data.frame(stakers_cp[,])
+    dfStakers <- data.frame(stakers_cp[stakers_show,])
     colnames(dfStakers) <- labels_stakers_short
     dfStakers <-  setNames(dfStakers, labels_stakers_short)
     row.names(dfStakers) <- NULL
