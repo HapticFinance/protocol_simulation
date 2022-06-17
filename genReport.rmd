@@ -136,11 +136,6 @@ dfClegend %>%
 
 ## Borrowers by week
 
-```{r echo=FALSE, warning=FALSE}
-#print(glue::glue("Loaded {nrow(historicalPricesETH)} weeks for ETH and {nrow(historicalPricesHAP)} for HAP"))
-#cat("abc", sep="\n\n") 
-```
-
 ```{r, echo=FALSE, warning=FALSE, results='asis'} 
 
 options(knitr.duplicate.label = "allow")
