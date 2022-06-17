@@ -160,7 +160,7 @@ for (k in 1:nrow(historicalPricesETH)) {
   dfB <- data.frame(borrowers_cp[borrowers_show,])
   colnames(dfB) <- labels_borrowers_2
   dfB <-  setNames(dfB, labels_borrowers_2)
-  #dfB <- dfB[order(-dfB$sUSD),]
+  #dfB <- dfB[order(-dfB$sUSD),] # temp. disable sorting
   
   row.names(dfB) <- NULL
 
@@ -277,6 +277,7 @@ for (k in 1:nrow(historicalPricesETH)) {
     dfStakers <- data.frame(stakers_cp[stakers_show,])
     colnames(dfStakers) <- labels_stakers_short
     dfStakers <-  setNames(dfStakers, labels_stakers_short)
+    #dfStakers <- dfStakers[order(-dfStakers$TDA),] # temp. disable sorting
     row.names(dfStakers) <- NULL
 
     dfStakers %>%
