@@ -8,6 +8,19 @@ sumDebts <- c()
 collateral_needed = 0
 total_collateral_needed = 0
 total_debt = 0
+total_liquidations = 0
+stakers_liquidated <- c()
+
+recalc_cRatio <- function(stakers, priceHap) {
+  for (x in 1:nrow(stakers)) {
+    HAP = stakers[x, 1]
+    debt = stakers[x, 5]
+    c_ratio = debt / (HAP * priceHap)
+    c_ratio_read = 1 / c_ratio * 100
+    stakers[x, 12] = c_ratio_read
+  }
+  return(stakers)
+}
 
 # Loop through days
 for (m in 1:nrow(historicalPricesHAP)) {
@@ -97,6 +110,10 @@ for (m in 1:nrow(historicalPricesHAP)) {
         H = 0 
 
         isLiquidated = 1
+        stakers_liquidated <- c(stakers_liquidated, u)
+        total_liquidations <- total_liquidations + 
+        
+        stakers <- recalc_cRatio(stakers, randomPriceHap)
       } 
 
       randomIdx <- c(1,2) 
