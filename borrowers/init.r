@@ -41,10 +41,9 @@ totalIL = 0
 IL = 0
 
 randomCollateral <- runif(n = n_borrowers, min = 5, max = 500)
+borrowers <- matrix(c(1:15), byrow = TRUE, nrow = n_borrowers, ncol = 15)
 
-initBorrowers <- function() {
-
-    borrowers <- matrix(c(1:15), byrow = TRUE, nrow = n_borrowers, ncol = 15)
+initBorrowers <- function(borrowers) {
 
     for (r in 1:nrow(borrowers)) {
 
@@ -79,5 +78,5 @@ initBorrowers <- function() {
 }
 
 
-borrowers <- initBorrowers()
+borrowers <- initBorrowers(borrowers)
 assign("borrowers_week_0", borrowers)
