@@ -121,8 +121,10 @@ matplot(ts_HAP, type = "l", main = "HAP/USD", xlab = "Weeks", ylab = "$")
 
 ## Summary
 
-- Total borrowers **`r n_borrowers`**
-- Total liquidity at staking **`r prettyNum(sum(borrowers_init[,2]), scientific=FALSE,big.mark=",")`** USD
+- Initial borrowers **`r n_borrowers`**
+- Final borrowers **`r nrow(borrowers_cp)`**
+
+- Total liquidity **`r prettyNum(sum(borrowers_init[,2]), scientific=FALSE,big.mark=",")`** USD
 
 ## Color legend
 
@@ -211,9 +213,11 @@ for (k in 1:nrow(historicalPricesETH)) {
 
 ## Impermanent loss
 
+Impermanent loss compensations are disbursed denominated in TDA.
+
 ### Compensations
 
-* All borrowers compensated by week **`r compWeek`**
+*  All borrowers compensated by week **`r compWeek`**
 *  Total compensations **`r comp_counter`**
 *  Total disbursed **`r prettyNum(il_compensations_cum, scientific=FALSE,big.mark=",")`** TDA
 
@@ -267,7 +271,7 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
 
 ## Summary
 
-- Total stakers **`r n_stakers`**
+- Initial stakers **`r n_stakers`**
 
 ```{r echo=FALSE, warning=FALSE, results='asis'}
 
@@ -387,6 +391,33 @@ for (k in 1:nrow(historicalPricesETH)) {
 ### Options & Perpetuals
 
 ## Rewards & APR
+
+### Plots
+```{r echo=F, results='asis'}
+
+aprs <- c()
+avgAprs <- c()
+for (j in 1:nrow(historicalPricesETH)) {
+  
+  for (x in 1:nrow(stakers))   {
+    debtPercentage = stakers[x, 7]
+    HAP = stakers[x, 1]
+    totalRewards =  emissions[j, 3] * debtPercentage / 100
+    APR = totalRewards / HAP
+    aprs <- c(aprs, APR)
+  }
+
+  assign(glue::glue("APR_week_{j}"), aprs)
+  avgAprs <- c(avgAprs, mean(aprs))
+}
+
+options(scipen = 999) # avoid scientific notation
+par(mfrow = c(2,2)) # plots 4 charts per page
+
+ts(data = avgAprs, start = 1, end = nrow(historicalPricesHAP[,]), frequency = 1,  deltat = 1) %>%
+matplot( type = "l", main = "Avg. APR", xlab = "Weeks", ylab = "%", col=c("blue"), bg=c("grey"))
+
+```
 
 ### Bonds (Stable)
 ### Bonds (LP)
