@@ -147,85 +147,15 @@ for (m in 1:nrow(historicalPricesHAP)) {
   sumDebts <- c(sumDebts, totalDebt)
   avgCratio = sumCratios / n_stakers
 
-  #print(glue::glue("Average cRatio for day {m} is {avgCratio} "))
-
   treasury_balances_period <- c(treasury_balances_period, treasury)
   network_cratios <- c(network_cratios, avgCratio)
   
   assign(glue::glue("stakers_week_{m}"), stakers)
-  #assign(glue::glue("stakers_week_{m+1}"), stakers)
 
-  stakers_cp = stakers
-  stakers_cp <- stakers_cp[,-c( 3, 4, 6, 8, 10, 11)]
-  #stakers_cp <- stakers_cp[order(stakers_cp[,1], decreasing=TRUE),]
 
   labels_stakers = c("HAP", "TDA", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt\\%", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
   labels_stakers_short = c("HAP", "TDA", "Debt", "Debt-%",  "HAP-req.", "C-ratio", "LiqWeek", "FixCratio")
 
-  #print(glue::glue("\n\n"))
-  #print(glue::glue('HAP/USD {randomPriceHap}'))
-  #prmatrix(stakers_cp, row =  rep("", n), coll = labels_stakers_short)
-  #header <- glue::glue("=== Stakers & Debt pool (Week {m}) ===")
-
 }
 
 lastStakersSnapshot = get(glue::glue("stakers_week_{m}"))
- 
-#stakers_cp = lastStakersSnapshot
-#stakers_cp<- stakers_cp[,-c( 3, 4, 6, 8, 10, 11)]
-#stakers_cp <- stakers_cp[order(stakers_cp[,1], decreasing=TRUE),]
-
-#labels_stakers = c("HAP", "TDA", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt %", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
-#labels_stakers_short = c("HAP", "TDA", "Debt", "Debt %",  "HAP req.", "C-ratio", "Liq.", "Week")
-
-#print(glue::glue("\n\n"))
-#print(glue::glue("=== Stakers & Debt pool (Final) ==="))
-#prmatrix(stakers_cp, row =  rep("", n), coll = labels_stakers_short)
-#print(glue::glue("\n\n"))
-#
-total_debt = sum(lastStakersSnapshot[, 5]) #+ sum(il_compensations_v)
-#print(glue::glue("Total debt is {sum(stakers[,5])}"))
-
-totalDebt_read = prettyNum(total_debt, big.mark=",", scientific=FALSE)
-liqStaked = prettyNum(liquidity, big.mark=",", scientific=FALSE)
-
-totalCollateral = sum(lastStakersSnapshot[, 1])
-
-totalCollateral_read = prettyNum(totalCollateral, big.mark=",", scientific=FALSE)
-total_coll_read = prettyNum(total_collateral_needed, big.mark=",", scientific=FALSE)
-
-lastPrice = historicalPricesHAP[m, 3]
-meanStakingPrice = mean(randomPricesHapStaking)
-performance = 100 * lastPrice / meanStakingPrice
-
-if (lastPrice  < meanStakingPrice) {
-  sign =  "-"
-  performance = prettyNum(performance, big.mark=",", scientific=FALSE)
-} else {
-  sign =  "+"
-  performance = prettyNum(performance, big.mark=",", scientific=FALSE)
-}
-
-performance = prettyNum(performance, big.mark=",", scientific=FALSE)
-meanStakingPrice = prettyNum(meanStakingPrice, big.mark=",", scientific=FALSE)
-networkCratio = mean(lastStakersSnapshot[, 12])
-
-if (networkCratio >= cRatio) {
-  networkCratio = prettyNum(networkCratio, big.mark=",", scientific=FALSE)
-} else {
-  networkCratio = prettyNum(networkCratio, big.mark=",", scientific=FALSE)
-}
-
-il_compensations_read = prettyNum(il_compensations_cum, big.mark=",", scientific=FALSE)
-
-minPrice = randomPricesHapStaking[which.min(randomPricesHapStaking)]
-maxPrice = randomPricesHapStaking[which.max(randomPricesHapStaking)]
-minHistoricalPrice = dat2[, 3][which.min(dat2[, 3])]
-
-#print(glue::glue("\n\n=== Total compensations {comp_counter} Total disbursed {il_compensations_read} === \n\n"))
-#print(glue::glue("Total staked {totalCollateral_read} HAP Total stakers {n_stakers}"))
-#print(glue::glue('HAP min price at staking {prettyNum(minPrice)} max price {prettyNum(maxPrice)} mean {prettyNum(meanStakingPrice)} (USD)'))
-
-#print(glue::glue("Total liquidity {liqStaked} TDA Total Debt {totalDebt_read} TDA"))
-#print(glue::glue("Network c-ratio {networkCratio} % "))
-#print(glue::glue("Total HAP sold {total_coll_read} HAP last price ${lastPrice} ({sign}{performance}%)"))
