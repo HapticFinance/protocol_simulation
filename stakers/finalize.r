@@ -38,7 +38,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
     HAP = stakers[u, 1]
     TDA = stakers[u, 2]
-    isLiquidated = 0
+    hasLiquidation = 0
     fixedCratio = 0
 
     debt = stakers[u, 5]
@@ -107,7 +107,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
         Ld = m
         H = 0 
 
-        isLiquidated = 1
+        hasLiquidation = 1
         stakers_liquidated <- c(stakers_liquidated, u)
         total_liquidations <- total_liquidations + 1
         
@@ -117,7 +117,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
       randomIdx <- c(1,2) 
       randomChoice  <- if(staker_fixcratio == 1) randomIdx[sample(1:length(randomIdx), 1)] else 0
             
-      if (randomChoice == 1 && !isLiquidated) {
+      if (randomChoice == 1 && !hasLiquidation) {
 
           HAP <- HAP + deltaH # Update HAP adding collateral to reach cOpt
           H = 0
@@ -139,7 +139,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
     stakers[u, 7] <- as.double(debtShare)
     stakers[u, 9] <- H
     stakers[u, 12] <- as.double(c_ratio_read)
-    stakers[u, 13] <- isLiquidated
+    stakers[u, 13] <- hasLiquidation
     stakers[u, 14] <- as.integer(Ld)
     stakers[u, 15] <- fixedCratio
   }
