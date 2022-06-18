@@ -1,9 +1,11 @@
 cOpt = (1/ cRatio) * 100
 
 treasury = 0
-treasury_balances_period <- c()
-network_cratios <- c()
-sumDebts <- c()
+treasury_balances_period = c()
+hap_required_period = c()
+
+network_cratios = c()
+sumDebts = c()
 
 collateral_needed = 0
 total_collateral_needed = 0
@@ -40,7 +42,8 @@ for (m in 1:nrow(historicalPricesHAP)) {
     TDA = stakers[u, 2]
     hasLiquidation = 0
     fixedCratio = 0
-
+    hapRequired = 0
+    
     debt = stakers[u, 5]
     debtShare = (debt * 100)/ liquidity
 
@@ -118,14 +121,14 @@ for (m in 1:nrow(historicalPricesHAP)) {
       randomChoice  <- if(staker_fixcratio == 1) randomIdx[sample(1:length(randomIdx), 1)] else 0
             
       if (randomChoice == 1 && !hasLiquidation) {
-
+          hapRequired <- hapRequired + deltaH
           HAP <- HAP + deltaH # Update HAP adding collateral to reach cOpt
           H = 0
 
           c_ratio <- debt / (HAP * randomPriceHap)
           c_ratio_read <- 1 / c_ratio * 100       
 
-          treasury = treasury + (deltaH * (randomPriceHap - (randomPriceHap * 0.07))) # 7% discount (Bonds)
+          treasury = treasury + (deltaH * (randomPriceHap  * 0.07)) # 7% discount (Bonds)
           fixedCratio = 1
 
       } 
@@ -155,7 +158,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
   labels_stakers = c("HAP", "TDA", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt\\%", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
   labels_stakers_short = c("HAP", "TDA", "Debt", "Debt-%",  "HAP-req.", "C-ratio", "LiqWeek", "FixCratio")
-
+  hap_required_period <- c(hap_required_period, hapRequired)
 }
 
 lastStakersSnapshot = get(glue::glue("stakers_week_{m}"))
