@@ -1,7 +1,7 @@
 ---
 title: "Simulation Report"
 author: "Haptic Finance"
-date: "June 17, 2022"
+date: "June 18, 2022"
 output: 
   pdf_document:
       toc: true
@@ -109,13 +109,11 @@ matplot(ts_H_ETH, type = "l", main = "ETH/USD", xlab = "Weeks", ylab = "$")
 ts_HAP = ts(data = historicalPricesHAP[, 3], start = 1, end = nrow(historicalPricesHAP), frequency = 1,  deltat = 1)
 matplot(ts_HAP, type = "l", main = "HAP/USD", xlab = "Weeks", ylab = "$")
 
-```
-
-```{r echo=F, warning=F, result='asis'} 
-
-  borrowers_init = get("borrowers_week_0")
+borrowers_init = get("borrowers_week_0")
+borrowers_final_ = get(glue::glue("borrowers_week_{nrow(historicalPricesETH)}"))
 
 ```
+ 
 
 # Borrowers (Liquidity on margin)
 
@@ -123,8 +121,8 @@ matplot(ts_HAP, type = "l", main = "HAP/USD", xlab = "Weeks", ylab = "$")
 
 - Initial borrowers **`r n_borrowers`**
 - Final borrowers **`r nrow(borrowers_cp)`**
-
-- Total liquidity **`r prettyNum(sum(borrowers_init[,2]), scientific=FALSE,big.mark=",")`** USD
+- Initial liquidity **`r prettyNum(sum(borrowers_init[,2]), scientific=FALSE,big.mark=",")`** USD
+- Final liquidity **`r prettyNum(sum(borrowers_final_[,2]), scientific=FALSE,big.mark=",")`** USD
 
 ## Color legend
 
@@ -395,17 +393,22 @@ for (k in 1:nrow(historicalPricesETH)) {
 ### Plots
 ```{r echo=F, results='asis'}
 
-aprs <- c()
-avgAprs <- c()
+aprs = c()
+avgAprs = c()
+
 for (j in 1:nrow(historicalPricesETH)) {
-  
+  stakers = get(glue::glue("stakers_week_{j}"))
+  sumAPR = 0
+
   for (x in 1:nrow(stakers))   {
     debtPercentage = stakers[x, 7]
     HAP = stakers[x, 1]
+    totalStaked = sum(stakers[, 1])
     totalRewards =  emissions[j, 3] * debtPercentage / 100
-    APR = totalRewards / HAP
-    aprs <- c(aprs, APR)
+    APR = (totalRewards * historicalPricesHAP[j, 3]) * 52 / totalStaked * historicalPricesHAP[j, 3]
+    sumAPR <- sumAPR + (APR * 100)
   }
+  aprs <- c(aprs, sumAPR)
 
   assign(glue::glue("APR_week_{j}"), aprs)
   avgAprs <- c(avgAprs, mean(aprs))
@@ -417,10 +420,27 @@ par(mfrow = c(2,2)) # plots 4 charts per page
 ts(data = avgAprs, start = 1, end = nrow(historicalPricesHAP[,]), frequency = 1,  deltat = 1) %>%
 matplot( type = "l", main = "Avg. APR", xlab = "Weeks", ylab = "%", col=c("blue"), bg=c("grey"))
 
+total_hap_sold <- prettyNum(hapRequiredCum, scientific=F, big.mark=",")
+
+
 ```
 
-### Bonds (Stable)
-### Bonds (LP)
+## Bonds (Stable)
+
+Total sold **`r total_hap_sold`** HAP
+
+```{r echo=F, results='asis'} 
+
+options(scipen = 999) # avoid scientific notation
+par(mfrow = c(2,2)) # plots 4 charts per page
+
+ts(data = hap_required_period, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1) %>%
+matplot(type = "l", main = "HAP sold", xlab = "Weeks", ylab = "HAP", col=c("red"))
+
+
+```
+
+## Bonds (LP)
 
 ## Plots
 
@@ -460,6 +480,7 @@ matplot(type = "l", main = "Debt", xlab = "Weeks", ylab = "TDA", col=c("red"))
 # Emissions
 
 ```{r echo=F, result='asis', warning=F}
+
 time <- as.numeric(1:nrow(historicalPricesHAP[,]))  
 
 emissions_weekly_stakers = weekly_emissions[1:length(time)] %>%
@@ -526,12 +547,15 @@ areaplot(emissionsMat,
          args.legend = list(x = "topleft", cex = 0.65,
                             bg = "white", bty = "o"))
 
+total_stable_in_treasury = sum(treasury_balances_period[length(treasury_balances_period)])
+total_stable_in_treasury <- prettyNum(total_stable_in_treasury, scientific=F, big.mark=",")
 ```
 
 # Treasury
-```{r results='asis', echo=FALSE, warning=FALSE}
-```
+
 ## Balances
+
+Total in treasury **`r total_stable_in_treasury`** USD
 
 ## Plots
 
@@ -540,8 +564,8 @@ areaplot(emissionsMat,
   options(scipen=999) # avoid scientific notation
   par(mfrow=c(2,2)) # plots 4 charts per page
 
-  treasury_balance = ts(data = treasury_balances_period, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1)
-  matplot(treasury_balance, type = "l", main = "Treasury", xlab = "Weeks", ylab = "$", col=c("green"))
+  ts(data = treasury_balances_period, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1) %>%
+  matplot(type = "l", main = "Treasury", xlab = "Weeks", ylab = "$", col=c("green"))
 
 
 ```
