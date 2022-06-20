@@ -7,6 +7,7 @@ source(paste(path, "/utils/colorize.r", sep=""))
 
 source(paste(path, "/config.r", sep=""))
 source(paste(path, "/getPrices.r", sep=""))
+source(paste(path, "/tda/init.r", sep=""))
 
 source(paste(path, "/emissions/init.r", sep=""))
 source(paste(path, "/borrowers/init.r", sep=""))
@@ -14,6 +15,7 @@ source(paste(path, "/stakers/init.r", sep=""))
 source(paste(path, "/uniswap_v3/eth_dai.r", sep=""))
 source(paste(path, "/borrowers/finalize.r", sep=""))
 source(paste(path, "/stakers/finalize.r", sep=""))
+source(paste(path, "/tda/finalize.r", sep=""))
 
 #source(paste(path, "/uniswap_v3/eth_usdc_pool.r", sep=""))
 #source(paste(path, "/uniswap_v2/snx_eth_pool.r", sep=""))
