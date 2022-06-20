@@ -29,11 +29,6 @@ finalizeBorrowers <- function(borrowers) {
 
         price = historicalPricesETH[j, 3]
         
-        #randomPricesHap = historicalPricesETH[j, 3]
-        #minPrice = randomPrices[which.min(daily_candle)]
-        #maxPrice = randomPrices[which.max(daily_candle)]
-
-        #print(glue::glue("Borrowers matrix has {nrow(borrowers)} rows and {ncol(borrowers)} columns"))
         partialIL = 0
 
         for (s in 1:nrow(borrowers_cp)) { 
@@ -45,6 +40,7 @@ finalizeBorrowers <- function(borrowers) {
             loanAmount = borrowers_cp[s, 2]
 
             probabilities <- sample(x = 1:180,size = 8,replace = TRUE)
+
             if (probabilities[runif(1, min = 1, max = 8)] == 3) {
                 # Board new borrower
                 newCollateral = runif(1, min = 5, max = 500)
@@ -96,7 +92,7 @@ finalizeBorrowers <- function(borrowers) {
                 randomChoice = randomIdx[sample(1:length(randomIdx), 1)] # Pick a random index
                 rnd = floor(runif(1, min = 1, max = nrow(historicalPricesETH)))
 
-                if (IL_A > 0 & j > (nrow(historicalPricesETH) / 5) ) { 
+                if (IL_A > 0 ) { #& j > (nrow(historicalPricesETH) / 5)
                     if (randomChoice == 1 && j > rnd) {
                         #print(paste("IL compensation", IL_A, "for borrower", s, "day #", j))
 
@@ -106,7 +102,7 @@ finalizeBorrowers <- function(borrowers) {
                         il_compensations_cum = il_compensations_cum + IL_A
                         il_compensation_period <- c(il_compensation_period, partialIL)
 
-                        borrowers_cp[s, 1:2] <- 0
+                        #borrowers_cp[s, 1:2] <- 0
                         borrowers_cp[s, 3]  <- liqPrice
                         borrowers_cp[s, 4]  <- stakingPrice
                         borrowers_cp[s, 7]  <- IL_A
