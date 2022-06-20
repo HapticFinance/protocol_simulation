@@ -1,5 +1,5 @@
 # Package names
-packages <- c( "areaplot", "draw", "pdftools", "staplr",  "kableExtra", "tinytex", "purrr", "glue", "ggplot2", "lubridate", "tidyverse", "devtools", "rvest", "janitor", "gridExtra", "rmarkdown")
+packages <- c("formattable", "areaplot", "draw", "pdftools", "staplr",  "kableExtra", "tinytex", "purrr", "glue", "ggplot2", "lubridate", "tidyverse", "devtools", "rvest", "janitor", "gridExtra", "rmarkdown")
 #devtools::install_github("jessevent/crypto")
 #devtools::install_github("deanfantazzini/bitcoinFinance")
 
