@@ -43,13 +43,24 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
     HAP = stakers[u, 1]
     TDA = stakers[u, 2]
+    staking_price = stakers[u, 4]
+    debt = stakers[u, 5]
+    debt_read = 0
+
     hasLiquidation = 0
     fixedCratio = 0
-    
-    debt = stakers[u, 5]
-    debtShare = (debt * 100)/ liquidity
 
-    staking_price = stakers[u, 4]
+    if (debt > 0 & TDA > 0) {
+      debt_read = debt - TDA
+    } 
+
+    #if (debt > 0) { 
+    debtShare = (debt * 100)/ liquidity
+    #} else {
+    #  debt = TDA
+    #  debtShare = (TDA * 100)/ liquidity
+    #}
+
     IL_share = (il_compensations_v[m] ) * debtShare / 100
     debt = debt + IL_share
 
@@ -68,13 +79,11 @@ for (m in 1:nrow(historicalPricesHAP)) {
     c_ratio_og_read = 1 / c_ratio_og * 100
 
     totalDebt = totalDebt + debt
-    
-    rnd2 = floor(runif(1, min=1, max=nrow(historicalPricesETH)))  # Randomizes staker fixing c-ratio
+    #rnd2 = floor(runif(1, min=1, max=nrow(historicalPricesETH)))  # Randomizes staker fixing c-ratio
 
     if (c_ratio_read < cRatio) {
 
       H = debt / ( randomPriceHap * cOpt)
-
       deltaH <- H - HAP
      
       if (c_ratio_read <= liqTarget) {
@@ -85,43 +94,49 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
         collateralNeeded = (S * (1 + liqPenalty))
         newHap = HAP - collateralNeeded
-        TDA <- TDA - S
-        totalBurnedTDA <- totalBurnedTDA + S
 
-        if((TDA - S) < 0) {
+        if (S < 90000) {
+          TDA <- TDA - S
+          totalBurnedTDA <- totalBurnedTDA + S
 
-          newTDA <- -1 * (TDA - S)
-          newH = newTDA / ( randomPriceHap * cOpt)
-          newHap <- ifelse(newHap < newH, newH - newHap, newHap - newH)
-          newLoanAmount = getLoanAmount(newHap, randomPriceHap, cRatio)
-          stakers[u, 3] = getLiqPrice(randomPriceHap, cRatio, liqTarget)
-          TDA <- newLoanAmount
+          if((TDA - S) < 0) {
+            newTDA <- -1 * (TDA - S)
+            newH = newTDA / ( randomPriceHap * cOpt)
+            newHap <- ifelse(newHap < newH, newH - newHap, newHap - newH)
+            newLoanAmount = getLoanAmount(newHap, randomPriceHap, cRatio)
+            stakers[u, 3] = getLiqPrice(randomPriceHap, cRatio, liqTarget)
+            TDA <- newLoanAmount
+          }
           
-        }
+          #poolState <- buyTDA(S, poolState)
+          HAP <- newHap
+          debt <- TDA
 
-        HAP <- newHap
-        debt <- TDA
+          c_ratio <- debt / (HAP * randomPriceHap)
+          c_ratio_read <- 1 / c_ratio * 100
+              
+          liquidity <- liquidity - ((collateralNeeded * randomPriceHap))
+          debtShare <- (TDA * 100)/ liquidity
 
-        c_ratio <- debt / (HAP * randomPriceHap)
-        c_ratio_read <- 1 / c_ratio * 100
-            
-        liquidity <- liquidity - ((collateralNeeded * randomPriceHap))
-        debtShare <- (TDA * 100)/ liquidity
+          Ld = m
+          H = 0 
 
-        Ld = m
-        H = 0 
+          hasLiquidation = 1
+          stakers_liquidated <- c(stakers_liquidated, u)
+          total_liquidations <- total_liquidations + 1
 
-        hasLiquidation = 1
-        stakers_liquidated <- c(stakers_liquidated, u)
-        total_liquidations <- total_liquidations + 1
-        
-        stakers <- recalc_cRatio(stakers, randomPriceHap, liquidity)
-      } 
+          stakers <- recalc_cRatio(stakers, randomPriceHap, liquidity)
+
+        } 
+      }
 
       randomIdx <- c(1,2) 
       randomChoice  <- if(staker_fixcratio == 1) randomIdx[sample(1:length(randomIdx), 1)] else 0
             
-      if (randomChoice == 1 & hasLiquidation == 0 & deltaH < 50000 & m > 0) {
+      if (randomChoice == 1 & 
+          hasLiquidation == 0 & 
+          deltaH < 50000 & 
+          m > 1) {
 
           totalHapRequired <- totalHapRequired + deltaH
           HAP <- HAP + deltaH # Update HAP adding collateral to reach cOpt
@@ -132,9 +147,9 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
           treasury = treasury + (deltaH * (randomPriceHap  - (randomPriceHap * 0.02))) # 2% discount (Stable Bonds)
           fixedCratio = 1
+
       } 
     } 
-
 
     stakers[u, 1] <- as.double(HAP)
     stakers[u, 2] <- as.double(TDA)
@@ -145,6 +160,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
     stakers[u, 13] <- hasLiquidation
     stakers[u, 14] <- as.integer(Ld)
     stakers[u, 15] <- fixedCratio
+    stakers[u, 16] <- formattable(S, digits = 2, format = "f")
 
 
   }
@@ -157,9 +173,6 @@ for (m in 1:nrow(historicalPricesHAP)) {
   
   assign(glue::glue("stakers_week_{m}"), stakers)
 
-
-  labels_stakers = c("HAP", "TDA", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt\\%", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
-  labels_stakers_short = c("HAP", "TDA", "Debt", "Debt-%",  "HAP-req.", "C-ratio", "LiqWeek", "FixCratio")
 
 }
 
