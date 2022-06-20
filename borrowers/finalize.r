@@ -4,6 +4,7 @@ comp_weeks <- c()
 totalLiquidations <- 0
 
 finalizeBorrowers <- function(borrowers) {
+    poolState <- init()
 
     randomIdx <- c(1,2) 
     borrowers_il_partials <- matrix(0, n_borrowers, nrow(historicalPricesETH))
@@ -109,7 +110,8 @@ finalizeBorrowers <- function(borrowers) {
                         borrowers_cp[s, 14] <- 1 # Mark as compensated
                         borrowers_cp[s, 15] <- j # Compensation week
                         comp_weeks <- c(comp_weeks, j)
-
+                        
+                        #poolState <- sellTDA(IL_A, poolState)
                         randomChoice = randomIdx[sample(1:length(randomIdx), 1)] # Pick a random index
 
                         if (randomChoice == 1) {
@@ -157,7 +159,7 @@ finalizeBorrowers <- function(borrowers) {
         assign(glue::glue("borrowers_week_{j}"), borrowers_cp, envir = .GlobalEnv)
     }    
     
-    newList <- list(borrowers_cp, comp_counter, comp_fulfil_day, il_compensation_period, il_compensations_v, il_compensations_cum, il_compensation_period_w_zeroes, totalLiquidations, comp_weeks)
+    newList <- list(borrowers_cp, comp_counter, comp_fulfil_day, il_compensation_period, il_compensations_v, il_compensations_cum, il_compensation_period_w_zeroes, totalLiquidations, comp_weeks, poolState)
     return(newList)
 }
 
@@ -172,4 +174,5 @@ il_compensations_cum <- retValues[[6]]
 il_compensation_period_w_zeroes <- retValues[[7]]
 totalLiquidations <- retValues[[8]] 
 comp_weeks <- retValues[[9]]
+poolState <- retValues[[10]]
 
