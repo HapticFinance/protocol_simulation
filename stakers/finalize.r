@@ -13,6 +13,7 @@ total_debt = 0
 total_liquidations = 0
 stakers_liquidated <- c()
 totalHapRequired = 0
+totalBurnedTDA = 0
 
 recalc_cRatio <- function(stakers, priceHap, liquidity) {
   for (x in 1:nrow(stakers)) {
@@ -85,6 +86,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
         collateralNeeded = (S * (1 + liqPenalty))
         newHap = HAP - collateralNeeded
         TDA <- TDA - S
+        totalBurnedTDA <- totalBurnedTDA + S
 
         if((TDA - S) < 0) {
 
@@ -103,7 +105,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
         c_ratio <- debt / (HAP * randomPriceHap)
         c_ratio_read <- 1 / c_ratio * 100
             
-        liquitidy <- liquidity - ((collateralNeeded * randomPriceHap))
+        liquidity <- liquidity - ((collateralNeeded * randomPriceHap))
         debtShare <- (TDA * 100)/ liquidity
 
         Ld = m
@@ -119,7 +121,8 @@ for (m in 1:nrow(historicalPricesHAP)) {
       randomIdx <- c(1,2) 
       randomChoice  <- if(staker_fixcratio == 1) randomIdx[sample(1:length(randomIdx), 1)] else 0
             
-      if (randomChoice == 1  & deltaH < 50000) {
+      if (randomChoice == 1 & hasLiquidation == 0 & deltaH < 50000 & m > 0) {
+
           totalHapRequired <- totalHapRequired + deltaH
           HAP <- HAP + deltaH # Update HAP adding collateral to reach cOpt
           H = 0
@@ -127,7 +130,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
           c_ratio <- debt / (HAP * randomPriceHap)
           c_ratio_read <- 1 / c_ratio * 100       
 
-          treasury = treasury + (deltaH * (randomPriceHap  * 0.02)) # 2% discount (Stable Bonds)
+          treasury = treasury + (deltaH * (randomPriceHap  - (randomPriceHap * 0.02))) # 2% discount (Stable Bonds)
           fixedCratio = 1
       } 
     } 
