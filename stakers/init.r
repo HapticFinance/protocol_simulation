@@ -36,9 +36,9 @@ if (length(args) == 3) {
   count = args[3] 
 } 
 
-stakers <- matrix(c(1:15), byrow = TRUE, nrow = n_stakers, ncol = 15)
+stakers <- matrix(c(1:16), byrow = TRUE, nrow = n_stakers, ncol = 16)
 randomPricesHapStaking <- historicalPricesHAPB[, 3] #
-randomCollateralHap <- runif(n = n_stakers, min = C, max = 750000)
+randomCollateralHap <- runif(n = n_stakers, min = C, max = 15e5)
 liquidity = 0
 
 # Loop through stakers
@@ -71,6 +71,7 @@ for (x in 1:nrow(stakers))   {
   stakers[x, 13] = 0
   stakers[x, 14] = 0
   stakers[x, 15] = 0
+  stakers[x, 16] = 0
 
 }
 
@@ -79,10 +80,12 @@ for (x in 1:nrow(stakers)) {
   HAP = stakers[x, 1]
   TDA = stakers[x, 2]
 
-  debt = stakers[x, 5]
   debtShare = (TDA * 100)/ liquidity
   stakers[x, 7] = debtShare
   
 }
 
 assign("stakers_week_0", stakers)
+
+labels_stakers = c("HAP", "TDA", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt\\%", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
+labels_stakers_short = c("HAP", "TDA",  "Debt", "Debt-%",  "HAP-req.", "C-ratio", "LiqWeek", "FixCratio")
