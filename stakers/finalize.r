@@ -12,6 +12,7 @@ total_collateral_needed = 0
 total_debt = 0
 total_liquidations = 0
 stakers_liquidated <- c()
+totalHapRequired = 0
 
 recalc_cRatio <- function(stakers, priceHap, liquidity) {
   for (x in 1:nrow(stakers)) {
@@ -27,6 +28,7 @@ recalc_cRatio <- function(stakers, priceHap, liquidity) {
   return(stakers)
 }
 
+
 # Loop through weeks
 for (m in 1:nrow(historicalPricesHAP)) {
 
@@ -34,7 +36,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
    
   totalDebt = 0
   sumCratios = 0
-  
+
   # Loop through stakers
   for (u in 1:nrow(stakers)) {
 
@@ -42,7 +44,6 @@ for (m in 1:nrow(historicalPricesHAP)) {
     TDA = stakers[u, 2]
     hasLiquidation = 0
     fixedCratio = 0
-    hapRequired = 0
     
     debt = stakers[u, 5]
     debtShare = (debt * 100)/ liquidity
@@ -73,7 +74,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
       H = debt / ( randomPriceHap * cOpt)
 
-      deltaH <- ifelse(HAP < H, H - HAP, HAP - H)
+      deltaH <- H - HAP
      
       if (c_ratio_read <= liqTarget) {
 
@@ -99,8 +100,6 @@ for (m in 1:nrow(historicalPricesHAP)) {
         HAP <- newHap
         debt <- TDA
 
-        treasury <- treasury + (collateralNeeded * (randomPriceHap - (randomPriceHap * 0.02)))
-
         c_ratio <- debt / (HAP * randomPriceHap)
         c_ratio_read <- 1 / c_ratio * 100
             
@@ -120,19 +119,17 @@ for (m in 1:nrow(historicalPricesHAP)) {
       randomIdx <- c(1,2) 
       randomChoice  <- if(staker_fixcratio == 1) randomIdx[sample(1:length(randomIdx), 1)] else 0
             
-      if (randomChoice == 1 && !hasLiquidation) {
-          hapRequired <- hapRequired + deltaH
+      if (randomChoice == 1  & deltaH < 50000) {
+          totalHapRequired <- totalHapRequired + deltaH
           HAP <- HAP + deltaH # Update HAP adding collateral to reach cOpt
           H = 0
 
           c_ratio <- debt / (HAP * randomPriceHap)
           c_ratio_read <- 1 / c_ratio * 100       
 
-          treasury = treasury + (deltaH * (randomPriceHap  * 0.07)) # 7% discount (Bonds)
+          treasury = treasury + (deltaH * (randomPriceHap  * 0.02)) # 2% discount (Stable Bonds)
           fixedCratio = 1
-
       } 
-
     } 
 
 
@@ -140,11 +137,13 @@ for (m in 1:nrow(historicalPricesHAP)) {
     stakers[u, 2] <- as.double(TDA)
     stakers[u, 5] <- as.double(debt)
     stakers[u, 7] <- as.double(debtShare)
-    stakers[u, 9] <- H
+    stakers[u, 9] <- deltaH
     stakers[u, 12] <- as.double(c_ratio_read)
     stakers[u, 13] <- hasLiquidation
     stakers[u, 14] <- as.integer(Ld)
     stakers[u, 15] <- fixedCratio
+
+
   }
 
   sumDebts <- c(sumDebts, totalDebt)
@@ -158,7 +157,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
   labels_stakers = c("HAP", "TDA", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt\\%", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
   labels_stakers_short = c("HAP", "TDA", "Debt", "Debt-%",  "HAP-req.", "C-ratio", "LiqWeek", "FixCratio")
-  hap_required_period <- c(hap_required_period, hapRequired)
+
 }
 
 lastStakersSnapshot = get(glue::glue("stakers_week_{m}"))
