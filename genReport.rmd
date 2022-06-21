@@ -345,37 +345,35 @@ This section is a breakdown of the stakers debt pool by week.
 
 for (k in 1:nrow(historicalPricesETH)) {
 
-    prettyHap = prettyNum( historicalPricesHAP[k, 3], big.mark=",", scientific=FALSE)
+  prettyHap = prettyNum( historicalPricesHAP[k, 3], big.mark=",", scientific=FALSE)
 
-    stakers_cp = get(glue::glue("stakers_week_{k}"))
-    stakers_cp <- stakers_cp[,-c( 3, 4, 5, 6, 8, 10, 11, 13)]
+  stakers_cp = get(glue::glue("stakers_week_{k}"))
+  stakers_cp <- stakers_cp[,-c( 3, 4, 5, 6, 8, 10, 11, 13)]
+  stakers_cp <- stakers_cp[, c(1, 2, 9, 3, 4, 5, 6, 7)]
+  stakers <- stakers_cp #params$stakers
 
-    stakers_cp <- stakers_cp[, c(1, 2, 8, 3, 4, 5, 6, 7)]
+  dfStakers <- data.frame(stakers_cp[stakers_show,])
+  colnames(dfStakers) <- labels_stakers_short
+  dfStakers <-  setNames(dfStakers, labels_stakers_short)
+  dfStakers <- dfStakers[order(-dfStakers$TDA),] # temp. disable sorting
+  row.names(dfStakers) <- NULL
 
-    stakers <- stakers_cp #params$stakers
-
-    dfStakers <- data.frame(stakers_cp[stakers_show,])
-    colnames(dfStakers) <- labels_stakers_short
-    dfStakers <-  setNames(dfStakers, labels_stakers_short)
-    dfStakers <- dfStakers[order(-dfStakers$TDA),] # temp. disable sorting
-    row.names(dfStakers) <- NULL
-
-    dfStakers %>%
-      kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTableS) %>%
-      reduce(7:8, function(x, y) {
-        col <- dfStakers[, y]
-        column_spec(x, y, background = case_when(
-          labels_stakers_short[y] == "LiqWeek" & col != 0  & k == col ~ "red",
-          labels_stakers_short[y] == "FixCratio" & col == 1 ~ "green",
-          TRUE ~ "white"), bold = case_when(
-        labels_stakers_short[y] == "LiqWeek" & col != 0 ~ "T",
-        labels_stakers_short[y] == "FixCratio" & col == 1 ~ "T",
-        TRUE ~ "F"))
-      }, .init = .) %>%
-        kable_styling(latex_options = "HOLD_position") %>%
-          kable_classic(full_width = F, html_font = "Cambria") %>%
-                  column_spec(1:ncol(dfStakers), width="4.5em") %>%
-                    print()
+  dfStakers %>%
+    kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTableS) %>%
+    reduce(7:8, function(x, y) {
+      col <- dfStakers[, y]
+      column_spec(x, y, background = case_when(
+        labels_stakers_short[y] == "LiqWeek" & col != 0  & k == col ~ "red",
+        labels_stakers_short[y] == "FixCratio" & col == 1 ~ "green",
+        TRUE ~ "white"), bold = case_when(
+      labels_stakers_short[y] == "LiqWeek" & col != 0 ~ "T",
+      labels_stakers_short[y] == "FixCratio" & col == 1 ~ "T",
+      TRUE ~ "F"))
+    }, .init = .) %>%
+      kable_styling(latex_options = "HOLD_position") %>%
+        kable_classic(full_width = F, html_font = "Cambria") %>%
+          column_spec(1:ncol(dfStakers), width="4.5em") %>%
+            print()
                     
 }
 
@@ -498,7 +496,6 @@ emissions_weekly_treasury = weekly_emissions[1:length(time)] %>%
 
 total_emissions <- weekly_emissions[nrow(historicalPricesETH)] * 1e6
 total_emissions_read <- prettyNum(total_emissions, scientific=F, big.mark=",")
-
 total_emissions_stakers <- prettyNum(total_emissions * 0.7, scientific=F, big.mark=",")
 total_emissions_treasury <- prettyNum(total_emissions * 0.3, scientific=F, big.mark=",")
 
@@ -512,21 +509,21 @@ Total emissions **`r total_emissions_read`** HAP over **`r nrow(historicalPrices
 
 ```{r echo=F, results='asis'}
 
-  a <- c("Stakers", total_emissions_stakers, 70)
-  b <- c("Treasury", total_emissions_treasury, 30)
+a <- c("Stakers", total_emissions_stakers, 70)
+b <- c("Treasury", total_emissions_treasury, 30)
   
-  emission_distribution <- rbind(a,b)
+emission_distribution <- rbind(a,b)
 
-  df_emission_distribution <- data.frame(emission_distribution)
-  colnames(df_emission_distribution) <- c("Actor", "HAP", "%")
-  df_emission_distribution <-  setNames(df_emission_distribution, c("Actor", "HAP", "%"))
-  row.names(df_emission_distribution) <- NULL
+df_emission_distribution <- data.frame(emission_distribution)
+colnames(df_emission_distribution) <- c("Actor", "HAP", "%")
+df_emission_distribution <-  setNames(df_emission_distribution, c("Actor", "HAP", "%"))
+row.names(df_emission_distribution) <- NULL
 
-  df_emission_distribution %>%
-    kbl( caption = paste(""), booktabs = T) %>%
-      kable_styling(latex_options = "HOLD_position", position="left") %>%
-        kable_classic(full_width = F, html_font = "Cambria") %>%
-            print()
+df_emission_distribution %>%
+  kbl( caption = paste(""), booktabs = T) %>%
+    kable_styling(latex_options = "HOLD_position", position="left") %>%
+      kable_classic(full_width = F, html_font = "Cambria") %>%
+          print()
 
 ```
 
@@ -577,6 +574,11 @@ total_stable_in_treasury <- prettyNum(total_stable_in_treasury, scientific=F, bi
   matplot(type = "l", main = "Treasury", xlab = "Weeks", ylab = "$", col=c("green"))
 
 ```
+
+# Haptic network token (HAP)
+
+* Total circulating **`r prettyNum(100000000 + total_emissions, scientific=F, big.mark=",")`** HAP.
+* Market cap **`r prettyNum((100000000 + total_emissions) * historicalPricesHAP[nrow(historicalPricesHAP), 3], scientific=F, big.mark=",")`** USD
 
 # Tokenized Debt Asset (TDA)
 
