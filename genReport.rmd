@@ -269,6 +269,7 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
 ## Summary
 
 - Initial stakers **`r n_stakers`**
+- Final stakers **`r nrow(stakers)`**
 
 ```{r echo=FALSE, warning=FALSE, results='asis'}
 
@@ -406,12 +407,18 @@ for (j in 1:nrow(historicalPricesETH)) {
   sumAPR = 0
 
   for (x in 1:nrow(stakers))   {
+    APR = 0
     debtPercentage = stakers[x, 7]
     HAP = stakers[x, 1]
     totalStaked = sum(stakers[, 1])
     totalRewards =  emissions[j, 3] * debtPercentage / 100
-    APR = (totalRewards * historicalPricesHAP[j, 3]) * 52 / totalStaked * historicalPricesHAP[j, 3]
-    sumAPR <- sumAPR + (APR * 100)
+    if (stakers[x, 12] >= 390) {
+      APR = (totalRewards * historicalPricesHAP[j, 3]) * 52 / totalStaked * historicalPricesHAP[j, 3]
+      sumAPR <- sumAPR + (APR * 100)
+    } else {
+      totalStaked = totalStaked - stakers[x, 1]
+      APR = (totalRewards * historicalPricesHAP[j, 3]) * 52 / totalStaked * historicalPricesHAP[j, 3]
+    }
   }
   aprs <- c(aprs, sumAPR)
 
