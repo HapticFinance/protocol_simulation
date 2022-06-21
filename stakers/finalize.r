@@ -37,7 +37,8 @@ for (m in 1:nrow(historicalPricesHAP)) {
    
   totalDebt = 0
   sumCratios = 0
-
+  liquidity = sum(stakers[, 2])
+  
   # Loop through stakers
   for (u in 1:nrow(stakers)) {
 
@@ -79,7 +80,6 @@ for (m in 1:nrow(historicalPricesHAP)) {
     c_ratio_og_read = 1 / c_ratio_og * 100
 
     totalDebt = totalDebt + debt
-    #rnd2 = floor(runif(1, min=1, max=nrow(historicalPricesETH)))  # Randomizes staker fixing c-ratio
 
     if (c_ratio_read < cRatio) {
 
@@ -91,11 +91,10 @@ for (m in 1:nrow(historicalPricesHAP)) {
         # From Synthetix blog: https://blog.synthetix.io/liquidation-faqs/
         # S = (t * D - V) / (t - (1 + P))
         S = (( ((1 / cOpt) * debt) - (HAP * randomPriceHap)) / ( (1 / cOpt) - (1 + liqPenalty)))
-
         collateralNeeded = (S * (1 + liqPenalty))
         newHap = HAP - collateralNeeded
 
-        if (S < 90000) {
+        if (S < 300000) {
           TDA <- TDA - S
           totalBurnedTDA <- totalBurnedTDA + S
 
@@ -108,7 +107,6 @@ for (m in 1:nrow(historicalPricesHAP)) {
             TDA <- newLoanAmount
           }
           
-          #poolState <- buyTDA(S, poolState)
           HAP <- newHap
           debt <- TDA
 
@@ -127,7 +125,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
           stakers <- recalc_cRatio(stakers, randomPriceHap, liquidity)
 
-        } 
+        }
       }
 
       randomIdx <- c(1,2) 
@@ -154,6 +152,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
     stakers[u, 1] <- as.double(HAP)
     stakers[u, 2] <- as.double(TDA)
     stakers[u, 5] <- as.double(debt)
+    stakers[u, 6] <- as.double(liquidity)
     stakers[u, 7] <- as.double(debtShare)
     stakers[u, 9] <- deltaH
     stakers[u, 12] <- as.double(c_ratio_read)
@@ -161,6 +160,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
     stakers[u, 14] <- as.integer(Ld)
     stakers[u, 15] <- fixedCratio
     stakers[u, 16] <- formattable(S, digits = 2, format = "f")
+    stakers[u, 17] <- formattable(debt_read, digits = 2, format = "f")
 
 
   }
