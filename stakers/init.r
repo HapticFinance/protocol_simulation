@@ -36,9 +36,9 @@ if (length(args) == 3) {
   count = args[3] 
 } 
 
-stakers <- matrix(c(1:16), byrow = TRUE, nrow = n_stakers, ncol = 16)
+stakers <- matrix(c(1:17), byrow = TRUE, nrow = n_stakers, ncol = 17)
 randomPricesHapStaking <- historicalPricesHAPB[, 3] #
-randomCollateralHap <- runif(n = n_stakers, min = C, max = 15e5)
+randomCollateralHap <- runif(n = n_stakers, min = C, max = 1000000)
 liquidity = 0
 
 # Loop through stakers
@@ -54,10 +54,10 @@ for (x in 1:nrow(stakers))   {
   stakers[x, 4] = randomStakingPrice
   stakers[x, 5] = loanAmount
 
-  liquidity = liquidity + stakers[x, 2]
+  #cumLiquidity = liquidity + stakers[x, 2]
   stakerCRatio = stakers[x, 2] / (stakers[x, 1] * randomStakingPrice)
 
-  stakers[x, 6] =  liquidity
+  stakers[x, 6] =  0 #liquidity
   stakers[x, 7] =  0 
 
   #totalIL   = totalIL + stakers[x, 7] 
@@ -80,7 +80,7 @@ for (x in 1:nrow(stakers)) {
   HAP = stakers[x, 1]
   TDA = stakers[x, 2]
 
-  debtShare = (TDA * 100)/ liquidity
+  debtShare = (TDA * 100)/ sum(stakers[, 2])
   stakers[x, 7] = debtShare
   
 }
