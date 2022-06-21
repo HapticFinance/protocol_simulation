@@ -40,7 +40,7 @@ totalLiquidity = getLoanAmount(C, randomPricesBorrowersInitial[1], cRatio)
 totalIL = 0
 IL = 0
 
-randomCollateral <- runif(n = n_borrowers, min = 5, max = 500)
+randomCollateral <- runif(n = n_borrowers, min = 5, max = 50)
 borrowers <- matrix(c(1:15), byrow = TRUE, nrow = n_borrowers, ncol = 15)
 
 initBorrowers <- function(borrowers) {
