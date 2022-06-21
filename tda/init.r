@@ -62,8 +62,3 @@ buyTDA = function(DAI, poolState) {
 }
 
 
-#print(poolState)
-
-#poolState <- buyTDA(1600000, poolState)
-#print(poolState)
-
