@@ -21,7 +21,7 @@ getLoanAmount <- function(C, P, cRatio) {
     L = C * P * (( 1 / cRatio) * 100) 
 }
 
-L = getLoanAmount(C,P,cRatio)
+L = getLoanAmount(C, P, cRatio)
 
 # Loan amount
 # Liquidation Ratio = (Collateral Amount x Collateral Price) ÷ Generated nomin × 100

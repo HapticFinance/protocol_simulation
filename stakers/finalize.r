@@ -94,7 +94,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
         collateralNeeded = (S * (1 + liqPenalty))
         newHap = HAP - collateralNeeded
 
-        if (S < 300000) {
+        #if (S < 300000) {
           TDA <- TDA - S
           totalBurnedTDA <- totalBurnedTDA + S
 
@@ -113,7 +113,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
           c_ratio <- debt / (HAP * randomPriceHap)
           c_ratio_read <- 1 / c_ratio * 100
               
-          liquidity <- liquidity - ((collateralNeeded * randomPriceHap))
+          liquidity <- liquidity - S
           debtShare <- (TDA * 100)/ liquidity
 
           Ld = m
@@ -125,7 +125,7 @@ for (m in 1:nrow(historicalPricesHAP)) {
 
           stakers <- recalc_cRatio(stakers, randomPriceHap, liquidity)
 
-        }
+        #}
       }
 
       randomIdx <- c(1,2) 
@@ -146,7 +146,21 @@ for (m in 1:nrow(historicalPricesHAP)) {
           treasury = treasury + (deltaH * (randomPriceHap  - (randomPriceHap * 0.02))) # 2% discount (Stable Bonds)
           fixedCratio = 1
 
-      } 
+      }
+      
+      probabilities <- sample(x = 1:42,size = 8,replace = TRUE)
+
+      if (probabilities[runif(1, min = 1, max = 8)] == 3) {
+        # Board new staker
+        newCollateral = runif(1, min = 50000, max = 25e5)
+        loanAmount = getLoanAmount(newCollateral, randomPriceHap, cRatio)
+        liqPrice = getLiqPrice(randomPriceHap, cRatio, liqTarget)
+        totalCollateral = totalCollateral + newCollateral
+        liquidity <- liquidity + (loanAmount)
+        stakerCRatio = loanAmount / newCollateral * randomPriceHap
+        newStaker = c(newCollateral, loanAmount, liqPrice, randomPriceHap, loanAmount, 0, 0, stakerCRatio, 0, (1 / stakerCRatio) * 100, 0, cRatio, 0, 0, 0, 0)
+        stakers <- rbind(stakers, newStaker)
+      }
     } 
 
     stakers[u, 1] <- as.double(HAP)
@@ -173,7 +187,6 @@ for (m in 1:nrow(historicalPricesHAP)) {
   
   assign(glue::glue("stakers_week_{m}"), stakers)
 
-
 }
 
-lastStakersSnapshot = get(glue::glue("stakers_week_{m}"))
+lastStakersSnapshot = stakers
