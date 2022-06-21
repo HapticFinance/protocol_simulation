@@ -181,6 +181,7 @@ initPool <- function () {
   }
 
   IL_usd = IL
+  
   # IL as percentage loss
   IL = (IL / V0) * 100
 
@@ -210,30 +211,4 @@ impermanent_loss_chg_days <- retValues[[4]]
 minPrice <- retValues[[5]]
 maxPrice <- retValues[[6]]
 
-# Print impermanent loss
-#print(glue::glue("\n\nSimulation ran over {n} periods\n\n"))
-
-#print(glue::glue("Current DAI balance {mat[n, 2]} ETH balance {mat[n, 1]}"))
-#print(glue::glue("Min price {minPrice} max price {maxPrice} last price {randomPrices[n]}"))
-#print(glue::glue("ETH delta {deltaDai} DAI delta {deltaEth} "))
-#print(glue::glue("Impermanent loss is {IL} %"))
-#print(glue::glue("Original position value {V0} Current position value {V1}"))
 #print(glue::glue("Fees accrued are {fees} DAI total volume {totalVolume}\n\n"))
-
-# Plot results
-if (plot) {
-  #XY <- data.frame(mat)
-  
-  #timeSeries = ts(data = randomPrices, start = 1, end = n, frequency = 1,  deltat = 1, names = )
-
-  #matplot(timeSeries, type = "l")
-
-  #matplot(XY[,c(1)], XY[,c(4)], type = "p", lty = 1, col = c("red", "green"), pch = 1,
-  #        xlab = "DAI in pool", ylab = "ETH price")
-
-  #matplot(XY[,c(2)], XY[,c(4)], type = "p", lty = 1, col = c("red", "green"), pch = 1,
-  #        xlab = "ETH in pool", ylab = "ETH price")
-}
-
-
-       
