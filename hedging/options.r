@@ -2,30 +2,6 @@
 source("init.r", chdir = TRUE)
 
 # Hedging I/L exposure via multiple options
-portfolio <- matrix(c(1:5), byrow = TRUE, nrow = 7, ncol = 5)
-
-eth_call_1 <- c(0, 6, 480, 96, 0) 
-eth_call_2 <- c(0, 8, 520, 96, 0)
-eth_call_3 <- c(0, 10, 560, 105, 0)
-eth_put_1 <- c(0, 8, 360, 144, 1)
-eth_put_2 <- c(0, 10, 320, 90, 1)
-eth_put_3 <- c(0, 15, 280, 90, 1)
-eth_put_4 <- c(0, 5, 240, 12, 1)
-
-portfolio <- rbind(
-    eth_call_1, 
-    eth_call_2, 
-    eth_call_3, 
-    eth_put_1, 
-    eth_put_2, 
-    eth_put_3, 
-    eth_put_4
-)  
-
-getOptionSize <- function(eth) {
-  size <- (6 * eth) / 100
-  return(size)
-}
 
 BlackScholes <- function(K, r, sigma, T, S0, type) {
 
@@ -63,33 +39,37 @@ K2 = 1100              # Strike price (put)
 
 print(glue::glue("Standard deviation is {sD}, sigma {annual_sigma}"))
 
-cost_call <- BlackScholes(K1, r, sigma, T, S0, "C") 
-cost_put <- BlackScholes(K2, r, sigma, T, S0, "P")
-
-#cost_call <- BS_EC(T, K1, r, sigma, S0)
-#cost_put <- BS_EP(T, K2, r, sigma, S0)
-
 getLongCallReturns <- function(cost_call, n, price, strike_price) {
-    profit <- 0
     break_even_point <- strike_price + cost_call
-    if (price >= strike_price + cost_call) {
+    if (price >= strike_price) {
         profit <- (price - strike_price - cost_call) * n
+    } else if (price <= strike_price) {
+        profit <- -1 * (cost_call * n) 
     }
-    print(glue::glue("Call cost is {cost_call} break even {break_even_point} returns {profit}"))
-    return(profit)
+    outcome <- c(break_even_point, (cost_call * n), profit)
+    return(outcome)
 }
 
 getLongPutReturns <- function (cost_put, n, price, strike_price) {
-    profit <- 0
     break_even_point <- strike_price - cost_put
     if (price <= strike_price) {
-        profit <- (strike_price - price - (cost_put)) * n
+        profit <- strike_price - price - cost_put
+    } else if (price >= strike_price) {
+        profit <- -1 * (cost_put * n) 
     }
-    print(glue::glue("Put cost is {cost_put} break even {break_even_point} returns {profit}"))
-    return(profit)
+    outcome <- c(break_even_point, (cost_put * n), profit)
+    return(outcome)
 }
 
-#greeks <- BS_European_Greeks(initial_price = S0,
+cost_call <- BlackScholes(K1, r, sigma, T, S0, "C") 
+outcome_A <- getLongCallReturns(cost_call, 60, 1090, K1)
+print(glue::glue("Break even {outcome_A[1]} returns {outcome_A[3]} max loss {outcome_A[2]}"))
+
+cost_put <- BlackScholes(K2, r, sigma, T, S0, "P")
+outcome_B <- getLongPutReturns(cost_put, 60, 750, 1050)
+print(glue::glue("Break even {outcome_B[1]} returns {outcome_B[3]} max loss {outcome_B[2]}"))
+
+# greeks <- BS_European_Greeks(initial_price = S0,
 #                    exercise_price = K1,
 #                    r,
 #                    time_to_maturity = T,
@@ -112,6 +92,3 @@ getLongPutReturns <- function (cost_put, n, price, strike_price) {
 #                        start_volatility = sigma,
 #                        precision = 1e-09
 #                        )
-
-profit <- getLongCallReturns(cost_call, 1, 1350, K1)
-profit <- getLongPutReturns(cost_put, 1, 974, K1)
