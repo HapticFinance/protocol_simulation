@@ -2,6 +2,8 @@
 source("init.r", chdir = TRUE)
 
 # Hedging I/L exposure via multiple options
+# Formulas taken from https://analystprep.com/cfa-level-1-exam/derivatives/call-put-option-profits-payoffs/
+# And https://www.r-bloggers.com/2020/12/pricing-of-european-options-with-monte-carlo/
 
 BlackScholes <- function(K, r, sigma, T, S0, type) {
 
@@ -62,7 +64,7 @@ getLongPutReturns <- function (cost_put, n, price, strike_price) {
 }
 
 cost_call <- BlackScholes(K1, r, sigma, T, S0, "C") 
-outcome_A <- getLongCallReturns(cost_call, 60, 1090, K1)
+outcome_A <- getLongCallReturns(cost_call, 60, 1350, K1)
 print(glue::glue("Break even {outcome_A[1]} returns {outcome_A[3]} max loss {outcome_A[2]}"))
 
 cost_put <- BlackScholes(K2, r, sigma, T, S0, "P")
