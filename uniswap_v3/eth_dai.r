@@ -36,13 +36,6 @@ y_in_range <- function(L, sp, sa) {
     yR = L * (sp - sa)
 }
 
-
-# in the current price range
-# x = x_in_range(liquidity, sPriceCurrent, sPriceTarget)
-# deltaTokens += x
-# sPriceCurrent = sPriceTarget
-# print("need to buy {:.10f} X tokens".format(deltaTokens / 10 ** decimalsX))
-
 # Simulator of constant product AMM with concentrated liquidity (Uniswap V3) 
 # Formulas taken from: 
 # https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf
@@ -104,8 +97,6 @@ initPool <- function () {
 
     } else { 
       deltaTokens = 0
-
-      # Do no repeat computation
       currentPrice = poolState[r-1, 4]
 
       # Compute liquidity
@@ -125,11 +116,11 @@ initPool <- function () {
 
       if (randomPrice > previousPrice) {
         xNew = x_in_range(L, poolState[r-1, 4], randomPrice)
-        deltaTokens = poolState[r-1, 1] - getx(L, randomPrice, maxP) #deltaTokens + xNew
+        deltaTokens = poolState[r-1, 1] - getx(L, randomPrice, maxP)
         #print(glue::glue("need to sell {deltaTokens} tokens to reach {randomPrice}"))
       } else if (randomPrice < previousPrice) {
         yNew = y_in_range(L, poolState[r, 4], minP)
-        deltaTokens = poolState[r-1, 1] - gety(L, randomPrice, Pa) #deltaTokens + yNew
+        deltaTokens = poolState[r-1, 1] - gety(L, randomPrice, Pa)
         #print(glue::glue("need to buy {deltaTokens} tokens to reach {randomPrice}"))
       }
 
