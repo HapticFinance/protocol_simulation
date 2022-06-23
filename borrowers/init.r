@@ -35,7 +35,7 @@ if (length(args) == 3) {
 labels_borrowers = c("ETH", "sUSD", "Liq. price", "Stak. price",  "Liquidity", "Debt %", "HAP needed", "")
 labels_borrowers_2 = c("ETH", "sUSD", "Liq. price", "Stak-Price",  "I/L", "LiqWeek", "Comp-Week")
 
-randomPricesBorrowersInitial <- historicalPricesETHA[,3] #runif(n = n_borrowers, min = minP, max = maxP)
+randomPricesBorrowersInitial <- historicalPricesETHA[,3] 
 totalLiquidity = getLoanAmount(C, randomPricesBorrowersInitial[1], cRatio)
 totalIL = 0
 IL = 0
@@ -60,7 +60,6 @@ initBorrowers <- function(borrowers) {
       # Divide by number of pools
       poolLiquidity = loanAmount / n_pools
 
-
       borrowers[r, 6] =  totalLiquidity
       borrowers[r, 7] =  0 # I/L 
       borrowers[r, 8] =  0 # total IL  
@@ -77,6 +76,16 @@ initBorrowers <- function(borrowers) {
     return(borrowers)
 }
 
-
 borrowers <- initBorrowers(borrowers)
+eth_in_pool <- sum(borrowers[, 1])
+
+recent_data <- arrange(myDf, -row_number())
+recent_data$newClose <- c('NA',round(diff(log(recent_data$close)), 3))
+recent_data$newClose <- as.numeric(recent_data$newClose)
+
+sD <- sd(recent_data$newClose, na.rm = T)
+
+init_hedging(sD, mean(borrowers[, 4]), eth_in_pool)
+
+#print(glue::glue("ETH in pool {eth_in_pool} Option size {getSize('C', eth_in_pool)}"))
 assign("borrowers_week_0", borrowers)
