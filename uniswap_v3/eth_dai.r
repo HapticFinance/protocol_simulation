@@ -84,7 +84,7 @@ initPool <- function () {
   # Simulate trades
   for (r in 1:nrow(poolState))   {
 
-    randomPrices = dat[, 3]        
+    randomPrices = eth_historical_recent[, 3]        
     Pa = getPa(poolState[r, 1], poolState[r, 2], P, maxP)
 
     # initial state
@@ -143,7 +143,6 @@ initPool <- function () {
       fees = fees + (volumeDAI * feeRate); 
       # Total volume
       totalVolume = totalVolume + volumeDAI
-        
     }
 
   # Pool balances
