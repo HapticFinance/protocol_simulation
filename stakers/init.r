@@ -47,10 +47,11 @@ for (x in 1:nrow(stakers))   {
 
   randomStakingPrice = randomPricesHapStaking[x]
   loanAmount = getLoanAmount(randomCollateralHap[x], randomStakingPrice, cRatio)
+  liqPrice = getLiqPrice(randomStakingPrice, cRatio, liqTarget)
 
-  stakers[x, 1] = randomCollateralHap[x]
+  stakers[x, 1] = randomCollateralHap[x] 
   stakers[x, 2] = loanAmount
-  stakers[x, 3] = getLiqPrice(randomStakingPrice, cRatio, liqTarget)
+  stakers[x, 3] = liqPrice
   stakers[x, 4] = randomStakingPrice
   stakers[x, 5] = loanAmount
 

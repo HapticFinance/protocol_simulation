@@ -4,6 +4,7 @@ comp_weeks <- c()
 totalLiquidations <- 0
 
 finalizeBorrowers <- function(borrowers) {
+
     poolState <- init()
 
     randomIdx <- c(1,2) 
@@ -19,7 +20,6 @@ finalizeBorrowers <- function(borrowers) {
     il_compensations_v <- c()
     il_compensations_cum = 0
     il_compensation_period_w_zeroes <- c()
-
 
     for (j in 1:nrow(historicalPricesETH)) {
 
@@ -43,6 +43,7 @@ finalizeBorrowers <- function(borrowers) {
             probabilities <- sample(x = 1:270,size = 8,replace = TRUE)
 
             if (probabilities[runif(1, min = 1, max = 8)] == 3) {
+
                 # Board new borrower
                 newCollateral = runif(1, min = 5, max = 50)
                 loanAmount = getLoanAmount(newCollateral, price, cRatio)
@@ -51,12 +52,13 @@ finalizeBorrowers <- function(borrowers) {
                 poolLiquidity = loanAmount / n_pools
                 newBorrower = c(newCollateral, loanAmount, liqPrice, price, 0, totalLiquidity, 0, 0, poolLiquidity, 0, 0, 0, 0, 0, 0)
                 borrowers_cp <- rbind(borrowers_cp, newBorrower)
+
             }
 
             if (price <= liqPrice & 
                 hasCompensation == 0 & 
                 hasLiquidation == 0 ) {
-
+                    
                 borrowers_cp[s, 1:2] = 0
                 borrowers_cp[s, 10] = 1 # Mark as liquidated    
                 borrowers_cp[s, 11] = j # Liquidation week
@@ -64,6 +66,7 @@ finalizeBorrowers <- function(borrowers) {
 
                 totalLiquidity <- totalLiquidity - loanAmount
                 totalLiquidations <- totalLiquidations + 1
+
             } 
 
             
@@ -72,12 +75,12 @@ finalizeBorrowers <- function(borrowers) {
                 poolLiquidity = borrowers_cp[s, 2]
 
                 # Calculate impermanent loss  
-                IL_A = poolLiquidity * impermanent_loss_chg_days[j]/ 100 
+                IL_A = (poolLiquidity * impermanent_loss_chg_days[j]/ 100 ) * 3
                 
                 randomChoice = randomIdx[sample(1:length(randomIdx), 1)] # Pick a random index
                 rnd = floor(runif(1, min = 1, max = nrow(historicalPricesETH)))
 
-                if (IL_A > 0 ) { #& j > (nrow(historicalPricesETH) / 5)
+                if (IL_A > 0) { #& j > (nrow(historicalPricesETH) / 5)
                     if (randomChoice == 1 && j > rnd) {
                         #print(paste("IL compensation", IL_A, "for borrower", s, "day #", j))
 
@@ -95,7 +98,6 @@ finalizeBorrowers <- function(borrowers) {
                         borrowers_cp[s, 15] <- j # Compensation week
                         comp_weeks <- c(comp_weeks, j)
                         
-                        #poolState <- sellTDA(IL_A, poolState)
                         randomChoice = randomIdx[sample(1:length(randomIdx), 1)] # Pick a random index
 
                         if (randomChoice == 1) {
@@ -114,7 +116,6 @@ finalizeBorrowers <- function(borrowers) {
 
                 probabilities <- sample(x = 1:270,size = 8,replace = TRUE)
                 if (probabilities[runif(1, min = 1, max = 8)] == 3) {
-
                     # Board new borrower
                     newCollateral = runif(1, min = 5, max = 500)
                     loanAmount = getLoanAmount(newCollateral, price, cRatio)
@@ -138,22 +139,12 @@ finalizeBorrowers <- function(borrowers) {
 
         il_compensation_period_w_zeroes <- c(il_compensation_period_w_zeroes, val)
 
-        #if (comp_counter == n_borrowers) {
-        #    if (execute_once == 0) {
-        #        comp_fulfil_day = j
-        #         execute_once <- 1
-        #         borrowers <- initBorrowers()
-        #         assign("borrowers_week_0", borrowers)
-        #         initPool()
-        #      finalizeBorrowers(borrowers_cp2)
-        #    }
-        #}
-
         assign(glue::glue("borrowers_week_{j}"), borrowers_cp, envir = .GlobalEnv)
     }    
     
     newList <- list(borrowers_cp, comp_counter, comp_fulfil_day, il_compensation_period, il_compensations_v, il_compensations_cum, il_compensation_period_w_zeroes, totalLiquidations, comp_weeks, poolState)
     return(newList)
+
 }
 
 retValues <- finalizeBorrowers(borrowers)

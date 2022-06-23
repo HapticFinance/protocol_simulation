@@ -37,6 +37,7 @@ total_emissions = 0
 weekly_emissions <- c()
 
 for (r in 1:nrow(emissions))   {
+
     emissions[r, 3] = start
     # Skip the first line as it is the initial state
     if (r > 1) {
@@ -49,6 +50,7 @@ for (r in 1:nrow(emissions))   {
           emissions[r, 5] = historicalPricesHAP[r, 3]
           weekly_emissions <- c(weekly_emissions, total_emissions / 1e6)
     }
+    
 }
 
 totEm = prettyNum(emission_first_year, big.mark=",", scientific=FALSE)

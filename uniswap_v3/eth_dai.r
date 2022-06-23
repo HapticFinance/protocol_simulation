@@ -77,7 +77,7 @@ initPool <- function () {
   initialState <- c(x, y, k, P)
 
   # Generate matrix from initial state
-  mat <- matrix(initialState, byrow = TRUE, nrow = nrow(historicalPricesETH), ncol = length(initialState))
+  poolState <- matrix(initialState, byrow = TRUE, nrow = nrow(historicalPricesETH), ncol = length(initialState))
 
   fees = 0
   totalVolume = 0
@@ -89,28 +89,28 @@ initPool <- function () {
   n =  nrow(historicalPricesETH)
 
   # Simulate trades
-  for (r in 1:nrow(mat))   {
+  for (r in 1:nrow(poolState))   {
 
     randomPrices = dat[, 3]        
-    Pa = getPa(mat[r, 1], mat[r, 2], P, maxP)
+    Pa = getPa(poolState[r, 1], poolState[r, 2], P, maxP)
 
     # initial state
     if (r == 1) {
 
-      mat[r, 1] = x
-      mat[r, 2] = y
-      mat[r, 3] = x * y
-      mat[r, 4] = P
+      poolState[r, 1] = x
+      poolState[r, 2] = y
+      poolState[r, 3] = x * y
+      poolState[r, 4] = P
 
     } else { 
       deltaTokens = 0
 
       # Do no repeat computation
-      currentPrice = mat[r-1, 4]
+      currentPrice = poolState[r-1, 4]
 
       # Compute liquidity
-      Lx = getLiqX(mat[r-1, 1], currentPrice, maxP)
-      Ly = getLiqY(mat[r-1, 2], currentPrice, Pa)
+      Lx = getLiqX(poolState[r-1, 1], currentPrice, maxP)
+      Ly = getLiqY(poolState[r-1, 2], currentPrice, Pa)
 
       # Compute minimum 
       liq = c(Lx, Ly)
@@ -118,34 +118,34 @@ initPool <- function () {
 
       # Compute new x and y
       randomPrice = randomPrices[r]
-      previousPrice = mat[r-1, 4]
+      previousPrice = poolState[r-1, 4]
 
       xNew = 0
       yNew = 0
 
       if (randomPrice > previousPrice) {
-        xNew = x_in_range(L, mat[r-1, 4], randomPrice)
-        deltaTokens = mat[r-1, 1] - getx(L, randomPrice, maxP) #deltaTokens + xNew
+        xNew = x_in_range(L, poolState[r-1, 4], randomPrice)
+        deltaTokens = poolState[r-1, 1] - getx(L, randomPrice, maxP) #deltaTokens + xNew
         #print(glue::glue("need to sell {deltaTokens} tokens to reach {randomPrice}"))
       } else if (randomPrice < previousPrice) {
-        yNew = y_in_range(L, mat[r, 4], minP)
-        deltaTokens = mat[r-1, 1] - gety(L, randomPrice, Pa) #deltaTokens + yNew
+        yNew = y_in_range(L, poolState[r, 4], minP)
+        deltaTokens = poolState[r-1, 1] - gety(L, randomPrice, Pa) #deltaTokens + yNew
         #print(glue::glue("need to buy {deltaTokens} tokens to reach {randomPrice}"))
       }
 
       xNew = getx(L, randomPrice, maxP)
       yNew = gety(L, randomPrice, Pa)
         
-      mat[r, 1] = xNew
-      mat[r, 2] = yNew
-      mat[r, 3] = x * y
-      mat[r, 4] = randomPrice    
+      poolState[r, 1] = xNew
+      poolState[r, 2] = yNew
+      poolState[r, 3] = x * y
+      poolState[r, 4] = randomPrice    
 
       # Volume
-      if ((mat[r, 2] -  mat[r-1, 2]) > 0) {
-        volumeDAI = mat[r, 2] -  mat[r-1, 2]
+      if ((poolState[r, 2] -  poolState[r-1, 2]) > 0) {
+        volumeDAI = poolState[r, 2] -  poolState[r-1, 2]
       } else {
-        volumeDAI = -1 * (mat[r, 2] - mat[r-1, 2]) 
+        volumeDAI = -1 * (poolState[r, 2] - poolState[r-1, 2]) 
       }
 
       # Fees calculated in terms of y
@@ -156,14 +156,14 @@ initPool <- function () {
     }
 
   # Pool balances
-  deltaDai = (mat[r, 1]) - x
-  if (x > (mat[r, 1] )) {
-    deeltaDai = -1 * (x - mat[r, 1] )
+  deltaDai = (poolState[r, 1]) - x
+  if (x > (poolState[r, 1] )) {
+    deltaDai = -1 * (x - poolState[r, 1] )
   }
 
-  deltaEth = mat[r, 2] - y
-  if (y > mat[r, 2]) {
-    deltaEth = -1 * (y - mat[r, 2])
+  deltaEth = poolState[r, 2] - y
+  if (y > poolState[r, 2]) {
+    deltaEth = -1 * (y - poolState[r, 2])
   }
 
   # Impermanent loss calculation
@@ -171,7 +171,7 @@ initPool <- function () {
   V0 = (x * randomPrices[r]) + (y * 1)  
 
   # Actual value of position at the end of the simulation
-  V1 = (mat[r, 1] * randomPrices[r]) + (mat[r, 2] * 1) 
+  V1 = (poolState[r, 1] * randomPrices[r]) + (poolState[r, 2] * 1) 
 
   # IL as delta in portfolio value
   if (V0 > V1) {
@@ -189,8 +189,8 @@ initPool <- function () {
   minPrice = randomPrices[which.min(randomPrices)]
   maxPrice = randomPrices[which.max(randomPrices)]
       
-  impermanent_loss_days = c(impermanent_loss_days, IL_usd)
-  impermanent_loss_chg_days = c(impermanent_loss_chg_days, IL)
+  impermanent_loss_days <- c(impermanent_loss_days, IL_usd)
+  impermanent_loss_chg_days <- c(impermanent_loss_chg_days, IL)
         
   }
 
