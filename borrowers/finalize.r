@@ -75,7 +75,7 @@ finalizeBorrowers <- function(borrowers) {
                 poolLiquidity = borrowers_cp[s, 2]
 
                 # Calculate impermanent loss  
-                IL_A = (poolLiquidity * impermanent_loss_chg_days[j]/ 100 ) * 3
+                IL_A = (poolLiquidity * impermanent_loss_chg_days[j]/ 100 )
                 
                 randomChoice = randomIdx[sample(1:length(randomIdx), 1)] # Pick a random index
                 rnd = floor(runif(1, min = 1, max = nrow(historicalPricesETH)))
@@ -160,3 +160,5 @@ totalLiquidations <- retValues[[8]]
 comp_weeks <- retValues[[9]]
 poolState <- retValues[[10]]
 
+initial_borrowers_state <- get(glue::glue("borrowers_week_0"))
+init_hedging(sD, mean(initial_borrowers_state[, 4]), sum(initial_borrowers_state[, 1]))

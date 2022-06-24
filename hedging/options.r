@@ -52,19 +52,23 @@ getLongPutReturns <- function (cost_put, n, price, strike_price) {
 }
 
 
-calc_option_cost <- function(S0, r, sigma, T) {
+calc_options_cost <- function(S0, r, sigma, T) {
+
     cost_call_a <- BlackScholes(S0 + (S0 * 0.2), r, sigma, T, S0, "C") 
     cost_call_b <- BlackScholes(S0 + (S0 * 0.4), r, sigma, T, S0, "C") 
     cost_put_a <- BlackScholes(S0 - (S0 * 0.2), r, sigma, T, S0, "P")
     cost_put_b <- BlackScholes(S0 - (S0 * 0.4), r, sigma, T, S0, "P")
 
-    return(c(cost_call_a, cost_call_b, cost_put_a, cost_put_b))
+    options_cost <- c(cost_call_a, cost_call_b, cost_put_a, cost_put_b)
+
+    return(options_cost)
 }
 
 
 # Hedging strategy - Open long puts from 10 to 60% below market price and long calls from 20 to 100% above market price
 init_hedging <- function(sigma, S0, eth_in_pool) {
-    annual_sigma <- sD * sqrt(365)
+
+    annual_sigma <- sigma * sqrt(365)
     print(glue::glue("Standard deviation is {sigma}, sigma {annual_sigma} market price {S0} total ETH {eth_in_pool}"))
 
     r = 0.02               # 2% interest rate
@@ -77,31 +81,106 @@ init_hedging <- function(sigma, S0, eth_in_pool) {
     strike_price_put_a <- S0 - (S0 * 0.2)
     strike_price_put_b <- S0 - (S0 * 0.4)
 
-    trade_size_call = getSize("C", eth_in_pool)
-    trade_size_put = getSize("P", eth_in_pool)
-
     for (x in 1:nrow(historicalPricesETH)) {
 
-        close_price <- historicalPricesETH[x, 3]
-        option_costs <- calc_option_cost(close_price, r, sigma, T)
+        borrowers_state <- get(glue::glue("borrowers_week_{x}"))
 
-        outcome_a <- getLongCallReturns(option_costs[1], trade_size_call, close_price, strike_price_call_a)
-        print(glue::glue("CALL A - SP {strike_price_call_a} P {close_price} BE {outcome_a[1]} returns {outcome_a[3]} max loss {outcome_a[2]} cost {option_costs[1]}\n"))
+        trade_size_call = getSize("C", sum(borrowers_state[, 1]))
+        trade_size_put = getSize("P", sum(borrowers_state[, 1]))
+        close_price <- S0
 
-        outcome_b <- getLongCallReturns(option_costs[2], trade_size_call + (trade_size_call * 0.25), close_price, strike_price_call_b)
-        print(glue::glue("CALL B - SP {strike_price_call_b} P {close_price} BE {outcome_b[1]} returns {outcome_b[3]} max loss {outcome_b[2]} cost {option_costs[2]}\n"))
+        if (x > 4) {
+            close_price <- historicalPricesETH[x, 3]
+        }
 
-        outcome_c <- getLongPutReturns(option_costs[3], trade_size_put, close_price, strike_price_put_a)            
-        print(glue::glue("PUT  A - SP {strike_price_put_a} P {close_price} BE {outcome_c[1]} returns {outcome_c[3]} max loss {outcome_c[2]} cost {option_costs[3]}\n"))
+        options_cost <- calc_options_cost(close_price, r, sigma, T)
+        total_IL_week <- sum(borrowers_state[, 7])
 
-        outcome_d <- getLongPutReturns(option_costs[4], trade_size_put + (trade_size_put * 0.25), close_price, strike_price_put_b)            
-        print(glue::glue("PUT  B - SP {strike_price_put_b} P {close_price} BE {outcome_d[1]} returns {outcome_d[3]} max loss {outcome_d[2]} cost {option_costs[4]}\n"))
+        if (x >= 1 & x <= 4) {
+
+            outcome_a <- getLongCallReturns(options_cost[1], trade_size_call, close_price, strike_price_call_a)
+            print(glue::glue("CALL A - SP {strike_price_call_a} P {close_price} BE {outcome_a[1]} returns {outcome_a[3]} max loss {outcome_a[2]} cost {options_cost[1]}\n"))
+
+            outcome_b <- getLongCallReturns(options_cost[2], trade_size_call + (trade_size_call * 0.25), close_price, strike_price_call_b)
+            print(glue::glue("CALL B - SP {strike_price_call_b} P {close_price} BE {outcome_b[1]} returns {outcome_b[3]} max loss {outcome_b[2]} cost {options_cost[2]}\n"))
+
+            outcome_c <- getLongPutReturns(options_cost[3], trade_size_put, close_price, strike_price_put_a)            
+            print(glue::glue("PUT  A - SP {strike_price_put_a} P {close_price} BE {outcome_c[1]} returns {outcome_c[3]} max loss {outcome_c[2]} cost {options_cost[3]}\n"))
+
+            outcome_d <- getLongPutReturns(options_cost[4], trade_size_put + (trade_size_put * 0.25), close_price, strike_price_put_b)            
+            print(glue::glue("PUT  B - SP {strike_price_put_b} P {close_price} BE {outcome_d[1]} returns {outcome_d[3]} max loss {outcome_d[2]} cost {options_cost[4]}\n"))
+                
+        } else if (x >= 4 & x <= 8) {
+
+            outcome_a <- getLongCallReturns(options_cost[1], trade_size_call, close_price, strike_price_call_a)
+            print(glue::glue("CALL A - SP {strike_price_call_a} P {close_price} BE {outcome_a[1]} returns {outcome_a[3]} max loss {outcome_a[2]} cost {options_cost[1]}\n"))
+
+            outcome_b <- getLongCallReturns(options_cost[2], trade_size_call + (trade_size_call * 0.25), close_price, strike_price_call_b)
+            print(glue::glue("CALL B - SP {strike_price_call_b} P {close_price} BE {outcome_b[1]} returns {outcome_b[3]} max loss {outcome_b[2]} cost {options_cost[2]}\n"))
+
+            outcome_c <- getLongPutReturns(options_cost[3], trade_size_put, close_price, strike_price_put_a)            
+            print(glue::glue("PUT  A - SP {strike_price_put_a} P {close_price} BE {outcome_c[1]} returns {outcome_c[3]} max loss {outcome_c[2]} cost {options_cost[3]}\n"))
+
+            outcome_d <- getLongPutReturns(options_cost[4], trade_size_put + (trade_size_put * 0.25), close_price, strike_price_put_b)            
+            print(glue::glue("PUT  B - SP {strike_price_put_b} P {close_price} BE {outcome_d[1]} returns {outcome_d[3]} max loss {outcome_d[2]} cost {options_cost[4]}\n"))
+                
+        } else if (x >= 8 & x <= 16) {
             
-        print(glue::glue("Total cost is ${sum(option_costs)}"))
+            outcome_a <- getLongCallReturns(options_cost[1], trade_size_call, close_price, strike_price_call_a)
+            print(glue::glue("CALL A - SP {strike_price_call_a} P {close_price} BE {outcome_a[1]} returns {outcome_a[3]} max loss {outcome_a[2]} cost {options_cost[1]}\n"))
+
+            outcome_b <- getLongCallReturns(options_cost[2], trade_size_call + (trade_size_call * 0.25), close_price, strike_price_call_b)
+            print(glue::glue("CALL B - SP {strike_price_call_b} P {close_price} BE {outcome_b[1]} returns {outcome_b[3]} max loss {outcome_b[2]} cost {options_cost[2]}\n"))
+
+            outcome_c <- getLongPutReturns(options_cost[3], trade_size_put, close_price, strike_price_put_a)            
+            print(glue::glue("PUT  A - SP {strike_price_put_a} P {close_price} BE {outcome_c[1]} returns {outcome_c[3]} max loss {outcome_c[2]} cost {options_cost[3]}\n"))
+
+            outcome_d <- getLongPutReturns(options_cost[4], trade_size_put + (trade_size_put * 0.25), close_price, strike_price_put_b)            
+            print(glue::glue("PUT  B - SP {strike_price_put_b} P {close_price} BE {outcome_d[1]} returns {outcome_d[3]} max loss {outcome_d[2]} cost {options_cost[4]}\n"))
+                
+        } else if (x >= 16 & x <= 32) {
+
+            outcome_a <- getLongCallReturns(options_cost[1], trade_size_call, close_price, strike_price_call_a)
+            print(glue::glue("CALL A - SP {strike_price_call_a} P {close_price} BE {outcome_a[1]} returns {outcome_a[3]} max loss {outcome_a[2]} cost {options_cost[1]}\n"))
+
+            outcome_b <- getLongCallReturns(options_cost[2], trade_size_call + (trade_size_call * 0.25), close_price, strike_price_call_b)
+            print(glue::glue("CALL B - SP {strike_price_call_b} P {close_price} BE {outcome_b[1]} returns {outcome_b[3]} max loss {outcome_b[2]} cost {options_cost[2]}\n"))
+
+            outcome_c <- getLongPutReturns(options_cost[3], trade_size_put, close_price, strike_price_put_a)            
+            print(glue::glue("PUT  A - SP {strike_price_put_a} P {close_price} BE {outcome_c[1]} returns {outcome_c[3]} max loss {outcome_c[2]} cost {options_cost[3]}\n"))
+
+            outcome_d <- getLongPutReturns(options_cost[4], trade_size_put + (trade_size_put * 0.25), close_price, strike_price_put_b)            
+            print(glue::glue("PUT  B - SP {strike_price_put_b} P {close_price} BE {outcome_d[1]} returns {outcome_d[3]} max loss {outcome_d[2]} cost {options_cost[4]}\n"))
+                
+
+        } else if (x >= 32) {
+
+            outcome_a <- getLongCallReturns(options_cost[1], trade_size_call, close_price, strike_price_call_a)
+            print(glue::glue("CALL A - SP {strike_price_call_a} P {close_price} BE {outcome_a[1]} returns {outcome_a[3]} max loss {outcome_a[2]} cost {options_cost[1]}\n"))
+
+            outcome_b <- getLongCallReturns(options_cost[2], trade_size_call + (trade_size_call * 0.25), close_price, strike_price_call_b)
+            print(glue::glue("CALL B - SP {strike_price_call_b} P {close_price} BE {outcome_b[1]} returns {outcome_b[3]} max loss {outcome_b[2]} cost {options_cost[2]}\n"))
+
+            outcome_c <- getLongPutReturns(options_cost[3], trade_size_put, close_price, strike_price_put_a)            
+            print(glue::glue("PUT  A - SP {strike_price_put_a} P {close_price} BE {outcome_c[1]} returns {outcome_c[3]} max loss {outcome_c[2]} cost {options_cost[3]}\n"))
+
+            outcome_d <- getLongPutReturns(options_cost[4], trade_size_put + (trade_size_put * 0.25), close_price, strike_price_put_b)            
+            print(glue::glue("PUT  B - SP {strike_price_put_b} P {close_price} BE {outcome_d[1]} returns {outcome_d[3]} max loss {outcome_d[2]} cost {options_cost[4]}\n"))
+                
+        }
+
+        PL <- (outcome_a[3] + outcome_b[3] + outcome_c[3] + outcome_d[3])
+
+        total_cost_call <- sum(options_cost[1:2]) * trade_size_call
+        total_cost_put <- sum(options_cost[3:4]) * trade_size_put
+
+        print(glue::glue("Total cost CALL is ${total_cost_call} PUT ${total_cost_put} Total IL week #{x} {total_IL_week} Hedging {PL}"))
+
+        assign(glue::glue("hedging_week_{x}"), PL, envir = .GlobalEnv)
 
     }
-    #total_cost <- option_costs[1] + cost_call_b + cost_put_a * cost_put_b
-}
+ 
+} 
 
 
 
