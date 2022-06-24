@@ -32,22 +32,22 @@ getSize <- function(type, eth) {
 getLongCallReturns <- function(cost_call, n, price, strike_price) {
     break_even_point <- strike_price + cost_call
     if (price >= strike_price) {
-        profit <- (price - strike_price - cost_call) * n
+        PL <- (price - strike_price - cost_call) * n
     } else if (price <= strike_price) {
-        profit <- -1 * (cost_call * n) 
+        PL <- -1 * (cost_call * n) 
     }
-    outcome <- c(break_even_point, (cost_call * n), profit)
+    outcome <- c(break_even_point, (cost_call * n), PL)
     return(outcome)
 }
 
 getLongPutReturns <- function (cost_put, n, price, strike_price) {
     break_even_point <- strike_price - cost_put
     if (price <= strike_price) {
-        profit <- (strike_price - price - cost_put) * n
+        PL <- (strike_price - price - cost_put) * n
     } else if (price >= strike_price) {
-        profit <- -1 * (cost_put * n) 
+        PL <- -1 * (cost_put * n) 
     }
-    outcome <- c(break_even_point, (cost_put * n), profit)
+    outcome <- c(break_even_point, (cost_put * n), PL)
     return(outcome)
 }
 
@@ -69,7 +69,7 @@ calc_options_cost <- function(S0, r, sigma, T) {
 init_hedging <- function(sigma, S0, eth_in_pool) {
 
     annual_sigma <- sigma * sqrt(365)
-    print(glue::glue("Standard deviation is {sigma}, sigma {annual_sigma} market price {S0} total ETH {eth_in_pool}"))
+    #print(glue::glue("Standard deviation is {sigma}, sigma {annual_sigma} market price {S0} total ETH {eth_in_pool}"))
 
     r = 0.02               # 2% interest rate
     T = 0.0821918          # Time to maturity in years (30 days)
@@ -138,7 +138,7 @@ init_hedging <- function(sigma, S0, eth_in_pool) {
 #                        precision = 1e-09
 #                      )
 
-# cost_pull <- greeks[1]
+# cost_put <- greeks[1]
 # vega <- greeks[3]
 
 
