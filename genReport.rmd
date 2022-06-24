@@ -33,10 +33,10 @@ knit: (function(inputFile, encoding) {
 source("init.r")
 suppressPackageStartupMessages(library(pdftools))
 
-nDataPoints = nrow(historicalPricesETH)
+nDataPoints = nrow(historical_prices_ETH)
 
-historicalPricesETHV <- as.vector(historicalPricesETH[,3])
-historicalPricesHAPV <- as.vector(historicalPricesHAP[,3])
+historicalPricesETHV <- as.vector(historical_prices_ETH[,3])
+historicalPricesHAPV <- as.vector(historical_prices_HAP[,3])
 
 minPriceETH = historicalPricesETHV[which.min(historicalPricesETHV)]
 maxPriceETH = historicalPricesETHV[which.max(historicalPricesETHV)]
@@ -68,7 +68,7 @@ if (print_full_tables == 1) {
 
 ## Summary
 
-Simulation ran over **`r nDataPoints`** weeks. Start date **`r format(as.Date(myStartDate), "%d/%b/%Y")`**.
+Simulation ran over **`r nDataPoints`** weeks. Start date **`r format(as.Date(simulation_start_date), "%d/%b/%Y")`**.
 
 ## Price data
 
@@ -103,14 +103,14 @@ options(knitr.duplicate.label = "allow")
 options(scipen=999) # avoid scientific notation
 par(mfrow=c(2,2)) # plots 4 charts per page
 
-ts_H_ETH = ts(data = historicalPricesETH[, 3], start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1)
+ts_H_ETH = ts(data = historical_prices_ETH[, 3], start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1)
 matplot(ts_H_ETH, type = "l", main = "ETH/USD", xlab = "Weeks", ylab = "$")
 
-ts_HAP = ts(data = historicalPricesHAP[, 3], start = 1, end = nrow(historicalPricesHAP), frequency = 1,  deltat = 1)
+ts_HAP = ts(data = historical_prices_HAP[, 3], start = 1, end = nrow(historical_prices_HAP), frequency = 1,  deltat = 1)
 matplot(ts_HAP, type = "l", main = "HAP/USD", xlab = "Weeks", ylab = "$")
 
 borrowers_init = get("borrowers_week_0")
-borrowers_final_ = get(glue::glue("borrowers_week_{nrow(historicalPricesETH)}"))
+borrowers_final_ = get(glue::glue("borrowers_week_{nrow(historical_prices_ETH)}"))
 
 ```
  
@@ -166,9 +166,9 @@ indexes <- c()
 tables <- c()
 separators <- c()
 
-for (k in 1:nrow(historicalPricesETH)) {
+for (k in 1:nrow(historical_prices_ETH)) {
   
-  prettyETH = prettyNum( historicalPricesETH[k, 3], big.mark=",", scientific=FALSE)
+  prettyETH = prettyNum( historical_prices_ETH[k, 3], big.mark=",", scientific=FALSE)
 
   indexes <- c(indexes, k)
   borrowers_cp = get(glue::glue("borrowers_week_{k}"))
@@ -181,7 +181,8 @@ for (k in 1:nrow(historicalPricesETH)) {
   
   row.names(dfB) <- NULL
 
-  dfB %>%
+  dfB %>% 
+   mutate_if(is.numeric, format, digits=2,nsmall = 0) %>% 
     kbl( caption = paste("Week", k, "- ETH/USD", prettyETH,  sep=" "), booktabs = T, escape=F, longtable=longTableB) %>%
      reduce(6:7, function(x, y) {
       col <- dfB[, y]
@@ -206,7 +207,7 @@ for (k in 1:nrow(historicalPricesETH)) {
 ```{r, echo=FALSE, warning=FALSE, results='asis'} 
 
 ```
-- Total borrowers liquidated **`r totalLiquidations`**  
+- Total borrowers liquidated **`r total_liquidations`**  
 
 
 ## Impermanent loss
@@ -231,14 +232,14 @@ ts_ETH = ts(data = randomPricesBorrowersInitial, start = 1, end = n_borrowers, f
 matplot(ts_ETH, type = "l", main = "ETH/USD", xlab = "VS Borrowers (Open Loan)", ylab = "$")
 
 
-IL_days = ts(data = impermanent_loss_days, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1)
+IL_days = ts(data = impermanent_loss_days, start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1)
 matplot(IL_days, type = "h", main = "Impermanent loss", xlab = "Weeks", ylab = "$")
 
 
 if (il_compensations_cum > 0) {
-  IL_week = ts(data = il_compensation_period, start = 1, end = length(historicalPricesETH), frequency = 1,  deltat = 1)
+  IL_week = ts(data = il_compensation_period, start = 1, end = length(historical_prices_ETH), frequency = 1,  deltat = 1)
   matplot(il_compensation_period, type = "l", main = "I/L compensation", xlab = "Total compensations", ylab = "TDA", col=c("blue", "green") )
-  IL_days_2 = ts(data = il_compensation_period_w_zeroes, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1)
+  IL_days_2 = ts(data = il_compensation_period_w_zeroes, start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1)
   matplot(IL_days_2, type = "h", main = "I/L compensation", xlab = "Weeks", ylab = "$")
 }
 
@@ -296,7 +297,7 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
 
 
   a <- c("Start (Week 1)", totalStakedStart, totalMintedStart,  totalDebtStart)
-  b <- c(glue::glue("End (Week {nrow(historicalPricesETH)})"), totalStakedEnd, totalMintedEnd, totalDebtEnd)
+  b <- c(glue::glue("End (Week {nrow(historical_prices_ETH)})"), totalStakedEnd, totalMintedEnd, totalDebtEnd)
   
   stakersMat <- rbind(a,b)
 
@@ -344,9 +345,9 @@ This section is a breakdown of the stakers debt pool by week.
 
 ```{r results='asis', echo=FALSE, warning=FALSE}
 
-for (k in 1:nrow(historicalPricesETH)) {
+for (k in 1:nrow(historical_prices_ETH)) {
 
-  prettyHap = prettyNum( historicalPricesHAP[k, 3], big.mark=",", scientific=FALSE)
+  prettyHap = prettyNum( historical_prices_HAP[k, 3], big.mark=",", scientific=FALSE)
 
   stakers_cp = get(glue::glue("stakers_week_{k}"))
   stakers_cp <- stakers_cp[,-c( 3, 4, 5, 6, 8, 10, 11, 13)]
@@ -360,6 +361,7 @@ for (k in 1:nrow(historicalPricesETH)) {
   row.names(dfStakers) <- NULL
 
   dfStakers %>%
+   mutate_if(is.numeric, format, digits=2, nsmall = 0) %>% 
     kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTableS) %>%
     reduce(7:8, function(x, y) {
       col <- dfStakers[, y]
@@ -378,7 +380,7 @@ for (k in 1:nrow(historicalPricesETH)) {
                     
 }
 
-total_tda_burned <- prettyNum(totalBurnedTDA, scientific=F, big.mark=",")
+total_tda_burned <- prettyNum(total_burned_tda, scientific=F, big.mark=",")
 
 ```
 
@@ -402,7 +404,7 @@ The protocol compensate stakers with weekly rewards from the inflationary supply
 aprs = c()
 avgAprs = c()
 
-for (j in 1:nrow(historicalPricesETH)) {
+for (j in 1:nrow(historical_prices_ETH)) {
   stakers = get(glue::glue("stakers_week_{j}"))
   sumAPR = 0
 
@@ -413,11 +415,11 @@ for (j in 1:nrow(historicalPricesETH)) {
     totalStaked = sum(stakers[, 1])
     totalRewards =  emissions[j, 3] * debtPercentage / 100
     if (stakers[x, 12] >= 390) {
-      APR = (totalRewards * historicalPricesHAP[j, 3]) * 52 / totalStaked * historicalPricesHAP[j, 3]
+      APR = (totalRewards * historical_prices_HAP[j, 3]) * 52 / totalStaked * historical_prices_HAP[j, 3]
       sumAPR <- sumAPR + (APR * 100)
     } else {
       totalStaked = totalStaked - stakers[x, 1]
-      APR = (totalRewards * historicalPricesHAP[j, 3]) * 52 / totalStaked * historicalPricesHAP[j, 3]
+      APR = (totalRewards * historical_prices_HAP[j, 3]) * 52 / totalStaked * historical_prices_HAP[j, 3]
     }
   }
   aprs <- c(aprs, sumAPR)
@@ -429,11 +431,10 @@ for (j in 1:nrow(historicalPricesETH)) {
 options(scipen = 999) # avoid scientific notation
 par(mfrow = c(2,2)) # plots 4 charts per page
 
-ts(data = avgAprs, start = 1, end = nrow(historicalPricesHAP[,]), frequency = 1,  deltat = 1) %>%
+ts(data = avgAprs, start = 1, end = nrow(historical_prices_HAP[,]), frequency = 1,  deltat = 1) %>%
 matplot( type = "l", main = "Avg. APR", xlab = "Weeks", ylab = "%", col=c("blue"), bg=c("grey"))
 
-total_hap_sold <- prettyNum(totalHapRequired, scientific=F, big.mark=",")
-
+total_hap_sold <- prettyNum(total_hap_required, scientific=F, big.mark=",")
 
 ```
 
@@ -446,7 +447,7 @@ Total sold **`r total_hap_sold`** HAP
 options(scipen = 999) # avoid scientific notation
 par(mfrow = c(2,2)) # plots 4 charts per page
 
-#ts(data = hap_required_period, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1) %>%
+#ts(data = hap_required_period, start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1) %>%
 #matplot(type = "l", main = "HAP sold", xlab = "Weeks", ylab = "HAP", col=c("red"))
 
 
@@ -461,30 +462,29 @@ par(mfrow = c(2,2)) # plots 4 charts per page
 options(scipen=999) # avoid scientific notation
 par(mfrow=c(2,2)) # plots 4 charts per page
 
-
 ts(data = randomPricesHapStaking, start = 1, end = n_stakers, frequency = 1,  deltat = 1) %>%
 matplot( type = "l", main = "HAP/USD", xlab = "VS Stakers (Mint TDA)", ylab = "$")
 
 c_ratio_averages <- c()
 
-for (i in 1:nrow(historicalPricesETH)) {
+for (i in 1:nrow(historical_prices_ETH)) {
   mat = get(glue::glue("stakers_week_{i}"))
   averageCratio = mean(mat[,12])
   c_ratio_averages <- c(c_ratio_averages, averageCratio)
 }
 
-ts(data = c_ratio_averages, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1) %>%
+ts(data = c_ratio_averages, start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1) %>%
 matplot(type = "l", main = "Network C-ratio", xlab = "Weeks", ylab = "%", col=c("blue"))
 
 debt_by_week <- c()
 
-for (i in 1:nrow(historicalPricesETH)) {
+for (i in 1:nrow(historical_prices_ETH)) {
   mat = get(glue::glue("stakers_week_{i}"))
-  totalDebt = sum(mat[,5])
-  debt_by_week <- c(debt_by_week, totalDebt)
+  total_debt = sum(mat[,5])
+  debt_by_week <- c(debt_by_week, total_debt)
 }
 
-ts(data = debt_by_week, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1) %>%
+ts(data = debt_by_week, start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1) %>%
 matplot(type = "l", main = "Debt", xlab = "Weeks", ylab = "TDA", col=c("red"))
 
 ```
@@ -493,7 +493,7 @@ matplot(type = "l", main = "Debt", xlab = "Weeks", ylab = "TDA", col=c("red"))
 
 ```{r echo=F, result='asis', warning=F}
 
-time <- as.numeric(1:nrow(historicalPricesHAP[,]))  
+time <- as.numeric(1:nrow(historical_prices_HAP[,]))  
 
 emissions_weekly_stakers = weekly_emissions[1:length(time)] %>%
   map(function(x) (x * 70) / 100)
@@ -501,7 +501,7 @@ emissions_weekly_stakers = weekly_emissions[1:length(time)] %>%
 emissions_weekly_treasury = weekly_emissions[1:length(time)] %>%
   map(function(x) (x * 30) / 100)
 
-total_emissions <- weekly_emissions[nrow(historicalPricesETH)] * 1e6
+total_emissions <- weekly_emissions[nrow(historical_prices_ETH)] * 1e6
 total_emissions_read <- prettyNum(total_emissions, scientific=F, big.mark=",")
 total_emissions_stakers <- prettyNum(total_emissions * 0.7, scientific=F, big.mark=",")
 total_emissions_treasury <- prettyNum(total_emissions * 0.3, scientific=F, big.mark=",")
@@ -510,7 +510,7 @@ total_emissions_treasury <- prettyNum(total_emissions * 0.3, scientific=F, big.m
 
 ## Inflationary supply
 
-Total emissions **`r total_emissions_read`** HAP over **`r nrow(historicalPricesETH)`** weeks.  
+Total emissions **`r total_emissions_read`** HAP over **`r nrow(historical_prices_ETH)`** weeks.  
 
 ## Distribution
 
@@ -541,7 +541,7 @@ df_emission_distribution %>%
 options(scipen = 999) # avoid scientific notation
 par(mfrow = c(2,2)) # plots 4 charts per page
 
-ts(data = weekly_emissions, start = 1, end = (nrow(historicalPricesHAP[,]) * 8) -1, frequency = 1,  deltat = 1) %>%
+ts(data = weekly_emissions, start = 1, end = (nrow(historical_prices_HAP[,]) * 8) -1, frequency = 1,  deltat = 1) %>%
 matplot( type = "l", main = "Total emissions", xlab = "Weeks", ylab = "HAP (M)", col=c("blue"), bg=c("grey"))
 
 combined <- c(emissions_weekly_stakers, emissions_weekly_treasury)
@@ -566,7 +566,7 @@ total_stable_in_treasury <- prettyNum(total_stable_in_treasury, scientific=F, bi
 
 ## Balances
 
-* **`r prettyNum((30000000 - totalHapRequired) + (total_emissions * 0.3), scientific=F, big.mark=",")`** HAP
+* **`r prettyNum((30000000 - total_hap_required) + (total_emissions * 0.3), scientific=F, big.mark=",")`** HAP
 * **`r total_stable_in_treasury`** sUSD
 
 
@@ -577,7 +577,7 @@ total_stable_in_treasury <- prettyNum(total_stable_in_treasury, scientific=F, bi
   options(scipen=999) # avoid scientific notation
   par(mfrow=c(2,2)) # plots 4 charts per page
 
-  ts(data = treasury_balances_period, start = 1, end = nrow(historicalPricesETH), frequency = 1,  deltat = 1) %>%
+  ts(data = treasury_balances_period, start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1) %>%
   matplot(type = "l", main = "Treasury", xlab = "Weeks", ylab = "$", col=c("green"))
 
 ```
@@ -585,15 +585,24 @@ total_stable_in_treasury <- prettyNum(total_stable_in_treasury, scientific=F, bi
 # Haptic network token (HAP)
 
 * Total circulating **`r prettyNum(100000000 + total_emissions, scientific=F, big.mark=",")`** HAP.
-* Market cap **`r prettyNum((100000000 + total_emissions) * historicalPricesHAP[nrow(historicalPricesHAP), 3], scientific=F, big.mark=",")`** USD
+* Market cap **`r prettyNum((100000000 + total_emissions) * historical_prices_HAP[nrow(historical_prices_HAP), 3], scientific=F, big.mark=",")`** USD
 
 # Tokenized Debt Asset (TDA)
 
 ## Dex performance
 
-TDA price is `r prettyNum(poolState[4], scientific=F, big.mark=",")` USD  
-Total sold is **`r prettyNum(poolState[6], scientific=F, big.mark=",")`** TDA - total sales `r poolState[5]`  
-Total purchased is **`r prettyNum(poolState[8], scientific=F, big.mark=",")`** TDA  - total purchases `r poolState[7]`  
+TDA price is `r prettyNum(pool_state[4], scientific=F, big.mark=",")` USD  
+Total sold is **`r prettyNum(pool_state[6], scientific=F, big.mark=",")`** TDA - total sales `r pool_state[5]`  
+Total purchased is **`r prettyNum(pool_state[8], scientific=F, big.mark=",")`** TDA  - total purchases `r pool_state[7]`  
 
 
 ## Charts
+
+```{r echo=F, results='asis'} 
+
+  sD <- sd(historical_data$close)
+  
+
+```
+
+Standard deviation is **`r sD`**

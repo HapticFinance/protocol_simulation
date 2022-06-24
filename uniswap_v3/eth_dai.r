@@ -70,7 +70,7 @@ initPool <- function () {
   initialState <- c(x, y, k, P)
 
   # Generate matrix from initial state
-  poolState <- matrix(initialState, byrow = TRUE, nrow = nrow(historicalPricesETH), ncol = length(initialState))
+  pool_state <- matrix(initialState, byrow = TRUE, nrow = nrow(historical_prices_ETH), ncol = length(initialState))
 
   fees = 0
   totalVolume = 0
@@ -79,29 +79,29 @@ initPool <- function () {
   impermanent_loss_days <- c()
   impermanent_loss_chg_days <- c()
 
-  n =  nrow(historicalPricesETH)
+  n =  nrow(historical_prices_ETH)
 
   # Simulate trades
-  for (r in 1:nrow(poolState))   {
+  for (r in 1:nrow(pool_state))   {
 
     randomPrices = eth_historical_recent[, 3]        
-    Pa = getPa(poolState[r, 1], poolState[r, 2], P, maxP)
+    Pa = getPa(pool_state[r, 1], pool_state[r, 2], P, maxP)
 
     # initial state
     if (r == 1) {
 
-      poolState[r, 1] = x
-      poolState[r, 2] = y
-      poolState[r, 3] = x * y
-      poolState[r, 4] = P
+      pool_state[r, 1] = x
+      pool_state[r, 2] = y
+      pool_state[r, 3] = x * y
+      pool_state[r, 4] = P
 
     } else { 
       deltaTokens = 0
-      currentPrice = poolState[r-1, 4]
+      currentPrice = pool_state[r-1, 4]
 
       # Compute liquidity
-      Lx = getLiqX(poolState[r-1, 1], currentPrice, maxP)
-      Ly = getLiqY(poolState[r-1, 2], currentPrice, Pa)
+      Lx = getLiqX(pool_state[r-1, 1], currentPrice, maxP)
+      Ly = getLiqY(pool_state[r-1, 2], currentPrice, Pa)
 
       # Compute minimum 
       liq = c(Lx, Ly)
@@ -109,34 +109,34 @@ initPool <- function () {
 
       # Compute new x and y
       randomPrice = randomPrices[r]
-      previousPrice = poolState[r-1, 4]
+      previousPrice = pool_state[r-1, 4]
 
       xNew = 0
       yNew = 0
 
       if (randomPrice > previousPrice) {
-        xNew = x_in_range(L, poolState[r-1, 4], randomPrice)
-        deltaTokens = poolState[r-1, 1] - getx(L, randomPrice, maxP)
+        xNew = x_in_range(L, pool_state[r-1, 4], randomPrice)
+        deltaTokens = pool_state[r-1, 1] - getx(L, randomPrice, maxP)
         #print(glue::glue("need to sell {deltaTokens} tokens to reach {randomPrice}"))
       } else if (randomPrice < previousPrice) {
-        yNew = y_in_range(L, poolState[r, 4], minP)
-        deltaTokens = poolState[r-1, 1] - gety(L, randomPrice, Pa)
+        yNew = y_in_range(L, pool_state[r, 4], minP)
+        deltaTokens = pool_state[r-1, 1] - gety(L, randomPrice, Pa)
         #print(glue::glue("need to buy {deltaTokens} tokens to reach {randomPrice}"))
       }
 
       xNew = getx(L, randomPrice, maxP)
       yNew = gety(L, randomPrice, Pa)
         
-      poolState[r, 1] = xNew
-      poolState[r, 2] = yNew
-      poolState[r, 3] = x * y
-      poolState[r, 4] = randomPrice    
+      pool_state[r, 1] = xNew
+      pool_state[r, 2] = yNew
+      pool_state[r, 3] = x * y
+      pool_state[r, 4] = randomPrice    
 
       # Volume
-      if ((poolState[r, 2] -  poolState[r-1, 2]) > 0) {
-        volumeDAI = poolState[r, 2] -  poolState[r-1, 2]
+      if ((pool_state[r, 2] -  pool_state[r-1, 2]) > 0) {
+        volumeDAI = pool_state[r, 2] -  pool_state[r-1, 2]
       } else {
-        volumeDAI = -1 * (poolState[r, 2] - poolState[r-1, 2]) 
+        volumeDAI = -1 * (pool_state[r, 2] - pool_state[r-1, 2]) 
       }
 
       # Fees calculated in terms of y
@@ -146,14 +146,14 @@ initPool <- function () {
     }
 
   # Pool balances
-  deltaDai = (poolState[r, 1]) - x
-  if (x > (poolState[r, 1] )) {
-    deltaDai = -1 * (x - poolState[r, 1] )
+  deltaDai = (pool_state[r, 1]) - x
+  if (x > (pool_state[r, 1] )) {
+    deltaDai = -1 * (x - pool_state[r, 1] )
   }
 
-  deltaEth = poolState[r, 2] - y
-  if (y > poolState[r, 2]) {
-    deltaEth = -1 * (y - poolState[r, 2])
+  deltaEth = pool_state[r, 2] - y
+  if (y > pool_state[r, 2]) {
+    deltaEth = -1 * (y - pool_state[r, 2])
   }
 
   # Impermanent loss calculation
@@ -161,7 +161,7 @@ initPool <- function () {
   V0 = (x * randomPrices[r]) + (y * 1)  
 
   # Actual value of position at the end of the simulation
-  V1 = (poolState[r, 1] * randomPrices[r]) + (poolState[r, 2] * 1) 
+  V1 = (pool_state[r, 1] * randomPrices[r]) + (pool_state[r, 2] * 1) 
 
   # IL as delta in portfolio value
   if (V0 > V1) {
@@ -190,15 +190,15 @@ initPool <- function () {
 }
 
 
-retValues <- initPool()
+ret_values <- initPool()
 
-fees = retValues[[1]]
-totalVolume = retValues[[2]]
+fees = ret_values[[1]]
+totalVolume = ret_values[[2]]
 
-impermanent_loss_days <- retValues[[3]]
-impermanent_loss_chg_days <- retValues[[4]]
+impermanent_loss_days <- ret_values[[3]]
+impermanent_loss_chg_days <- ret_values[[4]]
 
-minPrice <- retValues[[5]]
-maxPrice <- retValues[[6]]
+minPrice <- ret_values[[5]]
+maxPrice <- ret_values[[6]]
 
 #print(glue::glue("Fees accrued are {fees} DAI total volume {totalVolume}\n\n"))

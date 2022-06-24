@@ -1,5 +1,5 @@
 
-for(x in 1:nrow(historicalPricesETH)) {
+for(x in 1:nrow(historical_prices_ETH)) {
 
     stakers = get(glue::glue("stakers_week_{x}"))
     borrowers = get(glue::glue("borrowers_week_{x}"))
@@ -8,7 +8,7 @@ for(x in 1:nrow(historicalPricesETH)) {
 
         if (borrowers[y, 15] == x) {
 
-            poolState <- sellTDA(borrowers[y, 7], poolState)
+            pool_state <- sellTDA(borrowers[y, 7], pool_state)
 
         }
     }
@@ -17,7 +17,7 @@ for(x in 1:nrow(historicalPricesETH)) {
 
         if (stakers[k, 14] == x) {
 
-            poolState <- buyTDA(stakers[k, 16], poolState)
+            pool_state <- buyTDA(stakers[k, 16], pool_state)
 
         }
 

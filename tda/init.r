@@ -20,45 +20,45 @@ init = function() {
     k = x * y        # k as per Uniswap formula
     P = y / x        # Initial price of y in terms of x
 
-    poolState <- c(x, y, k, P, 0, 0, 0, 0)
-    return(poolState)
+    pool_state <- c(x, y, k, P, 0, 0, 0, 0)
+    return(pool_state)
 }
 
 
-sellTDA = function(TDA, poolState) {
+sellTDA = function(TDA, pool_state) {
 
-    DAI = poolState[3] / (poolState[1] + TDA)
+    DAI = pool_state[3] / (pool_state[1] + TDA)
     
-    poolState[1] <- poolState[1] + TDA 
-    poolState[2] <- DAI
-    poolState[3] <- poolState[1] * poolState[2]
-    poolState[4] <- poolState[2] / poolState[1]
+    pool_state[1] <- pool_state[1] + TDA 
+    pool_state[2] <- DAI
+    pool_state[3] <- pool_state[1] * pool_state[2]
+    pool_state[4] <- pool_state[2] / pool_state[1]
 
-    totalSales <- poolState[5] + 1
-    totalSold <- poolState[6] + TDA
+    totalSales <- pool_state[5] + 1
+    totalSold <- pool_state[6] + TDA
 
-    poolState[5] <- totalSales
-    poolState[6] <- totalSold
+    pool_state[5] <- totalSales
+    pool_state[6] <- totalSold
     
-    return(poolState)
+    return(pool_state)
 }
 
-buyTDA = function(DAI, poolState) {
+buyTDA = function(DAI, pool_state) {
 
-    TDA = poolState[3] / (poolState[2] + DAI)
+    TDA = pool_state[3] / (pool_state[2] + DAI)
 
-    poolState[1] <- TDA 
-    poolState[2] <- poolState[2] + DAI 
-    poolState[3] <- poolState[1] * poolState[2]
-    poolState[4] <- poolState[2] / poolState[1]
+    pool_state[1] <- TDA 
+    pool_state[2] <- pool_state[2] + DAI 
+    pool_state[3] <- pool_state[1] * pool_state[2]
+    pool_state[4] <- pool_state[2] / pool_state[1]
 
-    totalPurchases <- poolState[7] + 1
-    totalPurchased <- poolState[8] + DAI
+    totalPurchases <- pool_state[7] + 1
+    totalPurchased <- pool_state[8] + DAI
 
-    poolState[7] <- totalPurchases
-    poolState[8] <- totalPurchased
+    pool_state[7] <- totalPurchases
+    pool_state[8] <- totalPurchased
     
-    return(poolState)
+    return(pool_state)
 }
 
 

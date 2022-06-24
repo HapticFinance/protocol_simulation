@@ -5,27 +5,27 @@ path = getwd()
 C = 5000         # HAP collateral
 P = 0.3          # HAP/USD
 cRatio = 400     # Staking collateral ratio
-liqTarget = 250  # Liquidation target
+liq_target = 250  # Liquidation target
 plot = FALSE
 
-liqPrice = 0
+liq_price = 0
 totalIL = 0
-totalCollateral = 0
-liqPenalty = 0.1
+total_collateral = 0
+liq_penalty = 0.1
 
-getLiqPrice <- function(P, cRatio, liqTarget) {
-    P * liqTarget / cRatio
+get_liq_price <- function(P, cRatio, liq_target) {
+    P * liq_target / cRatio
 }
 
-getLoanAmount <- function(C, P, cRatio) {
+get_loan_amount <- function(C, P, cRatio) {
     L = C * P * (( 1 / cRatio) * 100) 
 }
 
-L = getLoanAmount(C, P, cRatio)
+L = get_loan_amount(C, P, cRatio)
 
 # Loan amount
 # Liquidation Ratio = (Collateral Amount x Collateral Price) ÷ Generated nomin × 100
-liqRatio = C * liqPrice / L * 100
+liqRatio = C * liq_price / L * 100
 
 # Command line arguments
 args = commandArgs(trailingOnly=TRUE)
@@ -37,7 +37,7 @@ if (length(args) == 3) {
 } 
 
 stakers <- matrix(c(1:17), byrow = TRUE, nrow = n_stakers, ncol = 17)
-randomPricesHapStaking <- historicalPricesHAPB[, 3] #
+randomPricesHapStaking <- historical_prices_HAP_staking[, 3] #
 randomCollateralHap <- runif(n = n_stakers, min = C, max = 1000000)
 liquidity = 0
 
@@ -46,14 +46,14 @@ liquidity = 0
 for (x in 1:nrow(stakers))   {
 
   randomStakingPrice = randomPricesHapStaking[x]
-  loanAmount = getLoanAmount(randomCollateralHap[x], randomStakingPrice, cRatio)
-  liqPrice = getLiqPrice(randomStakingPrice, cRatio, liqTarget)
+  loan_amount = get_loan_amount(randomCollateralHap[x], randomStakingPrice, cRatio)
+  liq_price = get_liq_price(randomStakingPrice, cRatio, liq_target)
 
   stakers[x, 1] = randomCollateralHap[x] 
-  stakers[x, 2] = loanAmount
-  stakers[x, 3] = liqPrice
+  stakers[x, 2] = loan_amount
+  stakers[x, 3] = liq_price
   stakers[x, 4] = randomStakingPrice
-  stakers[x, 5] = loanAmount
+  stakers[x, 5] = loan_amount
 
   #cumLiquidity = liquidity + stakers[x, 2]
   stakerCRatio = stakers[x, 2] / (stakers[x, 1] * randomStakingPrice)
@@ -62,7 +62,7 @@ for (x in 1:nrow(stakers))   {
   stakers[x, 7] =  0 
 
   #totalIL   = totalIL + stakers[x, 7] 
-  totalCollateral = totalCollateral + stakers[x, 1]
+  total_collateral = total_collateral + stakers[x, 1]
 
   stakers[x, 8] = stakerCRatio
   stakers[x, 9] = 0

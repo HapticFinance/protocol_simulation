@@ -28,10 +28,10 @@ end_week = 0
 
 minted = initial_supply * (beginning_annual_inflation / 52)
 
-initialState <- c(initial_supply,  week, minted, (minted * historicalPricesHAP[1,3]), historicalPricesHAP[1,3])
+initialState <- c(initial_supply,  week, minted, (minted * historical_prices_HAP[1,3]), historical_prices_HAP[1,3])
 
 # Generate matrix from initial state
-emissions <- matrix(initialState, byrow = TRUE, nrow = nrow(historicalPricesHAP) * 8, ncol = length(initialState))
+emissions <- matrix(initialState, byrow = TRUE, nrow = nrow(historical_prices_HAP) * 8, ncol = length(initialState))
 
 total_emissions = 0
 weekly_emissions <- c()
@@ -46,8 +46,8 @@ for (r in 1:nrow(emissions))   {
               emissions[r, 3] = emissions[r-1, 3] - (emissions[r-1, 3] * weekly_emission_reduction)
           } 
           total_emissions = total_emissions + emissions[r, 3]
-          emissions[r, 4] = emissions[r, 3] * historicalPricesHAP[r, 3]
-          emissions[r, 5] = historicalPricesHAP[r, 3]
+          emissions[r, 4] = emissions[r, 3] * historical_prices_HAP[r, 3]
+          emissions[r, 5] = historical_prices_HAP[r, 3]
           weekly_emissions <- c(weekly_emissions, total_emissions / 1e6)
     }
     
@@ -59,7 +59,7 @@ total_inflation = prettyNum(total_emissions, big.mark=",", scientific=FALSE)
 protocol_minted = prettyNum((total_emissions*30/100), big.mark=",", scientific=FALSE)
 stakers_minted = prettyNum((total_emissions*70/100), big.mark=",", scientific=FALSE)
 #print(glue::glue("emissions {totEm}"))
-#total_value_read = prettyNum(total_emissions * mean(historicalPricesHAP[, 3]), big.mark=",", scientific=FALSE) 
+#total_value_read = prettyNum(total_emissions * mean(historical_prices_HAP[, 3]), big.mark=",", scientific=FALSE) 
 
 #print(glue::glue("=== Emissions ==="))
 #print(glue::glue("\nTotal emissions {total_inflation} HAP - Total weeks {n_weeks} - Avg value ${total_value_read}"))

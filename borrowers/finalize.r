@@ -1,14 +1,14 @@
 
 #!/usr/bin/env Rscript
 comp_weeks <- c()
-totalLiquidations <- 0
+total_liquidations <- 0
 
-finalizeBorrowers <- function(borrowers) {
+finalize_borrowers <- function(borrowers) {
 
-    poolState <- init()
+    pool_state <- init()
 
-    randomIdx <- c(1,2) 
-    borrowers_il_partials <- matrix(0, n_borrowers, nrow(historicalPricesETH))
+    random_idx <- c(1,2) 
+    borrowers_il_partials <- matrix(0, n_borrowers, nrow(historical_prices_ETH))
     borrowers_cp = borrowers 
     borrowers_cp2 = borrowers 
     
@@ -21,120 +21,105 @@ finalizeBorrowers <- function(borrowers) {
     il_compensations_cum = 0
     il_compensation_period_w_zeroes <- c()
 
-    for (j in 1:nrow(historicalPricesETH)) {
+    for (j in 1:nrow(historical_prices_ETH)) {
 
-        daily_candle = historicalPricesETH[j, 3]
-        daily_candle_hap = historicalPricesHAP[j, 3]
+        daily_candle = historical_prices_ETH[j, 3]
+        daily_candle_hap = historical_prices_HAP[j, 3]
 
         #print(daily_candle)
 
-        price = historicalPricesETH[j, 3]
+        price = historical_prices_ETH[j, 3]
         
-        partialIL = 0
+        partial_IL = 0
 
         for (s in 1:nrow(borrowers_cp)) { 
 
-            stakingPrice = borrowers_cp[s, 4]            
-            liqPrice = borrowers_cp[s, 3]
-            hasLiquidation = borrowers_cp[s, 10] 
-            hasCompensation = borrowers_cp[s, 14]
-            loanAmount = borrowers_cp[s, 2]
+            staking_price = borrowers_cp[s, 4]            
+            liq_price = borrowers_cp[s, 3]
+            has_liquidation = borrowers_cp[s, 10] 
+            has_compensation = borrowers_cp[s, 14]
+            loan_amount = borrowers_cp[s, 2]
 
             probabilities <- sample(x = 1:270,size = 8,replace = TRUE)
 
             if (probabilities[runif(1, min = 1, max = 8)] == 3) {
 
                 # Board new borrower
-                newCollateral = runif(1, min = 5, max = 50)
-                loanAmount = getLoanAmount(newCollateral, price, cRatio)
-                liqPrice = getLiqPrice(price, cRatio, liqTarget)
-                totalLiquidity = totalLiquidity + borrowers_cp[s, 2]
-                poolLiquidity = loanAmount / n_pools
-                newBorrower = c(newCollateral, loanAmount, liqPrice, price, 0, totalLiquidity, 0, 0, poolLiquidity, 0, 0, 0, 0, 0, 0)
-                borrowers_cp <- rbind(borrowers_cp, newBorrower)
+                new_collateral = runif(1, min = 10, max = 100)
+                loan_amount = get_loan_amount(new_collateral, price, cRatio)
+                liq_price = get_liq_price(price, cRatio, liq_target)
+                total_liquidity = total_liquidity + borrowers_cp[s, 2]
+                poolLiquidity = loan_amount / n_pools
+                new_borrower = c(new_collateral, loan_amount, liq_price, price, 0, total_liquidity, 0, 0, poolLiquidity, 0, 0, 0, 0, 0, 0)
+                borrowers_cp <- rbind(borrowers_cp, new_borrower)
 
             }
 
-            if (price <= liqPrice & 
-                hasCompensation == 0 & 
-                hasLiquidation == 0 ) {
+            if (price <= liq_price & 
+                has_compensation == 0 & 
+                has_liquidation == 0 ) {
                     
                 borrowers_cp[s, 1:2] = 0
                 borrowers_cp[s, 10] = 1 # Mark as liquidated    
                 borrowers_cp[s, 11] = j # Liquidation week
-                borrowers_cp[s, 12] = liqPrice # Liquidation price
+                borrowers_cp[s, 12] = liq_price # Liquidation price
 
-                totalLiquidity <- totalLiquidity - loanAmount
-                totalLiquidations <- totalLiquidations + 1
-
+                total_liquidity <- total_liquidity - loan_amount
+                total_liquidations <- total_liquidations + 1
             } 
 
             
-            if (price > liqPrice & hasLiquidation == 0 & hasCompensation == 0) {
+            if (price > liq_price & has_liquidation == 0 & has_compensation == 0) {
                 
                 poolLiquidity = borrowers_cp[s, 2]
 
                 # Calculate impermanent loss  
                 IL_A = (poolLiquidity * impermanent_loss_chg_days[j]/ 100 )
                 
-                randomChoice = randomIdx[sample(1:length(randomIdx), 1)] # Pick a random index
-                rnd = floor(runif(1, min = 1, max = nrow(historicalPricesETH)))
+                random_choice = random_idx[sample(1:length(random_idx), 1)] # Pick a random index
+                rnd = floor(runif(1, min = 1, max = nrow(historical_prices_ETH)))
 
-                if (IL_A > 0) { #& j > (nrow(historicalPricesETH) / 5)
-                    if (randomChoice == 1 && j > rnd) {
+                if (IL_A > 0) { #& j > (nrow(historical_prices_ETH) / 5)
+                    if (random_choice == 1 ) { #&& j > rnd
                         #print(paste("IL compensation", IL_A, "for borrower", s, "day #", j))
 
                         comp_counter = comp_counter + 1 # increase IL compensation counter
-                        partialIL = partialIL + IL_A
+                        partial_IL = partial_IL + IL_A
 
                         il_compensations_cum = il_compensations_cum + IL_A
-                        il_compensation_period <- c(il_compensation_period, partialIL)
+                        il_compensation_period <- c(il_compensation_period, partial_IL)
 
                         #borrowers_cp[s, 1:2] <- 0
-                        borrowers_cp[s, 3]  <- liqPrice
-                        borrowers_cp[s, 4]  <- stakingPrice
+                        borrowers_cp[s, 3]  <- liq_price
+                        borrowers_cp[s, 4]  <- staking_price
                         borrowers_cp[s, 7]  <- IL_A
                         borrowers_cp[s, 14] <- 1 # Mark as compensated
                         borrowers_cp[s, 15] <- j # Compensation week
                         comp_weeks <- c(comp_weeks, j)
-                        
-                        randomChoice = randomIdx[sample(1:length(randomIdx), 1)] # Pick a random index
-
-                        if (randomChoice == 1) {
-                            # Board new borrower
-                            newCollateral = runif(1, min = 5, max = 500)
-                            loanAmount = getLoanAmount(newCollateral, price, cRatio)
-                            liqPrice = getLiqPrice(price, cRatio, liqTarget)
-                            totalLiquidity = totalLiquidity + borrowers_cp[s, 2]
-                            poolLiquidity = loanAmount / n_pools
-                            newBorrower = c(newCollateral, loanAmount, liqPrice, price, 0, totalLiquidity, 0, 0, poolLiquidity, 0, 0, 0, 0, 0, 0)
-                            borrowers_cp <- rbind(borrowers_cp, newBorrower)
-                        }
-
+                                                
                     }  
                 }
-
-                probabilities <- sample(x = 1:270,size = 8,replace = TRUE)
-                if (probabilities[runif(1, min = 1, max = 8)] == 3) {
-                    # Board new borrower
-                    newCollateral = runif(1, min = 5, max = 500)
-                    loanAmount = getLoanAmount(newCollateral, price, cRatio)
-                    liqPrice = getLiqPrice(price, cRatio, liqTarget)
-                    totalLiquidity = totalLiquidity + borrowers_cp[s, 2]
-                    poolLiquidity = loanAmount / n_pools
-                    newBorrower = c(newCollateral, loanAmount, liqPrice, price, 0, totalLiquidity, 0, 0, poolLiquidity, 0, 0, 0, 0, 0, 0)
-                    borrowers_cp <- rbind(borrowers_cp, newBorrower)
-                }                
             }
 
+            probabilities <- sample(x = 1:90,size = 8,replace = TRUE)
+            if (probabilities[runif(1, min = 1, max = 8)] == 3) {
+                # Board new borrower
+                new_collateral = runif(1, min = 5, max = 500)
+                loan_amount = get_loan_amount(new_collateral, price, cRatio)
+                liq_price = get_liq_price(price, cRatio, liq_target)
+                total_liquidity = total_liquidity + borrowers_cp[s, 2]
+                poolLiquidity = loan_amount / n_pools
+                new_borrower = c(new_collateral, loan_amount, liq_price, price, 0, total_liquidity, 0, 0, poolLiquidity, 0, 0, 0, 0, 0, 0)
+                borrowers_cp <- rbind(borrowers_cp, new_borrower)
+            }    
                     
         }
 
-        il_compensations_v <- c(il_compensations_v, partialIL)
+        il_compensations_v <- c(il_compensations_v, partial_IL)
 
         val = NA
-        if (partialIL > 0) {
-            val = partialIL
+        if (partial_IL > 0) {
+          val = partial_IL
         }
 
         il_compensation_period_w_zeroes <- c(il_compensation_period_w_zeroes, val)
@@ -142,23 +127,23 @@ finalizeBorrowers <- function(borrowers) {
         assign(glue::glue("borrowers_week_{j}"), borrowers_cp, envir = .GlobalEnv)
     }    
     
-    newList <- list(borrowers_cp, comp_counter, comp_fulfil_day, il_compensation_period, il_compensations_v, il_compensations_cum, il_compensation_period_w_zeroes, totalLiquidations, comp_weeks, poolState)
+    newList <- list(borrowers_cp, comp_counter, comp_fulfil_day, il_compensation_period, il_compensations_v, il_compensations_cum, il_compensation_period_w_zeroes, total_liquidations, comp_weeks, pool_state)
     return(newList)
 
 }
 
-retValues <- finalizeBorrowers(borrowers)
+ret_values <- finalize_borrowers(borrowers)
 
-borrowers_cp <- retValues[[1]]
-comp_counter <- retValues[[2]]
-comp_fulfil_day <- retValues[[3]]
-il_compensation_period <- retValues[[4]]
-il_compensations_v <- retValues[[5]]
-il_compensations_cum <- retValues[[6]]
-il_compensation_period_w_zeroes <- retValues[[7]]
-totalLiquidations <- retValues[[8]] 
-comp_weeks <- retValues[[9]]
-poolState <- retValues[[10]]
+borrowers_cp <- ret_values[[1]]
+comp_counter <- ret_values[[2]]
+comp_fulfil_day <- ret_values[[3]]
+il_compensation_period <- ret_values[[4]]
+il_compensations_v <- ret_values[[5]]
+il_compensations_cum <- ret_values[[6]]
+il_compensation_period_w_zeroes <- ret_values[[7]]
+total_liquidations <- ret_values[[8]] 
+comp_weeks <- ret_values[[9]]
+pool_state <- ret_values[[10]]
 
 initial_borrowers_state <- get(glue::glue("borrowers_week_0"))
 init_hedging(sD, mean(initial_borrowers_state[, 4]), sum(initial_borrowers_state[, 1]))

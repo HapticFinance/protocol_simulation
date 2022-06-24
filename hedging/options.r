@@ -81,7 +81,7 @@ init_hedging <- function(sigma, S0, eth_in_pool) {
     strike_price_put_a <- S0 - (S0 * 0.2)
     strike_price_put_b <- S0 - (S0 * 0.4)
 
-    for (x in 1:nrow(historicalPricesETH)) {
+    for (x in 1:nrow(historical_prices_ETH)) {
 
         borrowers_state <- get(glue::glue("borrowers_week_{x}"))
         trade_size_call = getSize("C", sum(borrowers_state[, 1]))
@@ -89,7 +89,7 @@ init_hedging <- function(sigma, S0, eth_in_pool) {
         close_price <- S0
 
         if (x > 4) {
-            close_price <- historicalPricesETH[x, 3]
+            close_price <- historical_prices_ETH[x, 3]
         }
 
         options_cost <- calc_options_cost(close_price, r, sigma, T)
