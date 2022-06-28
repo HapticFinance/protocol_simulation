@@ -15,7 +15,7 @@ if (length(args)==1) {
 
 init = function() {
 
-    x = 8000000      # Initial TDA liquidity
+    x = 8000000      # Initial VDebt liquidity
     y = 8000000      # Initial DAI liquidity
     k = x * y        # k as per Uniswap formula
     P = y / x        # Initial price of y in terms of x
@@ -25,17 +25,17 @@ init = function() {
 }
 
 
-sellTDA = function(TDA, pool_state) {
+sellTDA = function(VDebt, pool_state) {
 
-    DAI = pool_state[3] / (pool_state[1] + TDA)
+    DAI = pool_state[3] / (pool_state[1] + VDebt)
     
-    pool_state[1] <- pool_state[1] + TDA 
+    pool_state[1] <- pool_state[1] + VDebt 
     pool_state[2] <- DAI
     pool_state[3] <- pool_state[1] * pool_state[2]
     pool_state[4] <- pool_state[2] / pool_state[1]
 
     totalSales <- pool_state[5] + 1
-    totalSold <- pool_state[6] + TDA
+    totalSold <- pool_state[6] + VDebt
 
     pool_state[5] <- totalSales
     pool_state[6] <- totalSold
@@ -45,9 +45,9 @@ sellTDA = function(TDA, pool_state) {
 
 buyTDA = function(DAI, pool_state) {
 
-    TDA = pool_state[3] / (pool_state[2] + DAI)
+    VDebt = pool_state[3] / (pool_state[2] + DAI)
 
-    pool_state[1] <- TDA 
+    pool_state[1] <- VDebt 
     pool_state[2] <- pool_state[2] + DAI 
     pool_state[3] <- pool_state[1] * pool_state[2]
     pool_state[4] <- pool_state[2] / pool_state[1]
