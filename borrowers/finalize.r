@@ -5,7 +5,7 @@ total_liquidations <- 0
 
 finalize_borrowers <- function(borrowers) {
 
-    pool_state <- init()
+    pool_state <- c() # init()
 
     random_idx <- c(1,2) 
     borrowers_il_partials <- matrix(0, n_borrowers, nrow(historical_prices_ETH))
@@ -143,7 +143,7 @@ il_compensations_cum <- ret_values[[6]]
 il_compensation_period_w_zeroes <- ret_values[[7]]
 total_liquidations <- ret_values[[8]] 
 comp_weeks <- ret_values[[9]]
-pool_state <- ret_values[[10]]
+pool_state <- c() #ret_values[[10]]
 
 initial_borrowers_state <- get(glue::glue("borrowers_week_0"))
 init_hedging(sD, mean(initial_borrowers_state[, 4]), sum(initial_borrowers_state[, 1]))

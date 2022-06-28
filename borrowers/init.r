@@ -32,8 +32,8 @@ if (length(args) == 3) {
   count = args[3] 
 } 
 
-labels_borrowers = c("ETH", "sUSD", "Liq. price", "Stak. price",  "Liquidity", "Debt %", "HAP needed", "")
-labels_borrowers_2 = c("ETH", "sUSD", "Liq. price", "Stak-Price",  "I/L", "LiqWeek", "Comp-Week")
+labels_borrowers = c("ETH", "sUSD", "Liq. price", "Staking price",  "Liquidity", "Debt %", "HAP needed", "")
+labels_borrowers_2 = c("ETH", "sUSD", "Liq. price", "Staking-Price",  "I/L", "LiqWeek", "Comp-Week")
 
 randomPricesBorrowersInitial <- historical_prices_ETH_a[,3] 
 total_liquidity = get_loan_amount(C, randomPricesBorrowersInitial[1], cRatio)

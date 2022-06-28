@@ -177,8 +177,7 @@ for (k in 1:nrow(historical_prices_ETH)) {
   dfB <- data.frame(borrowers_cp[borrowers_show,])
   colnames(dfB) <- labels_borrowers_2
   dfB <-  setNames(dfB, labels_borrowers_2)
-  dfB <- dfB[order(-dfB$sUSD),] # temp. disable sorting
-  
+  dfB <- dfB[order(-dfB$sUSD, decreasing = F),] 
   row.names(dfB) <- NULL
 
   dfB %>% 
@@ -212,13 +211,13 @@ for (k in 1:nrow(historical_prices_ETH)) {
 
 ## Impermanent loss
 
-Impermanent loss compensations are disbursed denominated in TDA.
+Impermanent loss compensations are disbursed denominated in VDebt.
 
 ### Compensations
 
 *  All borrowers compensated by week **`r compWeek`**
 *  Total compensations **`r comp_counter`**
-*  Total disbursed **`r prettyNum(il_compensations_cum, scientific=FALSE,big.mark=",")`** TDA
+*  Total disbursed **`r prettyNum(il_compensations_cum, scientific=FALSE,big.mark=",")`** VDebt
 
 ## APR 
 
@@ -238,7 +237,7 @@ matplot(IL_days, type = "h", main = "Impermanent loss", xlab = "Weeks", ylab = "
 
 if (il_compensations_cum > 0) {
   IL_week = ts(data = il_compensation_period, start = 1, end = length(historical_prices_ETH), frequency = 1,  deltat = 1)
-  matplot(il_compensation_period, type = "l", main = "I/L compensation", xlab = "Total compensations", ylab = "TDA", col=c("blue", "green") )
+  matplot(il_compensation_period, type = "l", main = "I/L compensation", xlab = "Total compensations", ylab = "VDebt", col=c("blue", "green") )
   IL_days_2 = ts(data = il_compensation_period_w_zeroes, start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1)
   matplot(IL_days_2, type = "h", main = "I/L compensation", xlab = "Weeks", ylab = "$")
 }
@@ -247,7 +246,7 @@ if (il_compensations_cum > 0) {
 
 ```{r results='asis', echo=FALSE, warning=FALSE}
 
-stakingPrices <- as.vector(randomPricesHapStaking[1:nrow(stakers)])
+stakingPrices <- as.vector(hap_staking_price[1:nrow(stakers)])
 
 minStakingPrice <- prettyNum(stakingPrices[which.min(stakingPrices)], scientific=F, big.mark=",")
 maxStakingPrice <- prettyNum(stakingPrices[which.max(stakingPrices)], scientific=F, big.mark=",")
@@ -302,8 +301,8 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
   stakersMat <- rbind(a,b)
 
   dfStakersInfo <- data.frame(stakersMat)
-  colnames(dfStakersInfo) <- c("Period", "Staked (HAP)", "Minted (TDA)", "Debt (TDA)")
-  dfStakersInfo <-  setNames(dfStakersInfo, c("Period", "Staked (HAP)", "Minted (TDA)", "Debt (TDA)"))
+  colnames(dfStakersInfo) <- c("Period", "Staked (HAP)", "Minted (VDebt)", "Debt (VDebt)")
+  dfStakersInfo <-  setNames(dfStakersInfo, c("Period", "Staked (HAP)", "Minted (VDebt)", "Debt (VDebt)"))
   row.names(dfStakersInfo) <- NULL
 
   dfStakersInfo %>%
@@ -320,8 +319,9 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
 
 a <- c("green", "Fix C-ratio")
 b <- c("red", "Liquidation")
+c <- c("yellow", "Mint Max")
 
-colorLegend <- rbind(a,b)
+colorLegend <- rbind(a, b, c)
 
 dfClegend <- data.frame(colorLegend)
 colnames(dfClegend) <- c("Color", "Operation")
@@ -329,7 +329,7 @@ dfClegend <-  setNames(dfClegend, c("Color", "Operation"))
 row.names(dfClegend) <- NULL
 
 dfClegend %>%
-  mutate(Color = cell_spec(Color, background=ifelse(Color == "green", "green", "red"), color=ifelse(Color == "green", "green", "red"))) %>% 
+  mutate(Color = cell_spec(Color, background=ifelse(Color == "green", "green", ifelse(Color == "yellow", "yellow", "red"))))%>%
     kbl( caption = paste("Color legend"), booktabs = T, escape = FALSE) %>%
       kable_styling(latex_options = "HOLD_position", position="left") %>%
         kable_classic(full_width = F, html_font = "Cambria") %>%
@@ -350,20 +350,24 @@ for (k in 1:nrow(historical_prices_ETH)) {
   prettyHap = prettyNum( historical_prices_HAP[k, 3], big.mark=",", scientific=FALSE)
 
   stakers_cp = get(glue::glue("stakers_week_{k}"))
-  stakers_cp <- stakers_cp[,-c( 3, 4, 5, 6, 8, 10, 11, 13)]
-  stakers_cp <- stakers_cp[, c(1, 2, 9, 3, 4, 5, 6, 7)]
+  #print(stakers_cp)
+  stakers_cp <- stakers_cp[,-c(3, 4, 5, 6, 8, 10, 11, 13)]
+  #print(ncol(stakers_cp))
+
+  stakers_cp <- stakers_cp[,  c(1, 2, 8, 9, 3, 4, 5, 6, 7, 10)]
   stakers <- stakers_cp #params$stakers
 
   dfStakers <- data.frame(stakers_cp[stakers_show,])
   colnames(dfStakers) <- labels_stakers_short
-  dfStakers <-  setNames(dfStakers, labels_stakers_short)
-  dfStakers <- dfStakers[order(-dfStakers$TDA),] # temp. disable sorting
+  dfStakers <- setNames(dfStakers, labels_stakers_short)
+  dfStakers <- dfStakers[order(-dfStakers$VDebt, decreasing = F),]
   row.names(dfStakers) <- NULL
 
   dfStakers %>%
    mutate_if(is.numeric, format, digits=2, nsmall = 0) %>% 
     kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTableS) %>%
-    reduce(7:8, function(x, y) {
+    #row_spec(which(dfStakers$MintMax == 1), bold = T, background = "yellow") %>%
+    reduce(8:9, function(x, y) {
       col <- dfStakers[, y]
       column_spec(x, y, background = case_when(
         labels_stakers_short[y] == "LiqWeek" & col != 0  & k == col ~ "red",
@@ -373,10 +377,10 @@ for (k in 1:nrow(historical_prices_ETH)) {
       labels_stakers_short[y] == "FixCratio" & col == 1 ~ "T",
       TRUE ~ "F"))
     }, .init = .) %>%
-      kable_styling(latex_options = "HOLD_position") %>%
-        kable_classic(full_width = F, html_font = "Cambria") %>%
-          column_spec(1:ncol(dfStakers), width="4.5em") %>%
-            print()
+    kable_styling(latex_options = "HOLD_position") %>%
+      kable_classic(full_width = F, html_font = "Cambria") %>%
+        column_spec(1:ncol(dfStakers), width="4.5em") %>%
+          print()
                     
 }
 
@@ -388,7 +392,7 @@ total_tda_burned <- prettyNum(total_burned_tda, scientific=F, big.mark=",")
 
 * Total liquidations  **`r total_liquidations`**
 * Total stakers liquidated **`r length(unique(stakers_liquidated))`**
-* Total burned **`r total_tda_burned`** TDA
+* Total burned **`r total_tda_burned`** VDebt
 
 ## Hedging
 
@@ -462,8 +466,8 @@ par(mfrow = c(2,2)) # plots 4 charts per page
 options(scipen=999) # avoid scientific notation
 par(mfrow=c(2,2)) # plots 4 charts per page
 
-ts(data = randomPricesHapStaking, start = 1, end = n_stakers, frequency = 1,  deltat = 1) %>%
-matplot( type = "l", main = "HAP/USD", xlab = "VS Stakers (Mint TDA)", ylab = "$")
+ts(data = hap_staking_price, start = 1, end = n_stakers, frequency = 1,  deltat = 1) %>%
+matplot( type = "l", main = "HAP/USD", xlab = "VS Stakers (Mint VDebt)", ylab = "$")
 
 c_ratio_averages <- c()
 
@@ -480,12 +484,12 @@ debt_by_week <- c()
 
 for (i in 1:nrow(historical_prices_ETH)) {
   mat = get(glue::glue("stakers_week_{i}"))
-  total_debt = sum(mat[,5])
+  total_debt = sum(mat[,2])
   debt_by_week <- c(debt_by_week, total_debt)
 }
 
 ts(data = debt_by_week, start = 1, end = nrow(historical_prices_ETH), frequency = 1,  deltat = 1) %>%
-matplot(type = "l", main = "Debt", xlab = "Weeks", ylab = "TDA", col=c("red"))
+matplot(type = "l", main = "Debt", xlab = "Weeks", ylab = "VDebt", col=c("red"))
 
 ```
 
@@ -587,13 +591,13 @@ total_stable_in_treasury <- prettyNum(total_stable_in_treasury, scientific=F, bi
 * Total circulating **`r prettyNum(100000000 + total_emissions, scientific=F, big.mark=",")`** HAP.
 * Market cap **`r prettyNum((100000000 + total_emissions) * historical_prices_HAP[nrow(historical_prices_HAP), 3], scientific=F, big.mark=",")`** USD
 
-# Tokenized Debt Asset (TDA)
+# Tokenized Debt Asset (VDebt)
 
 ## Dex performance
 
-TDA price is `r prettyNum(pool_state[4], scientific=F, big.mark=",")` USD  
-Total sold is **`r prettyNum(pool_state[6], scientific=F, big.mark=",")`** TDA - total sales `r pool_state[5]`  
-Total purchased is **`r prettyNum(pool_state[8], scientific=F, big.mark=",")`** TDA  - total purchases `r pool_state[7]`  
+VDebt price is `r prettyNum(pool_state[4], scientific=F, big.mark=",")` USD  
+Total sold is **`r prettyNum(pool_state[6], scientific=F, big.mark=",")`** VDebt - total sales `r pool_state[5]`  
+Total purchased is **`r prettyNum(pool_state[8], scientific=F, big.mark=",")`** VDebt  - total purchases `r pool_state[7]`  
 
 
 ## Charts

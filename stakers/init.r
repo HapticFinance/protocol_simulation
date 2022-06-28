@@ -36,57 +36,55 @@ if (length(args) == 3) {
   count = args[3] 
 } 
 
-stakers <- matrix(c(1:17), byrow = TRUE, nrow = n_stakers, ncol = 17)
-randomPricesHapStaking <- historical_prices_HAP_staking[, 3] #
-randomCollateralHap <- runif(n = n_stakers, min = C, max = 1000000)
+stakers <- matrix(c(1:18), byrow = TRUE, nrow = n_stakers, ncol = 18)
+hap_staking_price <- historical_prices_HAP_staking[, 3] #
+hap_collateral <- runif(n = n_stakers, min = C, max = 1000000)
 liquidity = 0
 
 # Loop through stakers
 
 for (x in 1:nrow(stakers))   {
+  staking_price = hap_staking_price[x]
+  loan_amount = get_loan_amount(hap_collateral[x], staking_price, cRatio)
+  liq_price = get_liq_price(staking_price, cRatio, liq_target)
 
-  randomStakingPrice = randomPricesHapStaking[x]
-  loan_amount = get_loan_amount(randomCollateralHap[x], randomStakingPrice, cRatio)
-  liq_price = get_liq_price(randomStakingPrice, cRatio, liq_target)
-
-  stakers[x, 1] = randomCollateralHap[x] 
+  stakers[x, 1] = hap_collateral[x] 
   stakers[x, 2] = loan_amount
   stakers[x, 3] = liq_price
-  stakers[x, 4] = randomStakingPrice
-  stakers[x, 5] = loan_amount
+  stakers[x, 4] = staking_price
+  stakers[x, 5] = 0 #loan_amount
 
   #cumLiquidity = liquidity + stakers[x, 2]
-  stakerCRatio = stakers[x, 2] / (stakers[x, 1] * randomStakingPrice)
-
+  staker_cratio = stakers[x, 2] / (stakers[x, 1] * staking_price)
   stakers[x, 6] =  0 #liquidity
   stakers[x, 7] =  0 
 
   #totalIL   = totalIL + stakers[x, 7] 
   total_collateral = total_collateral + stakers[x, 1]
 
-  stakers[x, 8] = stakerCRatio
+  stakers[x, 8] = staker_cratio
   stakers[x, 9] = 0
-  stakers[x, 10] = (1 / stakerCRatio) * 100
+  stakers[x, 10] = (1 / staker_cratio) * 100
   stakers[x, 11] = 0
   stakers[x, 12] = cRatio
   stakers[x, 13] = 0
   stakers[x, 14] = 0
   stakers[x, 15] = 0
   stakers[x, 16] = 0
-
+  stakers[x, 17] = 0
+  stakers[x, 18] = 0
 }
 
 for (x in 1:nrow(stakers)) {
 
   HAP = stakers[x, 1]
-  TDA = stakers[x, 2]
-
-  debtShare = (TDA * 100)/ sum(stakers[, 2])
-  stakers[x, 7] = debtShare
+  VDebt = stakers[x, 2]
+  debt_share = (VDebt * 100)/ sum(stakers[, 2])
+  stakers[x, 7] = debt_share
   
 }
 
 assign("stakers_week_0", stakers)
 
-labels_stakers = c("HAP", "TDA", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt\\%", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
-labels_stakers_short = c("HAP", "TDA",  "Debt", "Debt-%",  "HAP-req.", "C-ratio", "LiqWeek", "FixCratio")
+#labels_stakers = c("HAP", "VDebt", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt-%", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
+labels_stakers_short = c("HAP", "VDebt", "I/L", "Hedging P/L",  "Debt-%",  "HAP required.", "C-ratio", "Liquidation week", "Fix Cratio", "Mint Max")
