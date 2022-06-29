@@ -29,6 +29,7 @@ knit: (function(inputFile, encoding) {
 
 
 ``` {r results="asis", warning=FALSE, echo=FALSE}
+options(knitr.kable.NA = '')
 
 source("init.r")
 suppressPackageStartupMessages(library(pdftools))
@@ -128,7 +129,7 @@ borrowers_final_ = get(glue::glue("borrowers_week_{nrow(historical_prices_ETH)}"
 
 ```{r echo=F, results='asis'} 
 
-a <- c("brown", "I/L compensation")
+a <- c("green", "I/L compensation")
 b <- c("red", "Liquidation")
 
 colorLegend <- rbind(a,b)
@@ -139,7 +140,7 @@ dfClegend <-  setNames(dfClegend, c("Color", "Operation"))
 row.names(dfClegend) <- NULL
 
 dfClegend %>%
-  mutate(Color = cell_spec(Color, background=ifelse(Color == "brown", "brown", "red"), color=ifelse(Color == "brown", "brown", "red"))) %>% 
+  mutate(Color = cell_spec(Color, background=ifelse(Color == "green", "green", "red"), color=ifelse(Color == "green", "green", "red"))) %>% 
     kbl(caption = "", booktabs = T, escape = FALSE) %>%
       kable_styling(latex_options = "HOLD_position", position="left") %>%
         kable_classic(full_width = F, html_font = "Cambria") %>%
@@ -174,28 +175,31 @@ for (k in 1:nrow(historical_prices_ETH)) {
   borrowers_cp = get(glue::glue("borrowers_week_{k}"))
   borrowers_cp <- borrowers_cp[,-c(5, 6, 8, 9, 10, 12, 13, 14)]
 
-  dfB <- data.frame(borrowers_cp[borrowers_show,])
-  colnames(dfB) <- labels_borrowers_2
-  dfB <-  setNames(dfB, labels_borrowers_2)
-  dfB <- dfB[order(-dfB$sUSD, decreasing = F),] 
-  row.names(dfB) <- NULL
+  dfBorrowers <- data.frame(borrowers_cp[borrowers_show,])
+  colnames(dfBorrowers) <- labels_borrowers_2
+  dfBorrowers <-  setNames(dfBorrowers, labels_borrowers_2)
+  #dfBorrowers <- dfBorrowers[order(-dfBorrowers$sUSD, decreasing = F),] 
+  row.names(dfBorrowers) <- NULL
 
-  dfB %>% 
+  dfBorrowers %>% 
    mutate_if(is.numeric, format, digits=2,nsmall = 0) %>% 
+    #select(-c(6:7)) %>%
     kbl( caption = paste("Week", k, "- ETH/USD", prettyETH,  sep=" "), booktabs = T, escape=F, longtable=longTableB) %>%
-     reduce(6:7, function(x, y) {
-      col <- dfB[, y]
+    reduce(6:7, function(x, y) {
+      col <- dfBorrowers[, y]
       column_spec(x, y, background = case_when(
-        labels_borrowers_2[y] == "LiqWeek" & col != 0 ~ "red",
-        labels_borrowers_2[y] == "Comp-Week" & col != 0 & k == col ~ "brown",
+        labels_borrowers_2[y] == "LiqWeek" & k == col ~ "red",
+        labels_borrowers_2[y] == "Comp-Week" & k == col ~ "brown",
         TRUE ~ "white"), bold = case_when(
-        labels_borrowers_2[y] == "LiqWeek" & col != 0 ~ "T",
-        labels_borrowers_2[y] == "Comp-Week" & col != 0 ~ "T",
+        labels_borrowers_2[y] == "LiqWeek" & col == k ~ "T",
+        labels_borrowers_2[y] == "Comp-Week" & col == k ~ "T",
         TRUE ~ "F"))
     }, .init = .) %>%
+    #row_spec(which(dfBorrowers$LiqWeek == k), bold = T, background = "red") %>%
+    #row_spec(which(dfBorrowers$CompWeek == k), bold = T, background = "green") %>%
       kable_styling(latex_options = "HOLD_position") %>%
         kable_classic(full_width = F, html_font = "Cambria") %>%
-                column_spec(1:ncol(dfB), width="5.5em") %>%
+                column_spec(1:ncol(dfBorrowers), width="5.5em") %>%
                   print()
 
 }
@@ -211,13 +215,13 @@ for (k in 1:nrow(historical_prices_ETH)) {
 
 ## Impermanent loss
 
-Impermanent loss compensations are disbursed denominated in VDebt.
+Impermanent loss compensations are disbursed denominated in Synth USD (sUSD).
 
 ### Compensations
 
 *  All borrowers compensated by week **`r compWeek`**
 *  Total compensations **`r comp_counter`**
-*  Total disbursed **`r prettyNum(il_compensations_cum, scientific=FALSE,big.mark=",")`** VDebt
+*  Total disbursed **`r prettyNum(il_compensations_cum, scientific=FALSE,big.mark=",")`** sUSD
 
 ## APR 
 
@@ -295,14 +299,14 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
             print()
 
 
-  a <- c("Start (Week 1)", totalStakedStart, totalMintedStart,  totalDebtStart)
-  b <- c(glue::glue("End (Week {nrow(historical_prices_ETH)})"), totalStakedEnd, totalMintedEnd, totalDebtEnd)
+  a <- c("Start (Week 1)", totalStakedStart, totalMintedStart)
+  b <- c(glue::glue("End (Week {nrow(historical_prices_ETH)})"), totalStakedEnd, totalMintedEnd)
   
   stakersMat <- rbind(a,b)
 
   dfStakersInfo <- data.frame(stakersMat)
-  colnames(dfStakersInfo) <- c("Period", "Staked (HAP)", "Minted (VDebt)", "Debt (VDebt)")
-  dfStakersInfo <-  setNames(dfStakersInfo, c("Period", "Staked (HAP)", "Minted (VDebt)", "Debt (VDebt)"))
+  colnames(dfStakersInfo) <- c("Period", "Staked (HAP)", "Minted (VDebt)")
+  dfStakersInfo <-  setNames(dfStakersInfo, c("Period", "Staked (HAP)", "Minted (VDebt)"))
   row.names(dfStakersInfo) <- NULL
 
   dfStakersInfo %>%
@@ -317,9 +321,9 @@ totalDebtEnd  <- prettyNum(sum(lastStakersSnapshot[,5]), scientific=F, big.mark=
 
 ```{r echo=F, results='asis'} 
 
-a <- c("green", "Fix C-ratio")
-b <- c("red", "Liquidation")
-c <- c("yellow", "Mint Max")
+b <- c("yellow", "Fix C-ratio")
+c <- c("red", "Liquidation")
+a <- c("green", "Mint Max")
 
 colorLegend <- rbind(a, b, c)
 
@@ -329,7 +333,7 @@ dfClegend <-  setNames(dfClegend, c("Color", "Operation"))
 row.names(dfClegend) <- NULL
 
 dfClegend %>%
-  mutate(Color = cell_spec(Color, background=ifelse(Color == "green", "green", ifelse(Color == "yellow", "yellow", "red"))))%>%
+  mutate(Color = cell_spec(Color, background=ifelse(Color == "green", "green", ifelse(Color == "yellow", "yellow", "red"))), color=ifelse(Color == "green", "green", ifelse(Color == "yellow", "yellow", "red"))) %>%
     kbl( caption = paste("Color legend"), booktabs = T, escape = FALSE) %>%
       kable_styling(latex_options = "HOLD_position", position="left") %>%
         kable_classic(full_width = F, html_font = "Cambria") %>%
@@ -360,23 +364,16 @@ for (k in 1:nrow(historical_prices_ETH)) {
   dfStakers <- data.frame(stakers_cp[stakers_show,])
   colnames(dfStakers) <- labels_stakers_short
   dfStakers <- setNames(dfStakers, labels_stakers_short)
-  dfStakers <- dfStakers[order(-dfStakers$VDebt, decreasing = F),]
+  #dfStakers <- dfStakers[order(-dfStakers$VDebt, decreasing = F),]
   row.names(dfStakers) <- NULL
 
   dfStakers %>%
    mutate_if(is.numeric, format, digits=2, nsmall = 0) %>% 
+    select(-c(8:10)) %>%
     kbl( caption = paste("Week", k, "- HAP/USD", prettyHap,  sep=" "), booktabs = T, escape=T, longtable=longTableS) %>%
-    #row_spec(which(dfStakers$MintMax == 1), bold = T, background = "yellow") %>%
-    reduce(8:9, function(x, y) {
-      col <- dfStakers[, y]
-      column_spec(x, y, background = case_when(
-        labels_stakers_short[y] == "LiqWeek" & col != 0  & k == col ~ "red",
-        labels_stakers_short[y] == "FixCratio" & col == 1 ~ "green",
-        TRUE ~ "white"), bold = case_when(
-      labels_stakers_short[y] == "LiqWeek" & col != 0 ~ "T",
-      labels_stakers_short[y] == "FixCratio" & col == 1 ~ "T",
-      TRUE ~ "F"))
-    }, .init = .) %>%
+    row_spec(which(dfStakers$Mint == k), bold = T, background = "green") %>%
+    row_spec(which(dfStakers$LiqWeek == k), bold = T, background = "red") %>%
+    row_spec(which(dfStakers$FixCratio == k), bold = T, background = "yellow") %>%
     kable_styling(latex_options = "HOLD_position") %>%
       kable_classic(full_width = F, html_font = "Cambria") %>%
         column_spec(1:ncol(dfStakers), width="4.5em") %>%
@@ -384,7 +381,7 @@ for (k in 1:nrow(historical_prices_ETH)) {
                     
 }
 
-total_tda_burned <- prettyNum(total_burned_tda, scientific=F, big.mark=",")
+total_vdebt_burned <- prettyNum(total_burned_vdebt, scientific=F, big.mark=",")
 
 ```
 
@@ -392,11 +389,39 @@ total_tda_burned <- prettyNum(total_burned_tda, scientific=F, big.mark=",")
 
 * Total liquidations  **`r total_liquidations`**
 * Total stakers liquidated **`r length(unique(stakers_liquidated))`**
-* Total burned **`r total_tda_burned`** VDebt
+* Total burned **`r total_vdebt_burned`** VDebt
 
 ## Hedging
 
 ### Options & Perpetuals
+
+```{r echo=F, results='asis'}
+
+  hedging_mat <- matrix(c(1:5), byrow = TRUE, nrow = 4, ncol = 5)
+
+
+  for (k in 1:nrow(historical_prices_ETH)) {
+    prettyETH = prettyNum( historical_prices_ETH[k, 3], big.mark=",", scientific=FALSE)
+
+    hedging_status = get(glue::glue("hedging_status_week_{k}"))
+
+    dfHedging <- data.frame(hedging_status)
+    colnames(dfHedging) <- c("B/E", "Cost", "P/L", "Total ETH", "Type")
+    dfHedging <- setNames(dfHedging, c("B/E", "Cost", "P/L", "Total ETH", "Type"))
+    row.names(dfHedging) <- NULL
+
+    dfHedging %>%
+    mutate_if(is.numeric, format, digits=2, nsmall = 0) %>% 
+      kbl( caption = paste("Week", k, "- ETH/USD", prettyETH, sep=" "), booktabs = T, escape=T, longtable=longTableS) %>%
+        kable_styling(latex_options = "HOLD_position") %>%
+          kable_classic(full_width = F, html_font = "Cambria") %>%
+            column_spec(1:ncol(dfHedging), width="6.5em") %>%
+              print()
+
+  }
+
+
+```
 
 ## Rewards & APR
 
@@ -545,7 +570,7 @@ df_emission_distribution %>%
 options(scipen = 999) # avoid scientific notation
 par(mfrow = c(2,2)) # plots 4 charts per page
 
-ts(data = weekly_emissions, start = 1, end = (nrow(historical_prices_HAP[,]) * 8) -1, frequency = 1,  deltat = 1) %>%
+ts(data = weekly_emissions, start = 1, end = (nrow(historical_prices_HAP[,]) * emissions_multiplier) -1, frequency = 1,  deltat = 1) %>%
 matplot( type = "l", main = "Total emissions", xlab = "Weeks", ylab = "HAP (M)", col=c("blue"), bg=c("grey"))
 
 combined <- c(emissions_weekly_stakers, emissions_weekly_treasury)
