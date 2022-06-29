@@ -2,7 +2,7 @@
 path = getwd()
 
 # Initial system variables
-C = 5000         # HAP collateral
+C = 1000         # HAP collateral
 P = 0.3          # HAP/USD
 cRatio = 400     # Staking collateral ratio
 liq_target = 250  # Liquidation target
@@ -38,7 +38,7 @@ if (length(args) == 3) {
 
 stakers <- matrix(c(1:18), byrow = TRUE, nrow = n_stakers, ncol = 18)
 hap_staking_price <- historical_prices_HAP_staking[, 3] #
-hap_collateral <- runif(n = n_stakers, min = C, max = 1000000)
+hap_collateral <- runif(n = n_stakers, min = C, max = 500000)
 liquidity = 0
 
 # Loop through stakers
@@ -87,4 +87,4 @@ for (x in 1:nrow(stakers)) {
 assign("stakers_week_0", stakers)
 
 #labels_stakers = c("HAP", "VDebt", "Liq. price", "Staking price", "Debt", "Liquidity", "Debt-%", "", "HAP req.", "C-opt", "Price T", "C-ratio", "Liquidable")
-labels_stakers_short = c("HAP", "VDebt", "I/L", "Hedging P/L",  "Debt-%",  "HAP required.", "C-ratio", "Liquidation week", "Fix Cratio", "Mint Max")
+labels_stakers_short = c("HAP", "VDebt", "I/L", "Hedging P/L",  "Debt-%",  "HAP required.", "C-ratio", "LiqWeek", "FixCratio", "Mint")

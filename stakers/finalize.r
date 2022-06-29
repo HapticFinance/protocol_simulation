@@ -13,7 +13,7 @@ total_debt = 0
 total_liquidations = 0
 stakers_liquidated <- c()
 total_hap_required = 0
-total_burned_tda = 0
+total_burned_vdebt = 0
 
 recalc_cRatio <- function(stakers, hap_price, liquidity) {
 
@@ -87,22 +87,22 @@ for (m in 1:nrow(historical_prices_HAP)) {
         # S = (t * D - V) / (t - (1 + P))
         S = (( ((1 / cOpt) * VDebt) - (HAP * random_price_hap)) / ( (1 / cOpt) - (1 + liq_penalty)))
         required_collateral = (S * (1 + liq_penalty))
-        newHap = HAP - required_collateral
+        new_collateral = HAP - required_collateral
 
         #if (S < 35000) {
           VDebt <- VDebt - S
-          total_burned_tda <- total_burned_tda + S
+          total_burned_vdebt <- total_burned_vdebt + S
 
           if((VDebt - S) < 0) {
-            new_tda <- -1 * (VDebt - S)
-            new_h = new_tda / ( random_price_hap * cOpt)
-            newHap <- ifelse(newHap < new_h, new_h - newHap, newHap - new_h)
-            new_loan_amount = get_loan_amount(newHap, random_price_hap, cRatio)
+            new_vdebt <- -1 * (VDebt - S)
+            new_h = new_vdebt / ( random_price_hap * cOpt)
+            new_collateral <- ifelse(new_collateral < new_h, new_h - new_collateral, new_collateral - new_h)
+            new_loan_amount = get_loan_amount(new_collateral, random_price_hap, cRatio)
             stakers[u, 3] = get_liq_price(random_price_hap, cRatio, liq_target)
             VDebt <- new_loan_amount
           }
           
-          HAP <- newHap
+          HAP <- new_collateral
 
           #c_ratio <- VDebt / (HAP * random_price_hap)
           #c_ratio_read <- 1 / c_ratio * 100
@@ -127,7 +127,7 @@ for (m in 1:nrow(historical_prices_HAP)) {
             
       if (random_choice == 1 & 
           has_liquidation == 0 & 
-          delta_hap < 50000 & 
+          #delta_hap < 50000 & 
           m > 1) {
 
           total_hap_required <- total_hap_required + delta_hap
@@ -138,7 +138,7 @@ for (m in 1:nrow(historical_prices_HAP)) {
           c_ratio_read <- 1 / c_ratio * 100       
 
           treasury = treasury + (delta_hap * (random_price_hap  - (random_price_hap * 0.02))) # 2% discount (Stable Bonds)
-          did_fix_cratio = 1
+          did_fix_cratio = m
 
       }
       
@@ -147,7 +147,7 @@ for (m in 1:nrow(historical_prices_HAP)) {
       if (probabilities[runif(1, min = 1, max = 8)] == 3) {
 
         # Board new staker
-        new_collateral = runif(1, min = 5000, max = 500000)
+        new_collateral = runif(1, min = 500, max = 25000)
         loan_amount = get_loan_amount(new_collateral, random_price_hap, cRatio)
         liq_price = get_liq_price(random_price_hap, cRatio, liq_target)
         liquidity <- liquidity + (loan_amount)
@@ -182,6 +182,7 @@ for (m in 1:nrow(historical_prices_HAP)) {
     } else {
 
       probabilities <- sample(x = 1:10,size = 8,replace = TRUE)
+
       if (probabilities[runif(1, min = 1, max = 8)] == 3) {
 
         loan_amount = get_loan_amount(HAP, random_price_hap, cRatio)
@@ -193,7 +194,7 @@ for (m in 1:nrow(historical_prices_HAP)) {
 
         c_ratio <- VDebt / (HAP * random_price_hap)
         c_ratio_read <- 1 / c_ratio * 100
-        did_mint <- 1
+        did_mint <- m
       }
 
     }
